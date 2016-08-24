@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>414</x>
+      <y>120</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Data Acquisition
+symbol=substate
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>456</x>
+      <y>36</y>
+      <w>24</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>type=initial
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>384</x>
+      <y>192</y>
+      <w>186</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+specification_of_investigation_design :Metadata
+--
+state = raw
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>462</x>
+      <y>54</y>
+      <w>18</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>156</y>
+      <w>18</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>576</x>
+      <y>192</y>
+      <w>228</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+specification_of_measurement_or_observation :Metadata
+--
+state = raw
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>318</x>
+      <y>228</y>
+      <w>60</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>80.0;70.0;80.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>636</x>
+      <y>588</y>
+      <w>144</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>220.0;240.0;220.0;20.0;10.0;20.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>696</x>
+      <y>732</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+persistent_data :PersistentData
+--
+state = assignedMetadata
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>666</x>
+      <y>768</y>
+      <w>102</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;110.0;150.0;110.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>1008</y>
+      <w>114</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Data Publishing
+symbol=substate
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>498</x>
+      <y>1044</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>228</y>
+      <w>54</w>
+      <h>336</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;540.0;10.0;80.0;70.0;80.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>492</x>
+      <y>1086</y>
+      <w>24</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>type=final
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>444</x>
+      <y>408</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Assign unique identifier
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>498</x>
+      <y>378</y>
+      <w>18</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>276</x>
+      <y>342</y>
+      <w>150</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+backup :PersistentData
+--
+state = registered
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>306</y>
+      <w>30</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;30.0;30.0;30.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>306</x>
+      <y>270</y>
+      <w>120</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Carry out backup
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>474</x>
+      <y>228</y>
+      <w>168</w>
+      <h>336</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>260.0;540.0;260.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>540</x>
+      <y>552</y>
+      <w>174</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Add metadata
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>156</y>
+      <w>216</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>340.0;60.0;340.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>318</x>
+      <y>156</y>
+      <w>156</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2
+layer=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;30.0;240.0;30.0;240.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>252</x>
+      <y>192</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+persistent_data :PersistentData
+--
+state = raw
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>438</x>
+      <y>342</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+persistent_data :PersistentData
+--
+state = raw
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>372</x>
+      <y>306</y>
+      <w>138</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>210.0;60.0;210.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>276</x>
+      <y>480</y>
+      <w>150</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+unique_identifier :PersistentData
+--
+state = registered
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>450</x>
+      <y>480</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+persistent_data :PersistentData
+--
+state = identified
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>444</y>
+      <w>18</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>444</y>
+      <w>162</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;30.0;250.0;30.0;250.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>516</y>
+      <w>114</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>170.0;60.0;170.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>474</x>
+      <y>78</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2
+layer=2</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>198</x>
+      <y>0</y>
+      <w>642</w>
+      <h>1122</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_DynamicSchemata&gt;&gt;
+Data Curation
+--
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>78</y>
+      <w>240</w>
+      <h>702</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2
+layer=2</panel_attributes>
+    <additional_attributes>150.0;1150.0;150.0;1120.0;10.0;1120.0;10.0;30.0;380.0;30.0;380.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>78</y>
+      <w>240</w>
+      <h>486</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2
+layer=2</panel_attributes>
+    <additional_attributes>180.0;790.0;180.0;760.0;10.0;760.0;10.0;50.0;380.0;50.0;380.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSyncBarHorizontal</id>
+    <coordinates>
+      <x>426</x>
+      <y>78</y>
+      <w>90</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lw=5
+
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>288</x>
+      <y>552</y>
+      <w>120</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Build local conceptual model
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>252</x>
+      <y>690</y>
+      <w>168</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+local_conceptual_model :ConceptualModel
+--
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>372</x>
+      <y>630</y>
+      <w>114</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+local_concept :Metadata
+--
+state = registered
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>348</x>
+      <y>588</y>
+      <w>90</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>130.0;70.0;130.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>588</y>
+      <w>18</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>342</x>
+      <y>642</y>
+      <w>42</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>264</x>
+      <y>768</y>
+      <w>120</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Build global conceptual model
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>216</x>
+      <y>918</y>
+      <w>174</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+global_conceptual_model :ConceptualModel
+--
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>348</x>
+      <y>846</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+global_concept :Metadata
+--
+state = registered
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>858</y>
+      <w>48</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>324</x>
+      <y>804</y>
+      <w>102</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>150.0;70.0;150.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>804</y>
+      <w>18</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>504</x>
+      <y>624</y>
+      <w>132</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+metadata :Metadata
+--
+state = registered
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>558</x>
+      <y>588</y>
+      <w>72</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;40.0;100.0;40.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>510</x>
+      <y>708</y>
+      <w>114</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Annotate metadata
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>426</x>
+      <y>666</y>
+      <w>90</w>
+      <h>354</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>130.0;570.0;120.0;310.0;10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>666</y>
+      <w>114</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>170.0;70.0;170.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>558</x>
+      <y>660</y>
+      <w>18</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>522</x>
+      <y>768</y>
+      <w>102</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+metadata :Metadata
+--
+state = annotated
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>744</y>
+      <w>18</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>606</x>
+      <y>852</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Annotate data
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>630</x>
+      <y>672</y>
+      <w>132</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+catalogue :MetadataCatalogue
+--
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>588</y>
+      <w>78</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>110.0;140.0;110.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>642</y>
+      <w>54</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>438</x>
+      <y>666</y>
+      <w>216</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>340.0;310.0;340.0;280.0;110.0;280.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>690</x>
+      <y>924</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+persistent_data :PersistentData
+--
+state = annotated
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>888</y>
+      <w>102</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>150.0;60.0;150.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>804</y>
+      <w>102</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>150.0;80.0;150.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>576</x>
+      <y>924</y>
+      <w>102</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+metadata :Metadata
+--
+state = annotated
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>882</y>
+      <w>102</w>
+      <h>138</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>150.0;210.0;150.0;160.0;10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>960</y>
+      <w>132</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;30.0;200.0;30.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>522</x>
+      <y>960</y>
+      <w>246</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;50.0;390.0;50.0;390.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>888</y>
+      <w>42</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;30.0;50.0;30.0;50.0;10.0</additional_attributes>
+  </element>
+</diagram>

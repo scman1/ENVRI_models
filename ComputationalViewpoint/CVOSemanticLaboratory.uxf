@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>476</x>
+      <y>357</y>
+      <w>112</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+semantic
+laboratory</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>581</x>
+      <y>392</y>
+      <w>70</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=[]-(
+</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>385</y>
+      <w>98</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>update model
+lw=0
+halign=right
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>315</x>
+      <y>385</y>
+      <w>126</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>semantic data request
+lw=0
+halign=left
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>427</x>
+      <y>392</y>
+      <w>63</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=[]-(</panel_attributes>
+    <additional_attributes>70.0;20.0;20.0;20.0</additional_attributes>
+  </element>
+</diagram>

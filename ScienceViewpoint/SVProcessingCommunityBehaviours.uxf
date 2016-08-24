@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>120</x>
+      <y>150</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Describe Service
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>380</x>
+      <y>150</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Register Service
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>340</x>
+      <y>280</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Compose Service
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>120</x>
+      <y>280</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Coordinate Service
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>60</x>
+      <y>100</y>
+      <w>500</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>Data Processing Community Behaviours
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

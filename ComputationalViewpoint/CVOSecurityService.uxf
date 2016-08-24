@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>920</x>
+      <y>240</y>
+      <w>140</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+
+security
+service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>300</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=[]-()</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>290</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>authorise action
+lw=0
+halign=left
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

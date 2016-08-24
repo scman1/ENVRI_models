@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>231</x>
+      <y>182</y>
+      <w>98</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+semantic 
+broker</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>322</x>
+      <y>217</y>
+      <w>63</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=[]-()</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>217</y>
+      <w>63</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>371</x>
+      <y>210</y>
+      <w>98</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>translate request
+lw=0
+halign=right
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>105</x>
+      <y>210</y>
+      <w>84</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>update model
+lw=0
+halign=left
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

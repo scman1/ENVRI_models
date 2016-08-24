@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>70</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+specify investigation design
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>70</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+specify measurement
+or observation
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>180</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+store data
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>180</x>
+      <y>0</y>
+      <w>720</w>
+      <h>1050</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_InvariantSchemata&gt;&gt;
+Information Action Types
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>180</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+carry out backup
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>680</x>
+      <y>70</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+perform measurement
+or observation
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>680</x>
+      <y>180</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+finall review
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>290</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+publish data
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>680</x>
+      <y>290</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+annotate metadata
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>290</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+add metadata
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>400</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+publish metadata
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>400</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+register metadata
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>510</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+build conceptual models
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>510</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+setup mapping rules
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>680</x>
+      <y>510</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+annotate data
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>620</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+annotate action
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>680</x>
+      <y>620</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+perform mapping
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>730</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+do data mining
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>730</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+query data
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>680</x>
+      <y>730</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+assign unique identifier
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>840</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+check quality
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>840</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+track provenance
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>680</x>
+      <y>840</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+process data
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>220</x>
+      <y>950</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+describe service
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>620</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+resolve annotation
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>690</x>
+      <y>400</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+query metadata
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

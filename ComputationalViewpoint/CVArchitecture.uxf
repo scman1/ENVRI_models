@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=14
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use +/- or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>40</x>
+      <y>470</y>
+      <w>660</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>CV Service Objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>500</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>acquisition
+service
+symbol=component
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>380</x>
+      <y>500</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+catalogue
+service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>210</x>
+      <y>500</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+annotation
+service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>590</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+data transfer
+service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>400</x>
+      <y>590</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+security
+service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>230</x>
+      <y>590</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+PID service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>530</x>
+      <y>500</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+coordination
+service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>420</x>
+      <y>680</y>
+      <w>270</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>CV Service Objects 
+Objects which provide programmatic 
+access to internal and external 
+systems and resources</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>40</x>
+      <y>800</y>
+      <w>660</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>CV Component Objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>920</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>instrument 
+controller
+symbol=component
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>830</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+data store
+controller</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>210</x>
+      <y>920</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+process
+controller</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>530</x>
+      <y>830</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+data
+transporter</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>370</x>
+      <y>920</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+raw data
+collector</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>370</x>
+      <y>830</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+data
+importer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>210</x>
+      <y>830</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+data
+exporter
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>40</x>
+      <y>1130</y>
+      <w>660</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Back End Objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>440</x>
+      <y>1010</y>
+      <w>250</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>CV Component Objects 
+Objects which provide access to 
+back end objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>440</x>
+      <y>1160</y>
+      <w>250</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Back End Objects
+RI systems and resources 
+provided for accessing reseach
+data and derived data products</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>40</x>
+      <y>320</y>
+      <w>660</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>CV Broker Objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>350</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+semantic 
+broker</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>200</x>
+      <y>350</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+data 
+broker</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>440</x>
+      <y>350</y>
+      <w>250</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>CV Broker Objects 
+Objects that contain registries of 
+service objects
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>40</x>
+      <y>40</y>
+      <w>660</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>CV Presentation Objects</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>50</x>
+      <y>70</y>
+      <w>640</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>User Interfaces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>100</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+
+science gateway</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>210</x>
+      <y>100</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+/virtual/
+/laboratory/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>360</x>
+      <y>100</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+/field/
+/laboratory/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>190</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+/semantic/
+/laboratory/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>520</x>
+      <y>100</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+/experimental/
+/laboratory/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>440</x>
+      <y>190</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>CV Presentation Objects 
+Objects which are used as entry
+points to the systems for human
+users
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>20</x>
+      <y>0</y>
+      <w>700</w>
+      <h>1270</h>
+    </coordinates>
+    <panel_attributes>ENVRI RM Architecture
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>224</x>
+      <y>371</y>
+      <w>133</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+science gateway</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

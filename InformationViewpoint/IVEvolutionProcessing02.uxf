@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>414</x>
+      <y>174</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Data Publishing
+symbol=substate
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>456</x>
+      <y>78</y>
+      <w>24</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>type=initial
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>210</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;50.0;140.0;50.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>438</x>
+      <y>732</y>
+      <w>114</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Data Use
+symbol=substate
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>768</y>
+      <w>18</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>480</x>
+      <y>804</y>
+      <w>24</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>type=final
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>210</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>140.0;80.0;140.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>210</y>
+      <w>228</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2
+layer=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;30.0;360.0;30.0;360.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>462</x>
+      <y>96</y>
+      <w>18</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2
+layer=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>162</x>
+      <y>42</y>
+      <w>528</w>
+      <h>810</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_DynamicSchemata&gt;&gt;
+Data Processing
+--
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>564</x>
+      <y>468</y>
+      <w>114</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+provenance_data :Metadata
+--
+state = published
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>432</y>
+      <w>18</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>564</x>
+      <y>396</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Provenance tracking
+symbol=substate
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSyncBarHorizontal</id>
+    <coordinates>
+      <x>426</x>
+      <y>126</y>
+      <w>90</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lw=5
+
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>126</y>
+      <w>156</w>
+      <h>282</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>240.0;450.0;240.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>126</y>
+      <w>18</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>498</x>
+      <y>258</y>
+      <w>102</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+metadata :Metadata
+--
+state = published
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>180</x>
+      <y>258</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+persistent_data :PersistentData
+--
+state = published
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>312</x>
+      <y>258</y>
+      <w>180</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+global_conceptual_model :MetadataCatalogue
+--
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>174</x>
+      <y>342</y>
+      <w>78</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Query data
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>300</x>
+      <y>342</y>
+      <w>84</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Do data mining
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>402</x>
+      <y>342</y>
+      <w>90</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Resolve Annotation
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>510</x>
+      <y>342</y>
+      <w>84</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Query metadata
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>204</x>
+      <y>294</y>
+      <w>48</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;40.0;60.0;40.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>246</x>
+      <y>294</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>140.0;80.0;140.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>288</y>
+      <w>54</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;50.0;70.0;50.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>288</y>
+      <w>72</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>100.0;90.0;100.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>294</y>
+      <w>18</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>576</x>
+      <y>534</y>
+      <w>84</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Query provenance
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>504</y>
+      <w>18</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>438</x>
+      <y>588</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Process data
+
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>444</x>
+      <y>378</y>
+      <w>54</w>
+      <h>222</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>70.0;350.0;70.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>492</x>
+      <y>378</y>
+      <w>72</w>
+      <h>222</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;350.0;10.0;40.0;100.0;40.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>546</y>
+      <w>84</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>378</y>
+      <w>150</w>
+      <h>222</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>230.0;350.0;230.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>204</x>
+      <y>378</y>
+      <w>270</w>
+      <h>222</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>430.0;350.0;430.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>432</x>
+      <y>654</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+persistent_data :PersistentData
+--
+state = processed
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>294</x>
+      <y>654</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Provenance tracking
+symbol=substate
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>294</x>
+      <y>726</y>
+      <w>114</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+provenance_data :Metadata
+--
+state = published
+lw=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>342</x>
+      <y>690</y>
+      <w>18</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>342</x>
+      <y>600</y>
+      <w>108</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>624</y>
+      <w>18</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>342</x>
+      <y>762</y>
+      <w>150</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>230.0;90.0;10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>690</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

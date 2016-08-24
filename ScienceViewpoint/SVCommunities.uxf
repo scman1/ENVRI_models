@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>117</x>
+      <y>288</y>
+      <w>162</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Community&gt;&gt;
+Data Acquisition Community
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>297</x>
+      <y>288</y>
+      <w>162</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Community&gt;&gt;
+Data Curation Community
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>477</x>
+      <y>288</y>
+      <w>162</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Community&gt;&gt;
+Data Publishing Community
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>657</x>
+      <y>288</y>
+      <w>162</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Community&gt;&gt;
+Data Processing Community
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>837</x>
+      <y>288</y>
+      <w>162</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Community&gt;&gt;
+Data Use Community
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>135</x>
+      <y>369</y>
+      <w>135</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Objective:
+collect raw data and 
+bring (streams of)
+measurements into a 
+system</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>324</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>306</x>
+      <y>369</y>
+      <w>135</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Objective:
+curate the scientific 
+data, maintain and 
+archive them, and 
+produce various data 
+products with 
+metadata</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>324</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>486</x>
+      <y>369</y>
+      <w>135</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Objective:
+assist data publication, 
+discovery and access</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>324</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>675</x>
+      <y>369</y>
+      <w>135</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Objective:
+provide services, 
+applications and 
+software tools to link 
+and recombine data 
+and metadata in order 
+to derive knowledge</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>729</x>
+      <y>324</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>846</x>
+      <y>369</y>
+      <w>135</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Objective:
+make use of data and 
+services, and transfer
+knowledge into 
+understanding</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>324</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>99</x>
+      <y>225</y>
+      <w>909</w>
+      <h>315</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ODP System&gt;&gt;
+Environmental Research Infrastructure</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

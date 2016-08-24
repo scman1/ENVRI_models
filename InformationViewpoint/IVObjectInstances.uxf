@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>60</y>
+      <w>130</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
+DataState
+--
+raw
+annotated
+assignedMetadata
+finallyReviewed
+mapped
+published
+processed</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>60</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+raw_data :PersistentData
+--
+state = raw
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>140</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+finally_reviewed_data :PersistentData
+--
+state = finallyReviewed
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>240</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+mapped_data :PersistentData
+--
+state = mapped
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>330</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+published_data :PersistentData
+--
+state = published
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>260</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+PersistentData
+--
++state: DataState
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>430</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+global_concept :Concept
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>470</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>520</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+global_conceptual_model :ConceptualModel
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>430</y>
+      <w>280</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+local_concept :Concept
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>470</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>520</y>
+      <w>280</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+local_conceptual_model :ConceptualModel
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>600</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+raw_metadata :Metadata
+--
+state = raw
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>680</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+registered_metadata :Metadata
+--
+state = registered
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>780</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+published_metadata :Metadata
+--
+state = published
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>780</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+Metadata
+--
++state: MetadataState
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>600</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
+MetadataState
+--
+raw
+registered
+published
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>130</x>
+      <y>0</y>
+      <w>650</w>
+      <h>860</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_DynamicSchemata&gt;&gt;
+InformationObjectTypes</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
