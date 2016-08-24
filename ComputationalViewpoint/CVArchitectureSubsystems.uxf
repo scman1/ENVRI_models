@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>340</x>
+      <y>100</y>
+      <w>410</w>
+      <h>850</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ENVRI System&gt;&gt;
+CV Research Infrastructure System</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>380</x>
+      <y>150</y>
+      <w>340</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Subsystem&gt;&gt;
+Data Acquisition</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>390</x>
+      <y>200</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>The part of the research infrastructure 
+providing functionalities to automate the 
+process of data acquisition</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>380</x>
+      <y>310</y>
+      <w>340</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Subsystem&gt;&gt;
+Data Curation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>390</x>
+      <y>360</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>The part of the research infrastructure 
+which stores, manages and ensures access 
+to all persistent data and metadata 
+produced within the infrastructure.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>390</x>
+      <y>520</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>The  part of the research infrastructure 
+enabling the discovery and retrieval of 
+scientific data, metadata, and derived 
+data products.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>380</x>
+      <y>470</y>
+      <w>340</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Subsystem&gt;&gt;
+Data Publishing</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>380</x>
+      <y>630</y>
+      <w>340</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Subsystem&gt;&gt;
+Data Processing</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>390</x>
+      <y>680</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>The  part of the research infrastructure 
+providing services for data processing, 
+including the generation of derived data
+products.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>380</x>
+      <y>790</y>
+      <w>340</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Subsystem&gt;&gt;
+Data Use</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>390</x>
+      <y>840</y>
+      <w>320</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>The  part of the research infrastructure 
+supporting the access of users to an 
+infrastructure, managing and tracking user
+activities, and supporting users to conduct 
+their roles in different communities.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
