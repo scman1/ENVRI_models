@@ -71,8 +71,9 @@ broker</panel_attributes>
       <h>70</h>
     </coordinates>
     <panel_attributes>CV Broker Objects 
-Objects that contain registries of 
-service objects
+Broker objects manage request 
+from presentation objects to 
+service and component objects
 </panel_attributes>
     <additional_attributes/>
   </element>

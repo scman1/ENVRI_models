@@ -28,7 +28,7 @@ fontsize=14
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>40</x>
+      <x>50</x>
       <y>470</y>
       <w>660</w>
       <h>290</h>
@@ -39,7 +39,7 @@ fontsize=14
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>50</x>
+      <x>60</x>
       <y>500</y>
       <w>140</w>
       <h>70</h>
@@ -53,7 +53,7 @@ symbol=component
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
+      <x>390</x>
       <y>500</y>
       <w>130</w>
       <h>70</h>
@@ -66,7 +66,7 @@ service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>210</x>
+      <x>220</x>
       <y>500</y>
       <w>150</w>
       <h>70</h>
@@ -79,7 +79,7 @@ service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>50</x>
+      <x>60</x>
       <y>590</y>
       <w>160</w>
       <h>70</h>
@@ -92,7 +92,7 @@ service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>400</x>
+      <x>410</x>
       <y>590</y>
       <w>130</w>
       <h>70</h>
@@ -105,7 +105,7 @@ service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>230</x>
+      <x>240</x>
       <y>590</y>
       <w>150</w>
       <h>70</h>
@@ -117,7 +117,7 @@ PID service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>530</x>
+      <x>540</x>
       <y>500</y>
       <w>160</w>
       <h>70</h>
@@ -130,7 +130,7 @@ service</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>420</x>
+      <x>430</x>
       <y>680</y>
       <w>270</w>
       <h>70</h>
@@ -144,7 +144,7 @@ systems and resources</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>40</x>
+      <x>50</x>
       <y>800</y>
       <w>660</w>
       <h>290</h>
@@ -155,7 +155,7 @@ systems and resources</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>50</x>
+      <x>60</x>
       <y>920</y>
       <w>140</w>
       <h>70</h>
@@ -169,7 +169,7 @@ symbol=component
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>50</x>
+      <x>60</x>
       <y>830</y>
       <w>140</w>
       <h>70</h>
@@ -182,7 +182,7 @@ controller</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>210</x>
+      <x>220</x>
       <y>920</y>
       <w>140</w>
       <h>70</h>
@@ -195,7 +195,7 @@ controller</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>530</x>
+      <x>540</x>
       <y>830</y>
       <w>160</w>
       <h>70</h>
@@ -208,7 +208,7 @@ transporter</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>370</x>
+      <x>380</x>
       <y>920</y>
       <w>140</w>
       <h>70</h>
@@ -221,7 +221,7 @@ collector</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>370</x>
+      <x>380</x>
       <y>830</y>
       <w>140</w>
       <h>70</h>
@@ -234,7 +234,7 @@ importer</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>210</x>
+      <x>220</x>
       <y>830</y>
       <w>140</w>
       <h>70</h>
@@ -248,10 +248,10 @@ exporter
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>40</x>
+      <x>50</x>
       <y>1130</y>
       <w>660</w>
-      <h>120</h>
+      <h>220</h>
     </coordinates>
     <panel_attributes>Back End Objects</panel_attributes>
     <additional_attributes/>
@@ -259,7 +259,7 @@ exporter
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>440</x>
+      <x>450</x>
       <y>1010</y>
       <w>250</w>
       <h>70</h>
@@ -272,21 +272,21 @@ back end objects</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>440</x>
-      <y>1160</y>
+      <x>450</x>
+      <y>1270</y>
       <w>250</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>Back End Objects
-RI systems and resources 
-provided for accessing reseach
-data and derived data products</panel_attributes>
+RI systems and resources provided 
+for acquiring, preserving, and 
+publishing reseach data </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>40</x>
+      <x>50</x>
       <y>320</y>
       <w>660</w>
       <h>110</h>
@@ -297,7 +297,7 @@ data and derived data products</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>50</x>
+      <x>60</x>
       <y>350</y>
       <w>130</w>
       <h>70</h>
@@ -310,7 +310,7 @@ broker</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>200</x>
+      <x>210</x>
       <y>350</y>
       <w>130</w>
       <h>70</h>
@@ -323,21 +323,22 @@ broker</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>440</x>
+      <x>450</x>
       <y>350</y>
       <w>250</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>CV Broker Objects 
-Objects that contain registries of 
-service objects
+Broker objects manage request 
+from presentation objects to 
+service and component objects
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>40</x>
+      <x>50</x>
       <y>40</y>
       <w>660</w>
       <h>240</h>
@@ -348,7 +349,7 @@ service objects
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>50</x>
+      <x>60</x>
       <y>70</y>
       <w>640</w>
       <h>200</h>
@@ -359,7 +360,7 @@ service objects
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>60</x>
+      <x>70</x>
       <y>100</y>
       <w>130</w>
       <h>70</h>
@@ -372,7 +373,7 @@ science gateway</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>210</x>
+      <x>220</x>
       <y>100</y>
       <w>130</w>
       <h>70</h>
@@ -385,7 +386,7 @@ science gateway</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>360</x>
+      <x>370</x>
       <y>100</y>
       <w>130</w>
       <h>70</h>
@@ -398,7 +399,7 @@ science gateway</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>60</x>
+      <x>70</x>
       <y>190</y>
       <w>130</w>
       <h>70</h>
@@ -411,7 +412,7 @@ science gateway</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>520</x>
+      <x>530</x>
       <y>100</y>
       <w>160</w>
       <h>70</h>
@@ -424,7 +425,7 @@ science gateway</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>440</x>
+      <x>450</x>
       <y>190</y>
       <w>240</w>
       <h>70</h>
@@ -439,13 +440,101 @@ users
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>20</x>
+      <x>30</x>
       <y>0</y>
       <w>700</w>
-      <h>1270</h>
+      <h>1460</h>
     </coordinates>
     <panel_attributes>ENVRI RM Architecture
 --
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>1160</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>sensor
+network
+symbol=component
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>220</x>
+      <y>1160</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>sensor
+
+symbol=component
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>380</x>
+      <y>1160</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>storage 
+system
+
+symbol=component
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>540</x>
+      <y>1160</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>data base
+management system
+
+symbol=component
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>1250</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>file management 
+system
+
+symbol=component
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>270</x>
+      <y>1250</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>service
+registry
+
+symbol=component
 </panel_attributes>
     <additional_attributes/>
   </element>
