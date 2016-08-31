@@ -28,8 +28,8 @@ fontsize=14
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>40</x>
-      <y>140</y>
+      <x>20</x>
+      <y>130</y>
       <w>130</w>
       <h>90</h>
     </coordinates>
@@ -43,8 +43,8 @@ symbol=component
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>190</y>
+      <x>140</x>
+      <y>180</y>
       <w>90</w>
       <h>50</h>
     </coordinates>
@@ -55,8 +55,8 @@ symbol=component
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>430</y>
+      <x>430</x>
+      <y>410</y>
       <w>210</w>
       <h>40</h>
     </coordinates>
@@ -67,8 +67,8 @@ stage data</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>330</x>
-      <y>130</y>
+      <x>310</x>
+      <y>120</y>
       <w>130</w>
       <h>100</h>
     </coordinates>
@@ -81,8 +81,8 @@ symbol=component</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>200</y>
+      <x>210</x>
+      <y>190</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -92,10 +92,10 @@ symbol=component</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>190</x>
-      <y>180</y>
+      <x>170</x>
+      <y>160</y>
       <w>120</w>
-      <h>30</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>process request
 lw=0
@@ -106,8 +106,8 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>180</y>
+      <x>430</x>
+      <y>170</y>
       <w>120</w>
       <h>50</h>
     </coordinates>
@@ -118,8 +118,8 @@ halign=right
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>160</y>
+      <x>460</x>
+      <y>150</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -131,8 +131,8 @@ halign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
-      <y>180</y>
+      <x>530</x>
+      <y>170</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -143,21 +143,21 @@ halign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
-      <y>70</y>
+      <x>530</x>
+      <y>60</y>
       <w>30</w>
-      <h>500</h>
+      <h>460</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;480.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;440.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>150</x>
-      <y>530</y>
+      <x>130</x>
+      <y>480</y>
       <w>150</w>
-      <h>40</h>
+      <h>30</h>
     </coordinates>
     <panel_attributes>/data processing/
 lw=0
@@ -169,8 +169,8 @@ fontsize=18
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>660</x>
-      <y>520</y>
+      <x>640</x>
+      <y>480</y>
       <w>370</w>
       <h>30</h>
     </coordinates>
@@ -184,9 +184,9 @@ fontsize=18
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>100</x>
-      <y>270</y>
-      <w>130</w>
+      <x>80</x>
+      <y>260</y>
+      <w>140</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>authorise action
@@ -198,8 +198,8 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>80</x>
-      <y>220</y>
+      <x>60</x>
+      <y>210</y>
       <w>50</w>
       <h>80</h>
     </coordinates>
@@ -211,8 +211,8 @@ halign=right
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>640</x>
-      <y>370</y>
+      <x>620</x>
+      <y>350</y>
       <w>150</w>
       <h>100</h>
     </coordinates>
@@ -225,21 +225,21 @@ symbol=component
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>210</y>
+      <x>690</x>
+      <y>200</y>
       <w>140</w>
-      <h>180</h>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 new transporter
 </panel_attributes>
-    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>650</x>
-      <y>140</y>
+      <x>630</x>
+      <y>130</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -252,8 +252,8 @@ new transporter
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>40</x>
-      <y>340</y>
+      <x>20</x>
+      <y>330</y>
       <w>130</w>
       <h>70</h>
     </coordinates>
@@ -265,8 +265,8 @@ symbol=component</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>90</x>
-      <y>280</y>
+      <x>70</x>
+      <y>270</y>
       <w>30</w>
       <h>80</h>
     </coordinates>
@@ -276,8 +276,8 @@ symbol=component</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>220</y>
+      <x>340</x>
+      <y>210</y>
       <w>50</w>
       <h>90</h>
     </coordinates>
@@ -288,8 +288,8 @@ symbol=component</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>290</y>
+      <x>350</x>
+      <y>280</y>
       <w>30</w>
       <h>90</h>
     </coordinates>
@@ -300,8 +300,8 @@ symbol=component</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
-      <y>280</y>
+      <x>360</x>
+      <y>270</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -313,8 +313,8 @@ halign=right</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>970</x>
-      <y>380</y>
+      <x>950</x>
+      <y>360</y>
       <w>150</w>
       <h>90</h>
     </coordinates>
@@ -327,8 +327,8 @@ controller</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>400</y>
+      <x>860</x>
+      <y>380</y>
       <w>110</w>
       <h>50</h>
     </coordinates>
@@ -340,8 +340,8 @@ controller</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>430</y>
+      <x>760</x>
+      <y>410</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -354,8 +354,8 @@ export curated data
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>400</y>
+      <x>760</x>
+      <y>380</y>
       <w>120</w>
       <h>50</h>
     </coordinates>
@@ -367,10 +367,10 @@ export curated data
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>290</x>
-      <y>360</y>
+      <x>270</x>
+      <y>350</y>
       <w>170</w>
-      <h>110</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>symbol=component
 
@@ -381,10 +381,10 @@ controller</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>830</x>
-      <y>390</y>
+      <x>810</x>
+      <y>360</y>
       <w>100</w>
-      <h>30</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>retrieve data
 lw=0
@@ -395,8 +395,8 @@ halign=right
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>510</x>
-      <y>380</y>
+      <x>490</x>
+      <y>360</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -409,8 +409,8 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>410</y>
+      <x>430</x>
+      <y>390</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
@@ -420,8 +420,8 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>400</y>
+      <x>540</x>
+      <y>380</y>
       <w>100</w>
       <h>50</h>
     </coordinates>
@@ -433,10 +433,10 @@ halign=right
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>20</x>
-      <y>30</y>
+      <x>0</x>
+      <y>20</y>
       <w>1120</w>
-      <h>540</h>
+      <h>490</h>
     </coordinates>
     <panel_attributes>&lt;&lt;CV Object Configuration&gt;&gt;
 Data Processing Subsystem - data staging</panel_attributes>
