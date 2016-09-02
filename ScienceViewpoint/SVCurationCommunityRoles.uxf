@@ -5,7 +5,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>0</x>
-      <y>140</y>
+      <y>150</y>
       <w>710</w>
       <h>290</h>
     </coordinates>
@@ -17,7 +17,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>20</x>
-      <y>220</y>
+      <y>200</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -31,7 +31,7 @@ Data Curator
     <id>UMLClass</id>
     <coordinates>
       <x>20</x>
-      <y>330</y>
+      <y>280</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -45,7 +45,7 @@ PID Manager
     <id>UMLClass</id>
     <coordinates>
       <x>250</x>
-      <y>220</y>
+      <y>200</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -59,7 +59,7 @@ Semantic Curator
     <id>UMLClass</id>
     <coordinates>
       <x>480</x>
-      <y>220</y>
+      <y>200</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -73,7 +73,7 @@ Storage Administrator
     <id>UMLClass</id>
     <coordinates>
       <x>250</x>
-      <y>330</y>
+      <y>280</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -86,13 +86,27 @@ Storage System
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>330</y>
+      <x>250</x>
+      <y>360</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
 Data Curation Subsystem
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>280</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+Catalogue System
 --
 </panel_attributes>
     <additional_attributes/>
