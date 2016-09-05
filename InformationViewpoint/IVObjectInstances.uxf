@@ -260,7 +260,7 @@ published
       <h>860</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_DynamicSchemata&gt;&gt;
-InformationObjectTypes</panel_attributes>
+InformationObjectInstances</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
