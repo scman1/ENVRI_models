@@ -182,7 +182,7 @@ halign=left
     </coordinates>
     <panel_attributes>symbol=component
 
-PID service</panel_attributes>
+AAAI service</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -265,7 +265,7 @@ halign=left</panel_attributes>
     <coordinates>
       <x>520</x>
       <y>150</y>
-      <w>140</w>
+      <w>130</w>
       <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-

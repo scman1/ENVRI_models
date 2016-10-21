@@ -30,7 +30,7 @@ fontsize=14
     <coordinates>
       <x>50</x>
       <y>470</y>
-      <w>660</w>
+      <w>650</w>
       <h>290</h>
     </coordinates>
     <panel_attributes>CV Service Objects</panel_attributes>
@@ -53,7 +53,7 @@ symbol=component
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>390</x>
+      <x>560</x>
       <y>500</y>
       <w>130</w>
       <h>70</h>
@@ -66,7 +66,7 @@ service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>220</x>
+      <x>230</x>
       <y>500</y>
       <w>150</w>
       <h>70</h>
@@ -79,8 +79,8 @@ service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>60</x>
-      <y>590</y>
+      <x>240</x>
+      <y>580</y>
       <w>160</w>
       <h>70</h>
     </coordinates>
@@ -92,21 +92,21 @@ service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>410</x>
-      <y>590</y>
+      <x>400</x>
+      <y>500</y>
       <w>130</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>symbol=component
-security
-service</panel_attributes>
+
+AAAI service</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>240</x>
-      <y>590</y>
+      <x>420</x>
+      <y>580</y>
       <w>150</w>
       <h>70</h>
     </coordinates>
@@ -117,8 +117,8 @@ PID service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>540</x>
-      <y>500</y>
+      <x>60</x>
+      <y>580</y>
       <w>160</w>
       <h>70</h>
     </coordinates>
@@ -130,7 +130,7 @@ service</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>430</x>
+      <x>400</x>
       <y>680</y>
       <w>270</w>
       <h>70</h>

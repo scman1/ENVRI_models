@@ -4,22 +4,21 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>130</x>
-      <y>180</y>
+      <x>180</x>
+      <y>190</y>
       <w>180</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Design of Measurement
-Model
+Design Experiment
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>370</x>
-      <y>180</y>
+      <x>100</x>
+      <y>290</y>
       <w>170</w>
       <h>60</h>
     </coordinates>
@@ -31,7 +30,7 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>130</x>
+      <x>290</x>
       <y>290</y>
       <w>180</w>
       <h>60</h>
@@ -46,7 +45,7 @@ symbol=substate</panel_attributes>
     <coordinates>
       <x>90</x>
       <y>110</y>
-      <w>500</w>
+      <w>580</w>
       <h>300</h>
     </coordinates>
     <panel_attributes>Data Acquisition Community Behaviours
@@ -57,13 +56,27 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>370</x>
+      <x>490</x>
       <y>290</y>
       <w>170</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
 Instrument Calibration
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>400</x>
+      <y>190</y>
+      <w>180</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Design Measurement
+Model
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>

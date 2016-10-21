@@ -7,12 +7,11 @@
       <x>1130</x>
       <y>130</y>
       <w>140</w>
-      <h>110</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>symbol=component
 
-security
-service</panel_attributes>
+AAAI service</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
