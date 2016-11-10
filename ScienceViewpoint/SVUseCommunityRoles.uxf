@@ -7,7 +7,7 @@
       <x>230</x>
       <y>190</y>
       <w>710</w>
-      <h>290</h>
+      <h>270</h>
     </coordinates>
     <panel_attributes>Data Use Community Roles
 --
@@ -17,10 +17,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>240</y>
+      <x>710</x>
+      <y>320</y>
       <w>210</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
 Scientist or Researcher
@@ -31,10 +31,10 @@ Scientist or Researcher
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
+      <x>480</x>
       <y>320</y>
       <w>210</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
 Policy Maker or Decision Maker
@@ -45,10 +45,10 @@ Policy Maker or Decision Maker
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>240</y>
+      <x>360</x>
+      <y>390</y>
       <w>210</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
 Technologist or Engineer
@@ -59,10 +59,10 @@ Technologist or Engineer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>710</x>
+      <x>480</x>
       <y>240</y>
       <w>210</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
 Educator or Trainer
@@ -73,29 +73,26 @@ Educator or Trainer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>320</y>
+      <x>250</x>
+      <y>240</y>
       <w>210</w>
-      <h>70</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-General Public, Media, 
-or Citizen Scientist
---
-</panel_attributes>
+Citizen Scientist
+--</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>710</x>
-      <y>320</y>
+      <y>240</y>
       <w>210</w>
-      <h>70</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
 Investor or Consultant
-(Private Sector)
 --
 </panel_attributes>
     <additional_attributes/>
@@ -103,13 +100,27 @@ Investor or Consultant
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>410</y>
+      <x>590</x>
+      <y>390</y>
       <w>210</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
 Data Use Subsystem
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>320</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+General Public or Media
 --
 </panel_attributes>
     <additional_attributes/>

@@ -30,7 +30,7 @@ processed</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-raw_data :PersistentData
+_raw_data :PersistentData_
 --
 state = raw
 --</panel_attributes>
@@ -45,7 +45,7 @@ state = raw
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-finally_reviewed_data :PersistentData
+_finally_reviewed_data :PersistentData_
 --
 state = finallyReviewed
 --</panel_attributes>
@@ -60,7 +60,7 @@ state = finallyReviewed
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-mapped_data :PersistentData
+_mapped_data :PersistentData_
 --
 state = mapped
 --</panel_attributes>
@@ -75,7 +75,7 @@ state = mapped
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-published_data :PersistentData
+_published_data :PersistentData_
 --
 state = published
 --</panel_attributes>
@@ -105,7 +105,7 @@ PersistentData
       <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-global_concept :Concept
+_global_concept :Concept_
 --
 </panel_attributes>
     <additional_attributes/>
@@ -130,7 +130,7 @@ global_concept :Concept
       <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-global_conceptual_model :ConceptualModel
+_global_conceptual_model :ConceptualModel_
 --
 </panel_attributes>
     <additional_attributes/>
@@ -144,7 +144,7 @@ global_conceptual_model :ConceptualModel
       <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-local_concept :Concept
+_local_concept :Concept_
 --
 </panel_attributes>
     <additional_attributes/>
@@ -169,7 +169,7 @@ local_concept :Concept
       <h>50</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-local_conceptual_model :ConceptualModel
+_local_conceptual_model :ConceptualModel_
 --
 </panel_attributes>
     <additional_attributes/>
@@ -183,7 +183,7 @@ local_conceptual_model :ConceptualModel
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-raw_metadata :Metadata
+_raw_metadata :Metadata_
 --
 state = raw
 --</panel_attributes>
@@ -198,7 +198,7 @@ state = raw
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-registered_metadata :Metadata
+_registered_metadata :Metadata_
 --
 state = registered
 --</panel_attributes>
@@ -213,7 +213,7 @@ state = registered
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-published_metadata :Metadata
+_published_metadata :Metadata_
 --
 state = published
 --</panel_attributes>

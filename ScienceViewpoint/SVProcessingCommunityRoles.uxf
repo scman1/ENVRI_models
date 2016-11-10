@@ -31,7 +31,7 @@ Data Provider
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
+      <x>480</x>
       <y>260</y>
       <w>210</w>
       <h>60</h>
@@ -45,8 +45,8 @@ Capacity Manager
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>180</y>
+      <x>20</x>
+      <y>260</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -59,8 +59,8 @@ Service Provider
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>180</y>
+      <x>250</x>
+      <y>260</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -73,8 +73,8 @@ Service Registry
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>260</y>
+      <x>480</x>
+      <y>180</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -87,8 +87,8 @@ Service Consumer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>260</y>
+      <x>250</x>
+      <y>180</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -101,13 +101,27 @@ Service
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
+      <x>120</x>
       <y>340</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
 Data Processing Subsystem
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>340</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+Processing Environment Planner
 --
 </panel_attributes>
     <additional_attributes/>

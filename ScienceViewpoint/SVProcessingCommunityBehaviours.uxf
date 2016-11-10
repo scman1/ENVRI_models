@@ -4,9 +4,9 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>120</x>
-      <y>150</y>
-      <w>160</w>
+      <x>200</x>
+      <y>220</y>
+      <w>180</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
@@ -17,9 +17,9 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>380</x>
-      <y>150</y>
-      <w>140</w>
+      <x>400</x>
+      <y>220</y>
+      <w>180</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
@@ -30,8 +30,8 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>340</x>
-      <y>280</y>
+      <x>310</x>
+      <y>140</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
@@ -43,9 +43,9 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>120</x>
-      <y>280</y>
-      <w>160</w>
+      <x>110</x>
+      <y>140</y>
+      <w>180</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
@@ -56,14 +56,28 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>60</x>
+      <x>90</x>
       <y>100</y>
-      <w>500</w>
-      <h>300</h>
+      <w>620</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>Data Processing Community Behaviours
 --
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>510</x>
+      <y>140</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Customise Processing 
+Environment 
+symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
