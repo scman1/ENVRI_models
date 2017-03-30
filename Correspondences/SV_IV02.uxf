@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=14
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// 
+// Proposed SV-IV corespondences for PID Management
+//
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+// RIs need to define which roles are associated with PID Management
+// Active roles require permissions for:
+//   - Request PID
+//   - Register PID
+//   - Configure Services
+//   - Perform PID Management duties
+//   - Stablish and Enforce Management Policies
+
+// Passive roles require to be registered so that the system may 
+// automate some tasks
+
+</help_text>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>410</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Artefact IV Object
+{endpoint1 = Identifier, 
+endpoint2 = Global Unique Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>50</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Role IV Object
+{endpoint1 = PID Service 
+endpoint2 = Service Description}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>140</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Role IV Object
+{endpoint1 = PID Manager 
+endpoint2 = Service Description}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>50</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Data Identification, 
+endpoint2 = Assign Unique Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>50</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Role IV Object
+{endpoint1 = Data Curator 
+endpoint2 = Role}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>140</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Role IV Object
+{endpoint1 = Semantic Curator 
+endpoint2 = Role}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>230</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Role IV Object
+{endpoint1 = Storage Administrator 
+endpoint2 = Role}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>410</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Artefact IV Object
+{endpoint1 = Citation, 
+endpoint2 = Citation}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>500</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Artefact IV Object
+{endpoint1 = Data, 
+endpoint2 = Persistent Data}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>590</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Artefact IV Object
+{endpoint1 = Metadata, 
+endpoint2 = Metadata}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>500</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Artefact IV Object
+{endpoint1 = Query, 
+endpoint2 = Citation Metadata}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>140</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Generate Identifier, 
+endpoint2 = Generate Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>230</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Register Identifier, 
+endpoint2 = Register Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>320</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Assign Identifier, 
+endpoint2 = Assign Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>410</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Request Identifier, 
+endpoint2 = Request Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>500</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Get Citation, 
+endpoint2 = Resolve Annotation}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>590</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Get Reference, 
+endpoint2 = Get Referece}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>50</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Get Identifier Metadata, 
+endpoint2 = Get PID Metadata}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>140</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Verify Identifier Metadata, 
+endpoint2 = Verify PID Metadata}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>230</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Return Identifier Metadata, 
+endpoint2 = Return PID Metadata}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>320</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Update Identifier, 
+endpoint2 = Update Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>410</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Delete Identifier Metadata, 
+endpoint2 = Delete Identifier Metadata}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>500</y>
+      <w>260</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+SV Behaviour IV Action
+{endpoint1 = Delete Identifier, 
+endpoint2 = Delete Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>520</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>SV IV Correspondences
+Role Information Object</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>0</x>
+      <y>360</y>
+      <w>520</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>SV IV Correspondences
+Artefact Information Object</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>550</x>
+      <y>0</y>
+      <w>550</w>
+      <h>680</h>
+    </coordinates>
+    <panel_attributes>SV IV Correspondences
+Behaviour Information Action</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

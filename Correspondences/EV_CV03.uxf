@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+// fontsize=14
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// 
+//
+// 
+//////////////////////////////////////////////////////////////////////////////////////////////
+</help_text>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>208</x>
+      <y>117</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Interface API
+{endpoint1 = Create Identifier, 
+endpoint2 = API PUT}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>351</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+BEO CV Object
+{endpoint1 = PID API 
+endpoint2 = PID Service}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>208</x>
+      <y>351</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+BEO CV Object
+{endpoint1 = PID Manager 
+endpoint2 = PID Manager}
+--
+
+
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>117</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Interface API
+{endpoint1 = Resolve Identifier, 
+endpoint2 = API GET}
+--
+// http://www.pidconsortium.eu/?page_id=92
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>234</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Interface API
+{endpoint1 = Delete Identifier, 
+endpoint2 = API DELETE}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>208</x>
+      <y>234</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Interface API
+{endpoint1 = Update Identifier, 
+ endpoint2 = API PUT}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>377</x>
+      <y>455</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Channel Binding Object
+{endpoint1 = PID API 
+endpoint2 = PID protocol}
+--
+
+
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>852</x>
+      <y>168</y>
+      <w>228</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+LinkName
+{endpoint1=CVObject,
+endpoint2=EVObject}
+--
+
+
+
+
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>204</x>
+      <y>168</y>
+      <w>181</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+LinkName
+{endpoint1=CVObject,
+endpoint2=EVObject}
+--
+some other
+and more
+</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 1;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight()+2;
+	width = max(textWidth(textline)+10, width);
+	}
+//drawCurveCubic(float x1, float y1, float ctrlx1, float ctrly1, float ctrlx2, float ctrly2, float x2, float y2);
+drawLine(width-2, 2, width-2, 17);//right side
+drawLine(width-22, 2, width-22, 17);//left side
+drawLine(width-22, 2, width-2, 2);//top side
+drawLine(width-22, 17, width-2, 17);//top side
+drawArcOpen(width-10,  4,    8,    12,     100,   160);
+drawArcOpen(width-14,  4,    8,    12,     100,   160);
+drawArcOpen(width-18,  4,    8,    12,     100,   160);
+
+//drawArcOpen(x,      y, width, height, start, extent);
+drawRectangle(0, 0, width, height);
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=15;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>408</x>
+      <y>168</y>
+      <w>181</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+&lt;&lt;CorrespondenceLink&gt;&gt;
+LinkName
+{endpoint1=CVObject,
+endpoint2=EVObject}
+--
+some other
+and more</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 1;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight()+2;
+	width = max(textWidth(textline)+10, width);
+	}
+//drawCurveCubic(float x1, float y1, float ctrlx1, float ctrly1, float ctrlx2, float ctrly2, float x2, float y2);
+drawLine(width-2, 2, width-2, 17);//right side
+drawLine(width-22, 2, width-22, 17);//left side
+drawLine(width-22, 2, width-2, 2);//top side
+drawLine(width-22, 17, width-2, 17);//top side
+drawArcOpen(width-5, 10,  3,  8,  9,  9);
+
+drawRectangle(0, 0, width, height);
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=15;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>0</x>
+      <y>168</y>
+      <w>181</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+LinkName
+{endpoint1=CVObject,
+endpoint2=EVObject}
+--
+some other
+and more
+bg=orange</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 1;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight()+2;
+	width = max(textWidth(textline)+10, width);
+	}
+//drawCurveCubic(float x1, float y1, float ctrlx1, float ctrly1, float ctrlx2, float ctrly2, float x2, float y2);
+drawLine(width-2, 2, width-2, 17);//right side
+drawLine(width-22, 2, width-22, 17);//left side
+drawLine(width-22, 2, width-2, 2);//top side
+drawLine(width-22, 17, width-2, 17);//top side
+drawArcOpen(width-8,  5,    5,    8,     3,   8);
+//drawArcOpen(x,      y, width, height, start, extent);
+drawRectangle(0, 0, width, height);
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=15;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>168</y>
+      <w>228</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+LinkName
+{endpoint1=CVObject,
+endpoint2=EVObject}
+--
+
+
+
+
+customelement=
+drawLine(width-22, 4, width-4, 4) lw=2
+drawLine(width-22, 18, width-4, 18) lw=2
+drawArc(width- 6, 6, 6, 10, 100, 160,true)
+drawArc(width- 10, 6, 6, 10, 100, 160,true)
+drawArc(width- 14, 6, 6, 10, 100, 160,true)
+drawArc(width- 18, 6, 6, 10, 100, 160,true)
+drawArc(width- 22, 6, 6, 10, 100, 160,true)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

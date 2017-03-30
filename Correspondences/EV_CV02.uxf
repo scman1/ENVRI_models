@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>117</x>
+      <y>130</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Behaviour Interface
+{endpoint1 = ePIC-PUT-New, 
+endpoint2 = AcquireIdentifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>130</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Behaviour Interface
+{endpoint1 = ePIC-GET, 
+endpoint2 = ResolveIdentifier}
+--
+// http://www.pidconsortium.eu/?page_id=92
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>247</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Behaviour Interface
+{endpoint1 = ePIC-DELETE, 
+endpoint2 = DeleteIdentifier}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>117</x>
+      <y>247</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Behaviour Interface
+{endpoint1 = ePIC-PUT-Update, 
+ endpoint2 = UpdateIdentifier}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>377</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+PID Service Implementation
+{endpoint1 = ePIC Registry 
+endpoint2 = PID Service}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>117</x>
+      <y>494</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+PID Manager Implementation
+{endpoint1 = PID Manager 
+endpoint2 = Raw Data Collector}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>494</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+PID Manager Implementation
+{endpoint1 = PID Manager 
+endpoint2 = Data Importer}
+--
+
+
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,1692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:fontsize=14
+fontsize=14
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use +/- or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>690</x>
+      <y>50</y>
+      <w>730</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>DASSH Data Archive Centre
+--
+lw=2.0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>90</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Community&gt;&gt;
+Data Curation Community
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>950</x>
+      <y>90</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Community&gt;&gt;
+Data Publication Community
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>710</x>
+      <y>200</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Objective:
+Receive data from Data Providers, QA, transform data, create metadata and generation of PIDs
+
+style=wordwrap
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>800</x>
+      <y>150</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-
+lw=2.0</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>950</x>
+      <y>200</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Objective:
+Help users gain access to DASSH data
+
+style=wordwrap
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>150</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-
+lw=2.0</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>690</x>
+      <y>400</y>
+      <w>730</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>DASSH Data Curation Community
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>690</x>
+      <y>680</y>
+      <w>1550</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>DASSH Data Publication Community
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>440</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+Storage Administator
+--
+Role perfomed by MBA Network Manager in collaboration with DASSH
+
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>950</x>
+      <y>440</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+Data Curator
+--
+Role performed by DASSH Data Manager and Data Officer
+
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1180</x>
+      <y>440</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+Storage
+--
+Passive role
+MBA Network Storage managed by DASSH
+
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>730</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+PID Registry
+--
+DASSH Data Management System (DDMS), PostGIS Database (DBOSSH) &amp; MEDIN Metadata Tool.
+
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>730</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+Data Originator
+--
+Data received from DASSH Data Curator/Storage SV_Role
+
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>730</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+PID Generator
+--
+DASSH Data Management System (DDMS), PostGIS Database (DBOSSH) &amp; MEDIN Metadata Tool.
+
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1650</x>
+      <y>730</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+Data Consumer
+--
+Application(s)/people to take PostGIS data and publish to web
+Current gap in team for 'Data Engineer'.
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1420</x>
+      <y>730</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+Data Repository
+--
+DASSH Data Management System (DDMS), PostGIS Database (DBOSSH) &amp; MEDIN Metadata Tool.
+
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1480</x>
+      <y>400</y>
+      <w>760</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>DASSH Data Curation Community Behaviours
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1490</x>
+      <y>430</y>
+      <w>170</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Data Quality Checking
+Carried out by &lt;&lt;SV_Role&gt;&gt;Data Curator
+**QA of raw data to DASSH and at each stange of data lifecycle where data are modified**
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1670</x>
+      <y>430</y>
+      <w>170</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Data Preservation
+Carried out by &lt;&lt;SV_Role&gt;&gt;Data Curator
+**Management of data within DASSH by Data Manager and Data Officer**
+symbol=substate
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1850</x>
+      <y>430</y>
+      <w>170</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Data Product Generation
+Carried out by &lt;&lt;SV_Role&gt;&gt;Data Curator
+**Transformation from raw, received data to standardised (MEDIN?) data**
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2040</x>
+      <y>430</y>
+      <w>170</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Data Replication
+Carried out by &lt;&lt;SV_Role&gt;&gt;Storage Administrator
+**An MBA-wide behaviour.  DASSH sits within MBA IT infrastructure and network manager is responsible for this behaviour**
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1020</x>
+      <y>990</y>
+      <w>850</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>DASSH Data Publication Community Behaviours
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1040</x>
+      <y>1040</y>
+      <w>170</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Data Publication
+Carried out by SV_Role:DataConsumer/Data Repository
+**MBA Web Developer and Data Engineer**
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1230</x>
+      <y>1040</y>
+      <w>170</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Semantic Harmonisation
+Caried out by &lt;&lt;SV_Role&gt;&gt;Semantic Madiator (not assigned within DASSH)
+
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1420</x>
+      <y>1040</y>
+      <w>170</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Data Discovery &amp; Access
+Carried out by &lt;&lt;SV_Role&gt;&gt;Data Access Subsystem
+**Currently search over HTTP via DASSH/MEDIN/EMODnet websites**
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1610</x>
+      <y>1040</y>
+      <w>170</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
+Data Citation
+Carried out by &lt;&lt;SV_Role&gt;&gt;PID Generator
+**DOI tool and MEDIN metadata catalogue**
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1870</x>
+      <y>730</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
+Data Access Subsystem
+--
+DASSH Website, MEDIN portal, EMODnet Portal
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1390</x>
+      <y>1350</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+CV_BackEnd
+Database Management System
+--
+**DASSH PostgreSQL Data Store**
+Data transformed from raw, received data into structure compliant with MEDIN Data Guidelines
+style=wordwrap
+
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1290</x>
+      <y>1440</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m2=load data
+group=1</panel_attributes>
+    <additional_attributes>20.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1480</x>
+      <y>1530</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+m2=Update tables and views
+
+group=1</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1980</x>
+      <y>1790</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+CV_BrokerObject
+Data Broker
+--
+**DASSH WebServer Client Data Access Application**
+Custom php/javascript application to discover and download data
+style=wordwrap
+
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1470</x>
+      <y>1580</y>
+      <w>100</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m2=query data
+group=1</panel_attributes>
+    <additional_attributes>20.0;20.0;20.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1390</x>
+      <y>1730</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+CV_BackEnd
+Data Broker
+--
+**DASSH GeoServer**
+Spatial data publishing tool with links to Postgres DB and shapefiles
+style=wordwrap
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1800</x>
+      <y>1820</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m2=query data
+group=1</panel_attributes>
+    <additional_attributes>20.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1590</x>
+      <y>1830</y>
+      <w>230</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+group=1</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1810</x>
+      <y>1600</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+group=1</panel_attributes>
+    <additional_attributes>20.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1800</x>
+      <y>1530</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+m2=export metadata
+group=1</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1710</x>
+      <y>1370</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+CV_ServiceObject
+Catalogue Service
+--
+**DASSH Discovery Metadata Editor**
+Web Application with MySQL backend for the creation and management of ISO19139 compliant metadata
+
+style=wordwrap
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2180</x>
+      <y>1820</y>
+      <w>240</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+m2=data request
+
+group=1</panel_attributes>
+    <additional_attributes>220.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1470</x>
+      <y>1890</y>
+      <w>400</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+m2=**Response via OGC Compliant Webservices (WMS/WFS)**
+
+group=1</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1970</x>
+      <y>1550</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+CV_BackEndObject
+Storage System
+--
+**DASSH WAF**
+Web Accessible Folder holding XML files for harvesting
+style=wordwrap
+
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2170</x>
+      <y>1590</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+m2=**Harvested by MEDIN Metadata Portal**
+
+group=1</panel_attributes>
+    <additional_attributes>220.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2070</x>
+      <y>1670</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+m2=
+
+group=1</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2060</x>
+      <y>1720</y>
+      <w>100</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+m2=query data
+group=1</panel_attributes>
+    <additional_attributes>20.0;20.0;20.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1780</x>
+      <y>2180</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+Persistent Data
+--
++state: DataState=raw
+--
+Raw data received to DASSH</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1780</x>
+      <y>2040</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Data Acquisition
+--
+Data submitted to DASSH from a variety of sources and in a variety of formats
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1870</x>
+      <y>2130</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1760</x>
+      <y>2450</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Add Metadata
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1870</x>
+      <y>2260</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1500</x>
+      <y>2670</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1490</x>
+      <y>2450</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+Persistent Data
+--
++state= DataState=raw
+--
+Raw data described with ISO compliant metadata
+style=wordwrap
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1690</x>
+      <y>2470</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=2</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1950</x>
+      <y>2470</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=2</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2020</x>
+      <y>2450</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+--
+MEDIN (ISO1939) compliant metadata in companion XML file
+style=wordwrap
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1590</x>
+      <y>2580</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=2</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2290</x>
+      <y>2580</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Publish Metadata
+--
+Make XML metadata avaiable in Web Accessible Folder (WAF)
+style=wordwrap
+
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2290</x>
+      <y>2430</y>
+      <w>200</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Check Quality
+--
+QA of metadata, manual and automatic validation
+style=wordwrap
+
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2220</x>
+      <y>2470</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=2</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2370</x>
+      <y>2530</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2370</x>
+      <y>2690</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>2360</x>
+      <y>2740</y>
+      <w>50</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>type=final
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1850</x>
+      <y>1970</y>
+      <w>50</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1870</x>
+      <y>2010</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1780</x>
+      <y>2320</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+Store Data
+--
+Raw data archived on DASSH NAS
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1860</x>
+      <y>2410</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>0</x>
+      <y>2410</y>
+      <w>310</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>DASSHMetadataPersistentData
+Internal Metadata for Asset Management
+--
+
+valign=top
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>450</x>
+      <y>2890</y>
+      <w>310</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>DASSHTransformedPersistentData
+MEDIN Formatted Data
+--
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>450</x>
+      <y>2270</y>
+      <w>310</w>
+      <h>600</h>
+    </coordinates>
+    <panel_attributes>DASSHRawPersistentData
+Raw Data Recieved from Data Providers
+--
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>2410</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=AssignUniqueIdentifier
+</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>2340</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=StoreData</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>590</x>
+      <y>2330</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>2380</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>raw</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>2460</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>identified</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>530</x>
+      <y>2620</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>assignedMetadata</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>2710</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>archived?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>2650</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=???
+</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>2790</y>
+      <w>350</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=Data transformed to MEDIN data format (mapped?)</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>590</x>
+      <y>2790</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>2740</y>
+      <w>50</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=???
+</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>600</x>
+      <y>2950</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>2960</y>
+      <w>330</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=Does this transformed data become "raw" again?
+group=5</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>140</x>
+      <y>2470</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>2480</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=3</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>100</x>
+      <y>2520</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>raw
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>2550</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=CheckQuality
+group=3</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>100</x>
+      <y>2610</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>QA_Assesed
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>100</x>
+      <y>2700</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>finallyReviewed
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>2640</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=FinallyReview
+group=3</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>2730</y>
+      <w>130</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=PublishMetadata
+group=3</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>90</x>
+      <y>2790</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>published
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>130</x>
+      <y>2900</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>2820</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=3</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>560</x>
+      <y>3020</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>QA_Assesed
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>560</x>
+      <y>3110</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>finallyReviewed
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>3050</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=FinallyReview
+group=5</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>560</x>
+      <y>3200</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Published
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>3140</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=PublishData
+group=5</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>3230</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+group=5</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>600</x>
+      <y>3290</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>2490</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSyncBarHorizontal</id>
+    <coordinates>
+      <x>550</x>
+      <y>2570</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lw=5
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>2570</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>2460</y>
+      <w>420</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=AddMetadata
+</panel_attributes>
+    <additional_attributes>10.0;20.0;400.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>2510</y>
+      <w>460</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+</panel_attributes>
+    <additional_attributes>440.0;70.0;440.0;20.0;290.0;20.0;290.0;400.0;10.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1050</x>
+      <y>2940</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>2950</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=4</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1010</x>
+      <y>2990</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>raw
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>3020</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=CheckQuality
+group=4</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1010</x>
+      <y>3080</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>QA_Assesed
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1010</x>
+      <y>3170</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>finallyReviewed
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>3110</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=FinallyReview
+group=4</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>3200</y>
+      <w>130</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=PublishMetadata
+group=4</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1000</x>
+      <y>3260</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>published
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1040</x>
+      <y>3370</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>3290</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+group=4</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>910</x>
+      <y>2880</y>
+      <w>310</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>MEDINMetadataPersistentData
+ISO19139 Compliant MEDIN Metadata for discovery services
+--
+
+valign=top
+group=4
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>2930</y>
+      <w>460</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>90</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;SV_Community&gt;&gt;
+Data Use Community
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1190</x>
+      <y>200</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Objective:
+Help users gain access to DASSH data
+style=wordwrap
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1280</x>
+      <y>150</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-
+lw=2.0</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

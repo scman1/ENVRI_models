@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+// fontsize=14
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// 
+// Proposed CV corespondences for PID 
+//
+//////////////////////////////////////////////////////////////////////////////////////////////
+</help_text>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>325</x>
+      <y>0</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action 
+{endpoint1 = Identify Data Object, 
+endpoint2 = Assign Unique Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>338</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = annotate data}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>442</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = annotate metadata}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>234</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = store data}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>234</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = backup data}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>338</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = review data}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>442</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = publish data}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>234</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = add metadata}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>338</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = register metadata}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>442</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = publish metadata}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>546</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = perform mapping}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>546</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = check quality}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>546</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = track provenance}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>650</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action
+{endpoint1 = data object update, 
+ endpoint2 = process data}
+--
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>143</x>
+      <y>117</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action 
+{endpoint1 = Reference Data Object, 
+endpoint2 = Resolve Annotation}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>117</y>
+      <w>273</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+CV Interface IV Action 
+{endpoint1 = Reference Data Object, 
+endpoint2 = Query Data}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

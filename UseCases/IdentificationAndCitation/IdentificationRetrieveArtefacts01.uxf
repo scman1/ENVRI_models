@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>318</x>
+      <y>6</y>
+      <w>450</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>RI Curation Subsystem
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>318</x>
+      <y>24</y>
+      <w>156</w>
+      <h>384</h>
+    </coordinates>
+    <panel_attributes>Catalogue System
+--
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>474</x>
+      <y>24</y>
+      <w>162</w>
+      <h>384</h>
+    </coordinates>
+    <panel_attributes> Storage System
+--
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>348</x>
+      <y>72</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Query Data</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>6</x>
+      <y>6</y>
+      <w>312</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>RI Publishing Subsystem
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>162</x>
+      <y>24</y>
+      <w>156</w>
+      <h>384</h>
+    </coordinates>
+    <panel_attributes>Access Systems
+--
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>6</x>
+      <y>24</y>
+      <w>156</w>
+      <h>384</h>
+    </coordinates>
+    <panel_attributes>Virtual Laboratory
+--
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>72</x>
+      <y>42</y>
+      <w>12</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>36</x>
+      <y>72</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Define Search</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>72</x>
+      <y>48</y>
+      <w>18</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>198</x>
+      <y>72</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Generate Query</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>84</y>
+      <w>90</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>510</x>
+      <y>72</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Execute Query</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>84</y>
+      <w>90</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>510</x>
+      <y>126</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Return Result</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>102</y>
+      <w>18</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>348</x>
+      <y>132</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Return Result</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>144</y>
+      <w>90</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>558</x>
+      <y>156</y>
+      <w>114</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>636</x>
+      <y>24</y>
+      <w>132</w>
+      <h>384</h>
+    </coordinates>
+    <panel_attributes>PID Manager
+--
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>660</x>
+      <y>198</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Get Reference</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>402</x>
+      <y>228</y>
+      <w>306</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;150.0;490.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>354</x>
+      <y>318</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Return Result 
+and Citation Metadata</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>258</x>
+      <y>330</y>
+      <w>108</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>174</x>
+      <y>318</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Format Results for
+Presentation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>42</x>
+      <y>318</y>
+      <w>90</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Display Result</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>126</x>
+      <y>330</y>
+      <w>60</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>78</x>
+      <y>348</y>
+      <w>18</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>78</x>
+      <y>372</y>
+      <w>12</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>156</y>
+      <w>174</w>
+      <h>174</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;270.0;10.0;120.0;270.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>126</x>
+      <y>72</y>
+      <w>67</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Query Parameters
+[raw]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>294</x>
+      <y>72</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Query
+[raw]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>450</x>
+      <y>72</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Query
+[optimised]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>480</x>
+      <y>132</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Data
+[filered]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>438</x>
+      <y>132</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Metadata
+[filered]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>360</x>
+      <y>234</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Metadata
+[filered]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>540</x>
+      <y>252</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Citation
+[published]
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>318</x>
+      <y>318</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Citation
+[formated]
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>288</x>
+      <y>318</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Data
+[filered]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>258</x>
+      <y>318</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Metadata
+[filered]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>276</x>
+      <y>78</y>
+      <w>84</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>120.0;20.0;12.0;16.0</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>396</x>
+      <y>234</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Data
+[filered]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>594</x>
+      <y>174</y>
+      <w>43</w>
+      <h>43</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+Metadata
+[filered]
+
+bg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+
+drawLine(width/2-10, 5, width/2-10, 25);//left side
+drawLine(width/2+10, 5, width/2+10, 25);//right side
+
+drawLine(width/2-10, 5, width/2+10, 5);//top side
+drawLine(width/2-10, 25, width/2+10, 25);//top side
+
+drawLine(width/2-10, 15, width/2+10, 15);//middle hor
+drawLine(width/2, 5, width/2, 25);//middle ver
+
+
+//drawLine(int x1, int y1, int x2, int y2);
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+</diagram>

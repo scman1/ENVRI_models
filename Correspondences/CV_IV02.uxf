@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+// fontsize=14
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// 
+// Proposed CV corespondences for PID 
+//
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+// RIs need to define which is the metadata that is associated with PID
+// Example:
+//   - Name (internal ID) 
+//   - Location
+//   - type
+//   - source
+//   - date
+//   - expiration date?
+</help_text>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>39</x>
+      <y>26</y>
+      <w>351</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CorrespondenceLink&gt;&gt;
+Interface Signature-Information Object
+{endpoint1 = PID, 
+endpoint2 = (Global)Unique Identifier}
+--
+//http://doc.pidconsortium.eu/guides/api-create/
+
+//Correspondence Decoration 
+customelement=
+drawLine(width-22, 2, width-4, 2) lw=2
+drawLine(width-22, 16, width-4, 16) lw=2
+drawArc(width- 9, 4, 6, 10, 310, 100,true)
+drawArc(width- 12, 4, 6, 10, 310, 100,true)
+drawArc(width- 15, 4, 6, 10, 310, 100,true)
+drawArc(width- 18, 4, 6, 10, 310, 100,true)
+drawArc(width- 21, 4, 6, 10, 310, 100,true)
+drawArc(width- 24, 4, 6, 10, 310, 100,true)
+drawArc(width- 27, 4, 6, 10, 310, 100,true)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
