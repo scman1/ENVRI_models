@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>726</x>
+      <y>132</y>
+      <w>78</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
+DataState
+--
+raw
+assigned_metadata
+validated
+identified
+stored</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>726</x>
+      <y>30</y>
+      <w>78</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
+MetadataState
+--
+raw
+registered_not_public
+registered
+assigned
+updated_not_public
+updated
+deleted_not_public
+deleted
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>48</x>
+      <y>0</y>
+      <w>768</w>
+      <h>744</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_ObjectTypes&gt;&gt;
+Identification Object Instances</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>726</x>
+      <y>210</y>
+      <w>78</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
+DatasetState
+--
+registered
+filtered
+referenced
+stored
+formatted</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>36</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+acquired_data :PersistentData
+--
+state = raw</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>120</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+acquired_data_metadata :Metadata
+--
+state = registered
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>36</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+acquired_data :PersistentData
+--
+state = assigned_metadata</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>186</x>
+      <y>36</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+acquired_data :PersistentData
+--
+state = validated</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>162</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier_metadata :Metadata
+--
+state = raw
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>186</x>
+      <y>162</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier_metadata :Metadata
+--
+state = registered_not_public
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>162</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier_metadata :Metadata
+--
+state = registered
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>162</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier_metadata :Metadata
+--
+state = assigned
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>186</x>
+      <y>78</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier :PersistentData
+--
+state = raw</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>78</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier :PersistentData
+--
+state = registered</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>78</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier :PersistentData
+--
+state = assigned_metadata</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>36</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+acquired_data :PersistentData
+--
+state = identified</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>204</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+query_parameters :Metadata
+--
+state = raw
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>84</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+acquired_data :Dataset
+--
++state: registered</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>54</y>
+      <w>60</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;70.0;50.0;70.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>84</y>
+      <w>60</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>114</y>
+      <w>60</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>126</y>
+      <w>60</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;50.0;10.0;50.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>186</x>
+      <y>246</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+query :Metadata
+--
+state = raw
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>246</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+query :Metadata
+--
+state = optimised
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>246</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+query :Metadata
+--
+state = executed
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>174</x>
+      <y>210</y>
+      <w>72</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;60.0;100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>288</y>
+      <w>120</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+result_data :Dataset
+--
++state: filtered</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>288</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+result_data :Dataset
+--
++state: referenced</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>336</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+citation :Metadata
+--
+state = formatted
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>252</y>
+      <w>60</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;90.0;50.0;90.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>294</y>
+      <w>60</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>324</y>
+      <w>60</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>708</x>
+      <y>288</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+result_data :Dataset
+--
++state: formatted</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>378</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+query_parameters :Metadata
+--
+state = raw
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>186</x>
+      <y>420</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+update_query :Metadata
+--
+state = raw
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>420</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+update_query :Metadata
+--
+state = optimised
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>420</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+update_query :Metadata
+--
+state = executed
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>174</x>
+      <y>384</y>
+      <w>72</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;60.0;100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>462</y>
+      <w>120</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+result_data :Dataset
+--
++state: updated</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>462</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+result_data :Dataset
+--
++state: stored</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>510</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier_metadata :Metadata
+--
+state = updated
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>426</y>
+      <w>60</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;90.0;50.0;90.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>468</y>
+      <w>60</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>498</y>
+      <w>60</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>708</x>
+      <y>462</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+result_data :Dataset
+--
++state: formatted</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>510</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier_metadata :Metadata
+--
+state = updated_not_public
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>186</x>
+      <y>612</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+delete_query :Metadata
+--
+state = raw
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>612</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+delete_query :Metadata
+--
+state = optimised
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>612</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+delete_query :Metadata
+--
+state = executed
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>174</x>
+      <y>576</y>
+      <w>72</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;60.0;100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>654</y>
+      <w>120</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+result_data :Dataset
+--
++state: deleted</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>648</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+result_data :Dataset
+--
++state: deleted</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>696</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier_metadata :Metadata
+--
+state = deleted
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>618</y>
+      <w>60</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;90.0;50.0;90.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>660</y>
+      <w>60</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>684</y>
+      <w>60</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;40.0;10.0;40.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>708</x>
+      <y>648</y>
+      <w>96</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+result_data :Dataset
+--
++state: deleted</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>696</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+identifier_metadata :Metadata
+--
+state = deleted_not_public
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>570</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
+query_parameters :Metadata
+--
+state = raw
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
