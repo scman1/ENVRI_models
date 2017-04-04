@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>726</x>
+      <x>714</x>
       <y>132</y>
       <w>78</w>
       <h>72</h>
@@ -22,7 +22,7 @@ stored</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>726</x>
+      <x>714</x>
       <y>30</y>
       <w>78</w>
       <h>96</h>
@@ -46,7 +46,7 @@ deleted
     <coordinates>
       <x>48</x>
       <y>0</y>
-      <w>768</w>
+      <w>756</w>
       <h>744</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_ObjectTypes&gt;&gt;
@@ -56,7 +56,7 @@ Identification Object Instances</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>726</x>
+      <x>714</x>
       <y>210</y>
       <w>78</w>
       <h>66</h>
@@ -264,7 +264,7 @@ state = raw
     <coordinates>
       <x>600</x>
       <y>84</y>
-      <w>96</w>
+      <w>84</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
@@ -392,7 +392,7 @@ result_data :Dataset
     <coordinates>
       <x>600</x>
       <y>288</y>
-      <w>96</w>
+      <w>84</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
@@ -452,7 +452,7 @@ state = formatted
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>708</x>
+      <x>696</x>
       <y>288</y>
       <w>96</w>
       <h>60</h>
@@ -553,7 +553,7 @@ result_data :Dataset
     <coordinates>
       <x>600</x>
       <y>462</y>
-      <w>96</w>
+      <w>84</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
@@ -613,7 +613,7 @@ state = updated
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>708</x>
+      <x>696</x>
       <y>462</y>
       <w>96</w>
       <h>60</h>
@@ -714,7 +714,7 @@ result_data :Dataset
     <coordinates>
       <x>600</x>
       <y>648</y>
-      <w>96</w>
+      <w>84</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
@@ -774,7 +774,7 @@ state = deleted
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>708</x>
+      <x>696</x>
       <y>648</y>
       <w>96</w>
       <h>60</h>
