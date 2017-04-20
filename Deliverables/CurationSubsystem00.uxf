@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>30</x>
+      <y>70</y>
+      <w>250</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Storage System
+bg=white
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>140</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>File Management System
+bg=white
+layer=1
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>210</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Data Base Management System
+bg=white
+layer=1
+style=wordwrap
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>100</x>
+      <y>380</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Catalogue Service
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>100</x>
+      <y>470</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Data Store Controller
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>70</x>
+      <y>310</y>
+      <w>440</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Cataloguing System
+bg=white
+transparency=0
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>580</w>
+      <h>560</h>
+    </coordinates>
+    <panel_attributes>Curation Subsystem
+bg=white
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>350</x>
+      <y>140</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Data Exporter
+bg=white
+group=2
+layer=1
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>350</x>
+      <y>210</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Data Importer
+bg=white
+group=2
+layer=1
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>310</x>
+      <y>70</y>
+      <w>250</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Data Transfer System
+bg=white
+transparency=0
+group=2
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>290</x>
+      <y>380</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>PID Manager
+bg=white
+layer=5
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

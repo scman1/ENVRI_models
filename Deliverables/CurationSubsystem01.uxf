@@ -4,20 +4,14 @@
   <element>
     <type>CustomElementImpl</type>
     <coordinates>
-      <x>630</x>
-      <y>270</y>
-      <w>201</w>
-      <h>131</h>
+      <x>680</x>
+      <y>280</y>
+      <w>71</w>
+      <h>51</h>
     </coordinates>
     <panel_attributes>// Modify the text below and
 // observe the element preview.
-&lt;&lt;EV_Channel&gt;&gt;
 PID API
---
-CRUD operations
---
-Create/Retrieve/Update/Delete PIDs
-
 layer=5
 </panel_attributes>
     <additional_attributes/>
@@ -101,39 +95,38 @@ for(String textline : textlines) {
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
+      <x>740</x>
       <y>170</y>
-      <w>160</w>
-      <h>120</h>
+      <w>200</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;use&gt;&gt;
 layer=5</panel_attributes>
-    <additional_attributes>11.0;100.0;140.0;10.0</additional_attributes>
+    <additional_attributes>11.0;120.0;180.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>480</x>
-      <y>340</y>
-      <w>170</w>
-      <h>110</h>
+      <y>310</y>
+      <w>220</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 &lt;&lt;use&gt;&gt;
 layer=5</panel_attributes>
-    <additional_attributes>150.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>200.0;10.0;10.0;120.0</additional_attributes>
   </element>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
       <x>870</x>
       <y>10</y>
-      <w>320</w>
+      <w>300</w>
       <h>240</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Node&gt;&gt;
-ePIC Registry</panel_attributes>
+    <panel_attributes>PID Registry</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -144,8 +137,7 @@ ePIC Registry</panel_attributes>
       <w>250</w>
       <h>160</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Capsule&gt;&gt;
-ePIC Service
+    <panel_attributes>PID Service
 bg=white
 transparency=0
 layer=1</panel_attributes>
@@ -159,10 +151,10 @@ layer=1</panel_attributes>
       <w>180</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Object&gt;&gt;
-:PID API
+    <panel_attributes>PID API
 bg=white
-layer=2</panel_attributes>
+layer=2
+valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -173,8 +165,7 @@ layer=2</panel_attributes>
       <w>250</w>
       <h>220</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Capsule&gt;&gt;
-Storage System
+    <panel_attributes>Storage System
 bg=white
 transparency=0</panel_attributes>
     <additional_attributes/>
@@ -187,10 +178,10 @@ transparency=0</panel_attributes>
       <w>180</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Object&gt;&gt;
-:FileManagementSystem
+    <panel_attributes>File Management System
 bg=white
-layer=1</panel_attributes>
+layer=1
+valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -201,10 +192,11 @@ layer=1</panel_attributes>
       <w>180</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Object&gt;&gt;
-:DataBaseManagementSystem
+    <panel_attributes>Data Base Management System
 bg=white
-layer=1</panel_attributes>
+layer=1
+style=wordwrap
+valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -215,10 +207,10 @@ layer=1</panel_attributes>
       <w>160</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Object&gt;&gt;
-:Catalogue Service
+    <panel_attributes>Catalogue Service
 bg=white
-layer=2</panel_attributes>
+layer=2
+valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -229,10 +221,10 @@ layer=2</panel_attributes>
       <w>160</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Object&gt;&gt;
-:Data Store Controller
+    <panel_attributes>Data Store Controller
 bg=white
-layer=2</panel_attributes>
+layer=2
+valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -243,8 +235,7 @@ layer=2</panel_attributes>
       <w>480</w>
       <h>240</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Capsule&gt;&gt;
-Cataloguing System
+    <panel_attributes>Cataloguing System
 bg=white
 transparency=0
 layer=1</panel_attributes>
@@ -258,8 +249,7 @@ layer=1</panel_attributes>
       <w>580</w>
       <h>560</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Node&gt;&gt;
-Curation Subsystem
+    <panel_attributes>Curation Subsystem
 bg=white
 transparency=0</panel_attributes>
     <additional_attributes/>
@@ -272,11 +262,11 @@ transparency=0</panel_attributes>
       <w>160</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Object&gt;&gt;
-:DataExporter
+    <panel_attributes>Data Exporter
 bg=white
 group=2
-layer=1</panel_attributes>
+layer=1
+valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -287,11 +277,11 @@ layer=1</panel_attributes>
       <w>160</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Object&gt;&gt;
-:DataImporter
+    <panel_attributes>Data Importer
 bg=white
 group=2
-layer=1</panel_attributes>
+layer=1
+valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -302,8 +292,7 @@ layer=1</panel_attributes>
       <w>250</w>
       <h>220</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Capsule&gt;&gt;
-Data Transfer System
+    <panel_attributes>Data Transfer System
 bg=white
 transparency=0
 group=2
@@ -318,11 +307,11 @@ layer=1</panel_attributes>
       <w>180</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Object&gt;&gt;
-:PID API Client
+    <panel_attributes>PID API Client
 bg=white
 layer=3
-group=3</panel_attributes>
+group=3
+valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -333,8 +322,7 @@ group=3</panel_attributes>
       <w>250</w>
       <h>180</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV_Cluster&gt;&gt;
-PID Manager
+    <panel_attributes>PID Manager
 bg=white
 transparency=0
 layer=2
@@ -356,5 +344,46 @@ bg=white
 layer=2
 group=3</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>310</x>
+      <y>480</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>PID Generator
+bg=white
+layer=5
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>740</x>
+      <y>390</y>
+      <w>110</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>CRUD PID operations
+--
+Create, Retrieve, Update, Delete PIDs
+style=wordwrap
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>320</y>
+      <w>80</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>60.0;70.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
