@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>20</x>
+      <y>10</y>
+      <w>250</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Service Registry
+bg=white
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>80</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Service Catalogue
+bg=white
+layer=1
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>100</x>
+      <y>320</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Service Catalogue
+API Client
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>60</x>
+      <y>250</y>
+      <w>440</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>Processing Subsystem
+bg=white
+transparency=0
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>340</x>
+      <y>80</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Service APIs
+bg=white
+layer=1
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>300</x>
+      <y>10</y>
+      <w>250</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Processing Service
+bg=white
+transparency=0
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>300</x>
+      <y>320</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Service API Client
+bg=white
+layer=5
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>150</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Service Catalogue API
+bg=white
+layer=1
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>90</x>
+      <y>430</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Coordination Service
+bg=white
+layer=5
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>310</x>
+      <y>430</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Input Buffer
+bg=white
+layer=5
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>70</x>
+      <y>390</y>
+      <w>200</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Processing Planner
+bg=white
+transparency=0
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>90</x>
+      <y>480</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Process Controller
+bg=white
+layer=5
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>290</x>
+      <y>390</y>
+      <w>190</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Processing Buffer
+bg=white
+transparency=0
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>310</x>
+      <y>480</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Output Buffer
+bg=white
+layer=5
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
