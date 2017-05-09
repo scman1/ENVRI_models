@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>150</x>
+      <y>110</y>
+      <w>250</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Storage System
+bg=white
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>180</x>
+      <y>160</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>File Management System
+bg=white
+layer=1
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>180</x>
+      <y>230</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Data Base Management System
+bg=white
+layer=1
+style=wordwrap
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>190</x>
+      <y>390</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Catalogue Service
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>190</x>
+      <y>510</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Data Store Controller
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>160</x>
+      <y>340</y>
+      <w>240</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Cataloguing System
+bg=white
+transparency=0
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>130</x>
+      <y>50</y>
+      <w>580</w>
+      <h>560</h>
+    </coordinates>
+    <panel_attributes>Curation Subsystem
+bg=white
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>470</x>
+      <y>160</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Data Exporter
+bg=white
+layer=1
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>470</x>
+      <y>230</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Data Importer
+bg=white
+layer=1
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>430</x>
+      <y>110</y>
+      <w>250</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Data Transfer System
+bg=white
+transparency=0
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>190</x>
+      <y>450</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>PID Manager
+bg=white
+layer=5
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>470</x>
+      <y>410</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Provenance Tracker
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>470</x>
+      <y>480</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Provenance Service
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>430</x>
+      <y>340</y>
+      <w>240</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Provenance System
+bg=white
+transparency=0
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

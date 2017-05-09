@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>30</x>
+      <y>230</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Annotate Data
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>30</x>
+      <y>70</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Add Metadata
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>30</x>
+      <y>150</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Select/Build Conceptual Model
+symbol=substate
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>680</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_InvariantSchemata&gt;&gt;
+Cataloguing Action Types
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>200</x>
+      <y>70</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Register Metadata
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>520</x>
+      <y>70</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Generate/Select Identifier Metadata
+symbol=substate
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>360</x>
+      <y>70</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Get Assigned Metadata
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>200</x>
+      <y>230</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Get Data Concepts
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>230</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Assign Concepts to Data
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>30</x>
+      <y>320</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Annotate Metadata
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>200</x>
+      <y>320</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Get Metadata Concepts
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>320</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Assign Concepts to Metadata
+symbol=substate
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -388,7 +388,7 @@ symbol=substate</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-Register PID response</panel_attributes>
+Get PID response</panel_attributes>
     <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
   </element>
   <element>
@@ -400,7 +400,7 @@ Register PID response</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
-Register PID request</panel_attributes>
+Get PID Request</panel_attributes>
     <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
   </element>
   <element>

@@ -4,12 +4,12 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>230</y>
-      <w>150</w>
+      <x>20</x>
+      <y>90</y>
+      <w>90</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>export curated data
+    <panel_attributes>export data
 lw=0
 halign=left
 </panel_attributes>
@@ -18,8 +18,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>240</y>
+      <x>100</x>
+      <y>100</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -29,8 +29,8 @@ halign=left
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>540</x>
-      <y>160</y>
+      <x>170</x>
+      <y>20</y>
       <w>140</w>
       <h>110</h>
     </coordinates>
@@ -43,12 +43,12 @@ exporter</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>740</x>
-      <y>230</y>
+      <x>370</x>
+      <y>90</y>
       <w>150</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>deliver data set
+    <panel_attributes>deliver data
 lw=0
 halign=left
 </panel_attributes>
@@ -57,8 +57,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>670</x>
-      <y>240</y>
+      <x>300</x>
+      <y>100</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -68,8 +68,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>670</x>
-      <y>190</y>
+      <x>300</x>
+      <y>50</y>
       <w>90</w>
       <h>50</h>
     </coordinates>
@@ -79,9 +79,9 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>730</x>
-      <y>190</y>
-      <w>140</w>
+      <x>360</x>
+      <y>50</y>
+      <w>130</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>export metadata

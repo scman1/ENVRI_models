@@ -4,8 +4,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>550</x>
-      <y>160</y>
+      <x>230</x>
+      <y>20</y>
       <w>140</w>
       <h>110</h>
     </coordinates>
@@ -18,8 +18,8 @@ collector</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>240</y>
+      <x>160</x>
+      <y>100</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -29,8 +29,8 @@ collector</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>370</x>
-      <y>230</y>
+      <x>50</x>
+      <y>90</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -43,8 +43,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>240</y>
+      <x>360</x>
+      <y>100</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -54,8 +54,8 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>760</x>
-      <y>230</y>
+      <x>440</x>
+      <y>90</y>
       <w>180</w>
       <h>30</h>
     </coordinates>
@@ -68,8 +68,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>190</y>
+      <x>160</x>
+      <y>50</y>
       <w>90</w>
       <h>50</h>
     </coordinates>
@@ -79,8 +79,8 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
-      <y>190</y>
+      <x>30</x>
+      <y>50</y>
       <w>150</w>
       <h>30</h>
     </coordinates>
@@ -93,8 +93,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>190</y>
+      <x>360</x>
+      <y>50</y>
       <w>90</w>
       <h>50</h>
     </coordinates>
@@ -104,8 +104,8 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>740</x>
-      <y>190</y>
+      <x>420</x>
+      <y>50</y>
       <w>160</w>
       <h>30</h>
     </coordinates>

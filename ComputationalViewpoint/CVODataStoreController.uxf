@@ -4,8 +4,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>460</x>
-      <y>190</y>
+      <x>190</x>
+      <y>10</y>
       <w>150</w>
       <h>120</h>
     </coordinates>
@@ -18,8 +18,8 @@ controller</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>240</y>
+      <x>120</x>
+      <y>60</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -29,9 +29,9 @@ controller</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>270</x>
-      <y>230</y>
-      <w>130</w>
+      <x>10</x>
+      <y>50</y>
+      <w>120</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>update records
@@ -43,8 +43,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>280</y>
+      <x>120</x>
+      <y>100</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -54,12 +54,12 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>220</x>
-      <y>270</y>
-      <w>180</w>
+      <x>40</x>
+      <y>90</y>
+      <w>90</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>import data for curation
+    <panel_attributes>import data
 lw=0
 halign=left
 </panel_attributes>
@@ -68,8 +68,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>240</y>
+      <x>330</x>
+      <y>60</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -79,8 +79,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>280</y>
+      <x>330</x>
+      <y>100</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -90,9 +90,9 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>670</x>
-      <y>230</y>
-      <w>110</w>
+      <x>400</x>
+      <y>50</y>
+      <w>100</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>retrieve data
@@ -104,12 +104,12 @@ halign=right
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>670</x>
-      <y>270</y>
-      <w>150</w>
+      <x>400</x>
+      <y>90</y>
+      <w>90</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>export curated data
+    <panel_attributes>export data
 lw=0
 halign=right
 </panel_attributes>
@@ -118,8 +118,8 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>200</y>
+      <x>120</x>
+      <y>20</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -129,9 +129,9 @@ halign=right
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>270</x>
-      <y>190</y>
-      <w>130</w>
+      <x>10</x>
+      <y>10</y>
+      <w>120</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>query resource

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>200</x>
+      <y>250</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Get Identifier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>250</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Generate Identifier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>200</x>
+      <y>320</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Assign Identifier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>560</x>
+      <y>250</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Get Reference</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>730</x>
+      <y>250</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Update Identifier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>560</x>
+      <y>320</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Delete Identifier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>320</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Register Identifier</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>200</x>
+      <y>180</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Assign Unique Identifier
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>560</x>
+      <y>180</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Manage Identifier
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>560</x>
+      <y>90</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Register  as Generator
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>90</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Register  as Identifier
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>180</x>
+      <y>30</y>
+      <w>720</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;IV_InvariantSchemata&gt;&gt;
+Identification and Citation Action Types
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

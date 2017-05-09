@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>7</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>490</x>
-      <y>322</y>
-      <w>98</w>
-      <h>77</h>
+      <x>190</x>
+      <y>10</y>
+      <w>140</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>symbol=component
 data 
@@ -17,10 +17,10 @@ broker</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>350</y>
-      <w>63</w>
-      <h>21</h>
+      <x>120</x>
+      <y>50</y>
+      <w>90</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=()-[]</panel_attributes>
     <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
@@ -28,10 +28,10 @@ broker</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>343</y>
-      <w>63</w>
-      <h>35</h>
+      <x>320</x>
+      <y>40</y>
+      <w>90</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=[]-(
 </panel_attributes>
@@ -40,10 +40,10 @@ broker</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>623</x>
-      <y>343</y>
-      <w>70</w>
-      <h>21</h>
+      <x>380</x>
+      <y>40</y>
+      <w>100</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>query data
 lw=0
@@ -54,10 +54,10 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>371</y>
-      <w>63</w>
-      <h>35</h>
+      <x>320</x>
+      <y>80</y>
+      <w>90</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=[]-(
 </panel_attributes>
@@ -66,10 +66,10 @@ halign=right
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>623</x>
-      <y>371</y>
-      <w>98</w>
-      <h>21</h>
+      <x>380</x>
+      <y>80</y>
+      <w>130</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>prepare transfer
 lw=0
@@ -80,10 +80,10 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>371</y>
-      <w>63</w>
-      <h>35</h>
+      <x>120</x>
+      <y>80</y>
+      <w>90</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=[]-(
 </panel_attributes>
@@ -92,10 +92,10 @@ halign=right
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>371</x>
-      <y>371</y>
-      <w>84</w>
-      <h>21</h>
+      <x>20</x>
+      <y>80</y>
+      <w>120</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>annotate data
 lw=0
@@ -107,10 +107,10 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>371</x>
-      <y>343</y>
-      <w>77</w>
-      <h>21</h>
+      <x>20</x>
+      <y>40</y>
+      <w>110</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>data request
 

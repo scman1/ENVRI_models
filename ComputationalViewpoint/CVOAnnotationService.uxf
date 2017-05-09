@@ -4,8 +4,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>180</x>
-      <y>50</y>
+      <x>200</x>
+      <y>10</y>
       <w>150</w>
       <h>110</h>
     </coordinates>
@@ -18,8 +18,8 @@ service</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>110</x>
-      <y>90</y>
+      <x>130</x>
+      <y>50</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -29,9 +29,9 @@ service</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>80</y>
-      <w>120</w>
+      <x>30</x>
+      <y>40</y>
+      <w>110</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>annotate data
@@ -43,8 +43,8 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>80</y>
+      <x>340</x>
+      <y>40</y>
       <w>90</w>
       <h>50</h>
     </coordinates>
@@ -54,9 +54,9 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
-      <y>80</y>
-      <w>150</w>
+      <x>400</x>
+      <y>40</y>
+      <w>140</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>update catalogues
@@ -68,9 +68,9 @@ halign=right
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
-      <y>120</y>
-      <w>130</w>
+      <x>400</x>
+      <y>80</y>
+      <w>120</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>update records
@@ -82,12 +82,37 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>120</y>
+      <x>340</x>
+      <y>80</y>
       <w>90</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=)-[]</panel_attributes>
     <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>80</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>annotate metadata
+lw=0
+halign=left
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>90</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
   </element>
 </diagram>
