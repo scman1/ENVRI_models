@@ -24,14 +24,14 @@ fontsize=16
 
 
 // This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>9</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>72</x>
-      <y>36</y>
-      <w>18</w>
-      <h>18</h>
+      <x>154</x>
+      <y>28</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>type=initial
 layer=1</panel_attributes>
@@ -40,10 +40,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>36</x>
-      <y>81</y>
-      <w>99</w>
-      <h>54</h>
+      <x>126</x>
+      <y>63</y>
+      <w>77</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Acquire Data
 symbol=substate
@@ -53,10 +53,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>513</x>
-      <y>27</y>
-      <w>162</w>
-      <h>729</h>
+      <x>497</x>
+      <y>21</y>
+      <w>126</w>
+      <h>567</h>
     </coordinates>
     <panel_attributes>Catalogue System
 --
@@ -68,10 +68,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>189</x>
-      <y>144</y>
-      <w>99</w>
-      <h>54</h>
+      <x>245</x>
+      <y>112</y>
+      <w>77</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Receive Data
 symbol=substate
@@ -81,10 +81,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>531</x>
-      <y>297</y>
-      <w>126</w>
-      <h>54</h>
+      <x>511</x>
+      <y>231</y>
+      <w>98</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Add Metadata
 symbol=substate
@@ -94,10 +94,10 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>126</x>
-      <y>99</y>
-      <w>117</w>
-      <h>27</h>
+      <x>196</x>
+      <y>77</y>
+      <w>91</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=1</panel_attributes>
@@ -106,10 +106,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>225</x>
-      <y>189</y>
-      <w>27</w>
-      <h>54</h>
+      <x>273</x>
+      <y>147</y>
+      <w>21</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=1</panel_attributes>
@@ -118,10 +118,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>486</x>
-      <y>342</y>
-      <w>117</w>
-      <h>54</h>
+      <x>476</x>
+      <y>266</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;110.0;40.0;110.0;10.0</additional_attributes>
@@ -129,10 +129,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>72</x>
-      <y>45</y>
-      <w>27</w>
-      <h>54</h>
+      <x>154</x>
+      <y>35</y>
+      <w>21</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
@@ -141,10 +141,10 @@ layer=2</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>9</x>
+      <x>105</x>
       <y>0</y>
-      <w>153</w>
-      <h>756</h>
+      <w>119</w>
+      <h>588</h>
     </coordinates>
     <panel_attributes>Acquisition Subsystem
 --
@@ -156,10 +156,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>324</x>
-      <y>27</y>
-      <w>189</w>
-      <h>729</h>
+      <x>350</x>
+      <y>21</y>
+      <w>147</w>
+      <h>567</h>
     </coordinates>
     <panel_attributes>PID Manager
 --
@@ -171,10 +171,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>162</x>
+      <x>224</x>
       <y>0</y>
-      <w>513</w>
-      <h>756</h>
+      <w>399</w>
+      <h>588</h>
     </coordinates>
     <panel_attributes>Curation Subsystem
 
@@ -186,10 +186,10 @@ layer=-1</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>189</x>
-      <y>225</y>
-      <w>99</w>
-      <h>54</h>
+      <x>245</x>
+      <y>175</y>
+      <w>77</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Validate Data
 symbol=substate
@@ -199,10 +199,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>216</x>
-      <y>306</y>
-      <w>36</w>
-      <h>36</h>
+      <x>266</x>
+      <y>238</y>
+      <w>28</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -210,10 +210,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>225</x>
-      <y>270</y>
-      <w>27</w>
-      <h>54</h>
+      <x>273</x>
+      <y>210</y>
+      <w>21</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=1</panel_attributes>
@@ -222,10 +222,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>243</x>
-      <y>306</y>
-      <w>306</w>
-      <h>36</h>
+      <x>287</x>
+      <y>238</y>
+      <w>238</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [valid]
@@ -235,10 +235,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>81</x>
-      <y>126</y>
-      <w>153</w>
-      <h>216</h>
+      <x>161</x>
+      <y>98</y>
+      <w>119</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [not valid]
@@ -248,10 +248,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>189</x>
-      <y>639</y>
-      <w>99</w>
-      <h>54</h>
+      <x>245</x>
+      <y>497</y>
+      <w>77</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Store Data
 symbol=substate
@@ -261,10 +261,10 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
-      <y>684</y>
-      <w>27</w>
-      <h>54</h>
+      <x>280</x>
+      <y>532</y>
+      <w>21</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -272,10 +272,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>234</x>
-      <y>720</y>
-      <w>18</w>
-      <h>18</h>
+      <x>280</x>
+      <y>560</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>type=final
 layer=1</panel_attributes>
@@ -284,10 +284,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>162</x>
-      <y>27</y>
-      <w>162</w>
-      <h>729</h>
+      <x>224</x>
+      <y>21</y>
+      <w>126</w>
+      <h>567</h>
     </coordinates>
     <panel_attributes>Data Storage System
 --
@@ -299,10 +299,10 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>225</x>
-      <y>108</y>
-      <w>27</w>
-      <h>54</h>
+      <x>273</x>
+      <y>84</y>
+      <w>21</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
@@ -311,10 +311,10 @@ layer=2</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>225</x>
-      <y>99</y>
-      <w>18</w>
-      <h>18</h>
+      <x>273</x>
+      <y>77</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>type=initial
 layer=1</panel_attributes>
@@ -323,10 +323,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>351</x>
-      <y>504</y>
-      <w>135</w>
-      <h>63</h>
+      <x>371</x>
+      <y>392</y>
+      <w>105</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>Request/Generate Identifier
 style=wordwrap</panel_attributes>
@@ -335,10 +335,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>351</x>
-      <y>594</y>
-      <w>135</w>
-      <h>45</h>
+      <x>371</x>
+      <y>462</y>
+      <w>105</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Assign Identifier</panel_attributes>
     <additional_attributes/>
@@ -346,10 +346,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>477</x>
-      <y>531</y>
-      <w>234</w>
-      <h>36</h>
+      <x>469</x>
+      <y>413</y>
+      <w>182</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 identifier response</panel_attributes>
@@ -358,10 +358,10 @@ identifier response</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>477</x>
-      <y>513</y>
-      <w>234</w>
-      <h>36</h>
+      <x>469</x>
+      <y>399</y>
+      <w>182</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 identifier request</panel_attributes>
@@ -370,10 +370,10 @@ identifier request</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>342</x>
-      <y>351</y>
-      <w>153</w>
-      <h>342</h>
+      <x>364</x>
+      <y>273</y>
+      <w>119</w>
+      <h>266</h>
     </coordinates>
     <panel_attributes>Data Identification
 --
@@ -390,10 +390,10 @@ valign=top
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>405</x>
-      <y>387</y>
-      <w>18</w>
-      <h>18</h>
+      <x>413</x>
+      <y>301</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -401,10 +401,10 @@ valign=top
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>396</y>
-      <w>27</w>
-      <h>54</h>
+      <x>413</x>
+      <y>308</y>
+      <w>21</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -412,10 +412,10 @@ valign=top
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>630</y>
-      <w>27</w>
-      <h>54</h>
+      <x>413</x>
+      <y>490</y>
+      <w>21</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -423,10 +423,10 @@ valign=top
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>405</x>
-      <y>666</y>
-      <w>18</w>
-      <h>18</h>
+      <x>413</x>
+      <y>518</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -434,10 +434,10 @@ valign=top
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>558</y>
-      <w>27</w>
-      <h>54</h>
+      <x>413</x>
+      <y>434</y>
+      <w>21</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -445,10 +445,10 @@ valign=top
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>693</x>
-      <y>504</y>
-      <w>144</w>
-      <h>63</h>
+      <x>637</x>
+      <y>392</y>
+      <w>112</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>Register Identifier
 symbol=substate</panel_attributes>
@@ -457,10 +457,10 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>351</x>
-      <y>432</y>
-      <w>135</w>
-      <h>54</h>
+      <x>371</x>
+      <y>336</y>
+      <w>105</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Get Identifier Metadata
 style=wordwrap</panel_attributes>
@@ -469,10 +469,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>477</x>
-      <y>477</y>
-      <w>126</w>
-      <h>54</h>
+      <x>469</x>
+      <y>371</y>
+      <w>98</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;120.0;40.0;120.0;10.0</additional_attributes>
@@ -480,10 +480,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>675</x>
+      <x>623</x>
       <y>0</y>
-      <w>180</w>
-      <h>756</h>
+      <w>140</w>
+      <h>588</h>
     </coordinates>
     <panel_attributes>PID Service
 --
@@ -494,10 +494,10 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>531</x>
-      <y>432</y>
-      <w>117</w>
-      <h>54</h>
+      <x>511</x>
+      <y>336</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Get Metadata
 symbol=substate
@@ -507,10 +507,10 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>477</x>
-      <y>450</y>
-      <w>72</w>
-      <h>27</h>
+      <x>469</x>
+      <y>350</y>
+      <w>56</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
@@ -518,10 +518,10 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>279</x>
-      <y>657</y>
-      <w>81</w>
-      <h>27</h>
+      <x>315</x>
+      <y>511</y>
+      <w>63</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
@@ -529,10 +529,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>171</x>
-      <y>63</y>
-      <w>495</w>
-      <h>684</h>
+      <x>231</x>
+      <y>49</y>
+      <w>385</w>
+      <h>532</h>
     </coordinates>
     <panel_attributes>Data Preservation
 --
