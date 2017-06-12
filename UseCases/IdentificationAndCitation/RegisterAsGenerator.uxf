@@ -149,7 +149,7 @@ symbol=substate</panel_attributes>
       <w>140</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>Store Suffix</panel_attributes>
+    <panel_attributes>Store Prefix</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -321,7 +321,7 @@ symbol=substate</panel_attributes>
       <w>140</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>Assign Suffix</panel_attributes>
+    <panel_attributes>Assign Prefix</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
