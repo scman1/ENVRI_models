@@ -24,5 +24,1033 @@ fontsize=16
 
 
 // This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>10</zoom_level>
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>695</x>
+      <y>415</y>
+      <w>65</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+virtual
+laboratory
+symbol=component
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>635</x>
+      <y>435</y>
+      <w>40</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>665</x>
+      <y>435</y>
+      <w>40</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]</panel_attributes>
+    <additional_attributes>20.0;20.0;60.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>640</x>
+      <y>425</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>data request
+lw=0
+halign=right
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>500</x>
+      <y>435</y>
+      <w>80</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+</panel_attributes>
+    <additional_attributes>20.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>470</y>
+      <w>70</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>authorise action
+lw=0
+halign=right
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>450</y>
+      <w>25</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+
+</panel_attributes>
+    <additional_attributes>20.0;40.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>710</x>
+      <y>500</y>
+      <w>50</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+AAAI service
+symbol=component</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>725</x>
+      <y>475</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>570</x>
+      <y>410</y>
+      <w>70</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>
+data broker
+symbol=component
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>500</x>
+      <y>410</y>
+      <w>80</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+</panel_attributes>
+    <additional_attributes>20.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>80</x>
+      <y>325</y>
+      <w>800</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CV Object Configuration&gt;&gt;
+Import Catalogues</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>450</y>
+      <w>185</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+</panel_attributes>
+    <additional_attributes>20.0;40.0;330.0;40.0;350.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>345</x>
+      <y>450</y>
+      <w>265</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+</panel_attributes>
+    <additional_attributes>20.0;90.0;460.0;90.0;510.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>345</x>
+      <y>450</y>
+      <w>280</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+</panel_attributes>
+    <additional_attributes>20.0;220.0;400.0;220.0;540.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>665</x>
+      <y>365</y>
+      <w>140</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>VRE
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>225</x>
+      <y>205</y>
+      <w>105</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+new transporter
+</panel_attributes>
+    <additional_attributes>80.0;10.0;80.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>230</x>
+      <y>170</y>
+      <w>65</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+/data exporter/
+symbol=component
+
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>180</y>
+      <w>65</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>export metadata
+lw=0
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>190</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>205</x>
+      <y>190</y>
+      <w>35</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+
+layer=2</panel_attributes>
+    <additional_attributes>20.0;20.0;50.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>95</x>
+      <y>170</y>
+      <w>70</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+
+catalogue
+service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>160</x>
+      <y>225</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+data transfer
+service
+bg=white
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>225</x>
+      <y>245</y>
+      <w>105</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>185</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>355</x>
+      <y>245</y>
+      <w>40</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>85</x>
+      <y>70</y>
+      <w>275</w>
+      <h>205</h>
+    </coordinates>
+    <panel_attributes>/Catalogue Exporter/
+--
+symbol=component
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>250</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>355</x>
+      <y>190</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=export metadata</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>235</y>
+      <w>85</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>prepare data transfer
+lw=0
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>155</y>
+      <w>40</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>query data
+lw=0
+halign=center
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>665</x>
+      <y>150</y>
+      <w>70</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+catalogue 
+service
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>785</x>
+      <y>165</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+
+group=1</panel_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>785</x>
+      <y>115</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+
+group=1</panel_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>805</x>
+      <y>105</y>
+      <w>75</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>prepare data transfer
+lw=0
+halign=center
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>575</x>
+      <y>125</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+new transporter
+
+group=1</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>665</x>
+      <y>100</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+data transfer
+service
+bg=white
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>595</x>
+      <y>155</y>
+      <w>70</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>update catalogues
+lw=0
+halign=center
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>165</y>
+      <w>45</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+
+group=1</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>165</y>
+      <w>50</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+
+group=1</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>530</x>
+      <y>145</y>
+      <w>65</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>
+/data importer/
+symbol=component
+
+
+bg=white
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>115</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+
+group=1</panel_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>165</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+
+group=1</panel_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>510</x>
+      <y>75</y>
+      <w>280</w>
+      <h>185</h>
+    </coordinates>
+    <panel_attributes>/Catalogue Importer/
+--
+symbol=component
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>505</x>
+      <y>165</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+
+group=1</panel_attributes>
+    <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>435</x>
+      <y>170</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m2=import metadata
+group=1</panel_attributes>
+    <additional_attributes>60.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>755</x>
+      <y>120</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-
+group=1</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>755</x>
+      <y>170</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-
+group=1</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>425</y>
+      <w>45</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>query data
+lw=0
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>435</y>
+      <w>45</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>410</y>
+      <w>45</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>400</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>prepare data transfer
+lw=0
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>215</x>
+      <y>405</y>
+      <w>175</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+
+m1=export A
+m2=import A
+fg=blue</panel_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>120</x>
+      <y>390</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Catalogue Exporter&gt;&gt;
+RI Catalogue A
+symbol=component
+bg=white
+fg=blue
+valign=center
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>215</x>
+      <y>425</y>
+      <w>205</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+
+fg=blue</panel_attributes>
+    <additional_attributes>390.0;90.0;80.0;90.0;80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>450</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>prepare data transfer
+lw=0
+halign=center
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>215</x>
+      <y>425</y>
+      <w>175</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+
+m1=export B
+m2=import B
+fg=red</panel_attributes>
+    <additional_attributes>10.0;110.0;160.0;110.0;230.0;10.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>475</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>prepare data transfer
+lw=0
+halign=center
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>540</y>
+      <w>85</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>prepare data transfer
+lw=0
+halign=center
+fg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>215</x>
+      <y>440</y>
+      <w>175</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+
+m1=export C
+m2=import C
+fg=magenta</panel_attributes>
+    <additional_attributes>10.0;210.0;90.0;210.0;230.0;10.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>380</x>
+      <y>395</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Catalogue Importer&gt;&gt;
+Canonical Metadata Catalogue
+symbol=component
+valign=center
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>120</x>
+      <y>455</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Catalogue Exporter&gt;&gt;
+RI Catalogue A
+symbol=component
+bg=white
+valign=center
+style=wordwrap
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>215</x>
+      <y>485</y>
+      <w>140</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+
+fg=red</panel_attributes>
+    <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>120</x>
+      <y>520</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Catalogue Exporter&gt;&gt;
+RI Catalogue A
+symbol=component
+bg=white
+valign=center
+style=wordwrap
+fg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>215</x>
+      <y>550</y>
+      <w>140</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+
+fg=magenta</panel_attributes>
+    <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>70</x>
+      <y>35</y>
+      <w>820</w>
+      <h>255</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CV Object Configuration&gt;&gt;
+Composite Catalogue Services</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>790</x>
+      <y>295</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>*Note:*
+Configuration for exporintg/importing metadata
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>205</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>575</x>
+      <y>185</y>
+      <w>55</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+
+layer=2</panel_attributes>
+    <additional_attributes>80.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>595</x>
+      <y>195</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>update records
+lw=0
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>665</x>
+      <y>195</y>
+      <w>70</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+
+data store
+controller</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>545</x>
+      <y>185</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+
+import metadata</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;240.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>95</x>
+      <y>105</y>
+      <w>70</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+
+data store
+controller</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>135</y>
+      <w>90</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-[&gt;]
+export data
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0;160.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>120</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=()-[]
+</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>205</x>
+      <y>120</y>
+      <w>70</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=)-[]
+
+layer=2</panel_attributes>
+    <additional_attributes>20.0;20.0;60.0;20.0;120.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>110</y>
+      <w>70</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>retrieve data
+lw=0
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

@@ -697,7 +697,7 @@ halign=right
       <w>640</w>
       <h>160</h>
     </coordinates>
-    <panel_attributes>Query Metadata Clients
+    <panel_attributes>Export Metadata Clients
 --
 </panel_attributes>
     <additional_attributes/>
