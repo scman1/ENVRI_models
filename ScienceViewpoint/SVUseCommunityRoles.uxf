@@ -9,7 +9,7 @@
       <w>710</w>
       <h>270</h>
     </coordinates>
-    <panel_attributes>Data Use Community Roles
+    <panel_attributes>data use community roles
 --
 </panel_attributes>
     <additional_attributes/>
@@ -22,8 +22,8 @@
       <w>210</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Scientist or Researcher
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+scientist
 --
 </panel_attributes>
     <additional_attributes/>
@@ -36,8 +36,8 @@ Scientist or Researcher
       <w>210</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Policy Maker or Decision Maker
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+policy maker
 --
 </panel_attributes>
     <additional_attributes/>
@@ -50,8 +50,8 @@ Policy Maker or Decision Maker
       <w>210</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Technologist or Engineer
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+engineer
 --
 </panel_attributes>
     <additional_attributes/>
@@ -64,8 +64,8 @@ Technologist or Engineer
       <w>210</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Educator or Trainer
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+educator
 --
 </panel_attributes>
     <additional_attributes/>
@@ -78,8 +78,8 @@ Educator or Trainer
       <w>210</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Citizen Scientist
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+citizen scientist
 --</panel_attributes>
     <additional_attributes/>
   </element>
@@ -91,8 +91,8 @@ Citizen Scientist
       <w>210</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Investor or Consultant
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+stakeholder
 --
 </panel_attributes>
     <additional_attributes/>
@@ -105,8 +105,8 @@ Investor or Consultant
       <w>210</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Data Use Subsystem
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+data use subsystem
 --
 </panel_attributes>
     <additional_attributes/>
@@ -119,8 +119,8 @@ Data Use Subsystem
       <w>210</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-General Public or Media
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+citizen
 --
 </panel_attributes>
     <additional_attributes/>
