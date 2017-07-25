@@ -4,51 +4,51 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>30</x>
-      <y>110</y>
-      <w>120</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Data Publication
-symbol=substate</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>170</x>
-      <y>110</y>
-      <w>160</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Semantic Harmonisation
-symbol=substate</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
       <x>50</x>
-      <y>190</y>
+      <y>70</y>
       <w>180</w>
-      <h>60</h>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Data Discovery and Access
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data publication
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>250</x>
+      <y>70</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+semantic harmonisation
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>70</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data discovery and access
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>10</x>
-      <y>50</y>
-      <w>430</w>
-      <h>240</h>
+      <x>30</x>
+      <y>30</y>
+      <w>620</w>
+      <h>220</h>
     </coordinates>
-    <panel_attributes>Data Publication Community Behaviours
+    <panel_attributes>data publication community behaviours
 --
 </panel_attributes>
     <additional_attributes/>
@@ -56,13 +56,26 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>250</x>
-      <y>190</y>
-      <w>160</w>
-      <h>60</h>
+      <x>130</x>
+      <y>160</y>
+      <w>180</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Metadata Harvesting
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data citation
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>370</x>
+      <y>160</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+metadata harvesting
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>

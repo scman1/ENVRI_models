@@ -4,64 +4,64 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>200</x>
-      <y>220</y>
+      <x>130</x>
+      <y>160</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Describe Service
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+describe service
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>400</x>
-      <y>220</y>
+      <x>350</x>
+      <y>160</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Register Service
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+register service
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>310</x>
-      <y>140</y>
+      <x>250</x>
+      <y>70</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Compose Service
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+compose service
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>110</x>
-      <y>140</y>
+      <x>50</x>
+      <y>70</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Coordinate Service
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+coordinate service
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>90</x>
-      <y>100</y>
+      <x>30</x>
+      <y>30</y>
       <w>620</w>
-      <h>210</h>
+      <h>220</h>
     </coordinates>
-    <panel_attributes>Data Processing Community Behaviours
+    <panel_attributes>data processing community behaviours
 --
 </panel_attributes>
     <additional_attributes/>
@@ -69,15 +69,15 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>510</x>
-      <y>140</y>
+      <x>450</x>
+      <y>70</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Customise Processing 
-Environment 
-symbol=substate</panel_attributes>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+customise processing environment 
+symbol=substate
+style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

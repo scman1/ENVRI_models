@@ -4,51 +4,51 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>110</x>
-      <y>160</y>
-      <w>160</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Data Quality Checking
-symbol=substate</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>280</x>
-      <y>160</y>
-      <w>140</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Data Preservation
-symbol=substate</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>130</x>
-      <y>240</y>
+      <x>50</x>
+      <y>70</y>
       <w>180</w>
-      <h>60</h>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Data Replication
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data quality checking
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>250</x>
+      <y>70</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data preservation
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>50</x>
+      <y>160</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data replication
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>100</x>
-      <y>110</y>
-      <w>500</w>
-      <h>300</h>
+      <x>30</x>
+      <y>30</y>
+      <w>620</w>
+      <h>310</h>
     </coordinates>
-    <panel_attributes>Data Curation Community Behaviours
+    <panel_attributes>data curation community behaviours
 --
 </panel_attributes>
     <additional_attributes/>
@@ -56,54 +56,54 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>330</x>
-      <y>240</y>
-      <w>180</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Data Identification
-symbol=substate</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>430</x>
+      <x>250</x>
       <y>160</y>
-      <w>160</w>
-      <h>60</h>
+      <w>180</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Data Product Generation
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data identification
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>330</x>
-      <y>320</y>
+      <x>450</x>
+      <y>70</y>
       <w>180</w>
-      <h>60</h>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Data Annotation
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data product generation
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>130</x>
-      <y>310</y>
+      <x>250</x>
+      <y>250</y>
       <w>180</w>
-      <h>80</h>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Behaviour&gt;&gt;
-Select or Build 
-Conceptual Model
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data annotation
 symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>160</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+select or build conceptual model
+symbol=substate
+style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

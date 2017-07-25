@@ -4,12 +4,12 @@
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>0</x>
-      <y>130</y>
+      <x>20</x>
+      <y>30</y>
       <w>710</w>
       <h>290</h>
     </coordinates>
-    <panel_attributes>Data Acquisition Community Roles
+    <panel_attributes>data acquisition community roles
 --
 </panel_attributes>
     <additional_attributes/>
@@ -17,13 +17,13 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>180</y>
+      <x>40</x>
+      <y>80</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Environmental Scientist
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+environmental scientist
 --
 </panel_attributes>
     <additional_attributes/>
@@ -31,13 +31,13 @@ Environmental Scientist
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>250</y>
+      <x>40</x>
+      <y>150</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Measurement Model Designer
+    <panel_attributes>\&lt;&lt;SV_Role\&gt;&gt;
+measurement model designer
 --
 </panel_attributes>
     <additional_attributes/>
@@ -45,13 +45,13 @@ Measurement Model Designer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>180</y>
+      <x>270</x>
+      <y>80</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Sensor
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+sensor
 --
 </panel_attributes>
     <additional_attributes/>
@@ -59,13 +59,13 @@ Sensor
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>180</y>
+      <x>500</x>
+      <y>80</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Sensor Network
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+sensor network
 --
 </panel_attributes>
     <additional_attributes/>
@@ -73,13 +73,13 @@ Sensor Network
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>250</y>
+      <x>270</x>
+      <y>150</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Technician
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+technician
 --
 </panel_attributes>
     <additional_attributes/>
@@ -87,13 +87,13 @@ Technician
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>250</y>
+      <x>500</x>
+      <y>150</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Measurer
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+measurer
 --
 </panel_attributes>
     <additional_attributes/>
@@ -101,13 +101,13 @@ Measurer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>330</y>
+      <x>40</x>
+      <y>230</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Observer
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+observer
 --
 </panel_attributes>
     <additional_attributes/>
@@ -115,13 +115,13 @@ Observer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>330</y>
+      <x>270</x>
+      <y>230</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Data Collector
+    <panel_attributes>\&lt;&lt;SV Role\&gt;&gt;
+data collector
 --
 </panel_attributes>
     <additional_attributes/>
@@ -129,13 +129,13 @@ Data Collector
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>330</y>
+      <x>500</x>
+      <y>230</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;SV_Role&gt;&gt;
-Data Acquisition Subsystem
+    <panel_attributes>\&lt;&lt;SV_Role\&gt;&gt;
+data acquisition subsystem
 --
 </panel_attributes>
     <additional_attributes/>
