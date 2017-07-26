@@ -7,15 +7,18 @@
       <x>490</x>
       <y>60</y>
       <w>130</w>
-      <h>160</h>
+      <h>190</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
-DataState
+    <panel_attributes>\&lt;&lt;Enumeration\&gt;&gt;
+persisten data state
 --
 raw
+identified
 annotated
-assignedMetadata
-finallyReviewed
+qa assesed
+assigned metadata
+backed up
+finally reviewed
 mapped
 published
 processed</panel_attributes>
@@ -29,8 +32,8 @@ processed</panel_attributes>
       <w>250</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_raw_data :PersistentData_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+ raw data :persistent data
 --
 state = raw
 --</panel_attributes>
@@ -44,10 +47,10 @@ state = raw
       <w>250</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_finally_reviewed_data :PersistentData_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+finally reviewed data : persistent data
 --
-state = finallyReviewed
+state = finally reviewed
 --</panel_attributes>
     <additional_attributes/>
   </element>
@@ -59,8 +62,8 @@ state = finallyReviewed
       <w>250</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_mapped_data :PersistentData_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+_mapped_data :persistent data
 --
 state = mapped
 --</panel_attributes>
@@ -74,8 +77,8 @@ state = mapped
       <w>250</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_published_data :PersistentData_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+published data :persistent data
 --
 state = published
 --</panel_attributes>
@@ -89,10 +92,10 @@ state = published
       <w>170</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-PersistentData
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+persistent data
 --
-+state: DataState
++state:  persistent data state
 --</panel_attributes>
     <additional_attributes/>
   </element>
@@ -104,8 +107,8 @@ PersistentData
       <w>290</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_global_concept :Concept_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+global concept :concept
 --
 </panel_attributes>
     <additional_attributes/>
@@ -129,8 +132,8 @@ _global_concept :Concept_
       <w>290</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_global_conceptual_model :ConceptualModel_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+global conceptual model :conceptual model
 --
 </panel_attributes>
     <additional_attributes/>
@@ -140,11 +143,11 @@ _global_conceptual_model :ConceptualModel_
     <coordinates>
       <x>470</x>
       <y>430</y>
-      <w>280</w>
+      <w>260</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_local_concept :Concept_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+local concept :concept
 --
 </panel_attributes>
     <additional_attributes/>
@@ -165,11 +168,11 @@ _local_concept :Concept_
     <coordinates>
       <x>470</x>
       <y>520</y>
-      <w>280</w>
+      <w>260</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_local_conceptual_model :ConceptualModel_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+local conceptual model :conceptual model
 --
 </panel_attributes>
     <additional_attributes/>
@@ -182,8 +185,8 @@ _local_conceptual_model :ConceptualModel_
       <w>250</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_raw_metadata :Metadata_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+raw metadata :metadata
 --
 state = raw
 --</panel_attributes>
@@ -197,8 +200,8 @@ state = raw
       <w>250</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_registered_metadata :Metadata_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+registered metadata :metadata
 --
 state = registered
 --</panel_attributes>
@@ -212,8 +215,8 @@ state = registered
       <w>250</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-_published_metadata :Metadata_
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+published metadata :metadata
 --
 state = published
 --</panel_attributes>
@@ -227,10 +230,10 @@ state = published
       <w>170</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Object&gt;&gt;
-Metadata
+    <panel_attributes>\&lt;&lt;IV Object\&gt;&gt;
+metadata
 --
-+state: MetadataState
++state: metadata state
 --</panel_attributes>
     <additional_attributes/>
   </element>
@@ -242,11 +245,12 @@ Metadata
       <w>130</w>
       <h>110</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
-MetadataState
+    <panel_attributes>\&lt;&lt;Enumeration\&gt;&gt;
+metadata state
 --
 raw
 registered
+annotated
 published
 </panel_attributes>
     <additional_attributes/>
@@ -259,8 +263,8 @@ published
       <w>650</w>
       <h>860</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_DynamicSchemata&gt;&gt;
-InformationObjectInstances</panel_attributes>
+    <panel_attributes>\&lt;&lt;IV Static Schema\&gt;&gt;
+information object instances</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
