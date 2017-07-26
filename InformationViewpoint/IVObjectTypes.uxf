@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>810</x>
+      <x>820</x>
       <y>510</y>
       <w>90</w>
       <h>50</h>
@@ -18,7 +18,7 @@ concept
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
+      <x>810</x>
       <y>410</y>
       <w>110</w>
       <h>50</h>
@@ -32,7 +32,7 @@ conceptual model
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
+      <x>850</x>
       <y>450</y>
       <w>30</w>
       <h>80</h>
@@ -43,7 +43,7 @@ conceptual model
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>220</x>
+      <x>230</x>
       <y>240</y>
       <w>150</w>
       <h>70</h>
@@ -58,7 +58,7 @@ Metadata
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
+      <x>30</x>
       <y>140</y>
       <w>200</w>
       <h>60</h>
@@ -72,7 +72,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>230</x>
+      <x>240</x>
       <y>380</y>
       <w>130</w>
       <h>50</h>
@@ -85,7 +85,7 @@ metadata catalogue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
+      <x>300</x>
       <y>300</y>
       <w>30</w>
       <h>100</h>
@@ -96,7 +96,7 @@ metadata catalogue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
+      <x>110</x>
       <y>190</y>
       <w>180</w>
       <h>70</h>
@@ -107,7 +107,7 @@ metadata catalogue
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
+      <x>160</x>
       <y>260</y>
       <w>90</w>
       <h>30</h>
@@ -118,7 +118,7 @@ metadata catalogue
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>170</x>
+      <x>180</x>
       <y>60</y>
       <w>250</w>
       <h>60</h>
@@ -132,7 +132,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>80</x>
+      <x>90</x>
       <y>70</y>
       <w>110</w>
       <h>90</h>
@@ -143,7 +143,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
+      <x>290</x>
       <y>110</y>
       <w>30</w>
       <h>150</h>
@@ -154,7 +154,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>30</x>
+      <x>40</x>
       <y>250</y>
       <w>130</w>
       <h>50</h>
@@ -168,7 +168,7 @@ qa notation
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
+      <x>460</x>
       <y>310</y>
       <w>130</w>
       <h>50</h>
@@ -182,7 +182,7 @@ service description
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
+      <x>370</x>
       <y>280</y>
       <w>110</w>
       <h>70</h>
@@ -193,7 +193,7 @@ service description
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>870</x>
+      <x>880</x>
       <y>80</y>
       <w>170</w>
       <h>70</h>
@@ -208,7 +208,7 @@ persistent data
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>40</x>
+      <x>50</x>
       <y>380</y>
       <w>140</w>
       <h>50</h>
@@ -222,7 +222,7 @@ data provenance
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
+      <x>470</x>
       <y>510</y>
       <w>140</w>
       <h>50</h>
@@ -236,7 +236,7 @@ mapping rule
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
+      <x>110</x>
       <y>290</y>
       <w>140</w>
       <h>110</h>
@@ -247,7 +247,7 @@ mapping rule
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
+      <x>480</x>
       <y>90</y>
       <w>150</w>
       <h>50</h>
@@ -260,7 +260,7 @@ measurement result
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
+      <x>460</x>
       <y>220</y>
       <w>100</w>
       <h>50</h>
@@ -273,7 +273,7 @@ citation
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>800</x>
+      <x>810</x>
       <y>210</y>
       <w>110</w>
       <h>50</h>
@@ -286,7 +286,7 @@ backup
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>940</x>
+      <x>950</x>
       <y>210</y>
       <w>140</w>
       <h>50</h>
@@ -299,7 +299,7 @@ unique identifier
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>960</x>
+      <x>970</x>
       <y>140</y>
       <w>60</w>
       <h>90</h>
@@ -310,7 +310,7 @@ unique identifier
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>850</x>
+      <x>860</x>
       <y>140</y>
       <w>80</w>
       <h>90</h>
@@ -321,7 +321,7 @@ unique identifier
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
+      <x>620</x>
       <y>100</y>
       <w>100</w>
       <h>30</h>
@@ -332,7 +332,7 @@ unique identifier
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>930</x>
+      <x>940</x>
       <y>280</y>
       <w>130</w>
       <h>190</h>
@@ -355,7 +355,7 @@ processed</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>230</x>
+      <x>240</x>
       <y>460</y>
       <w>130</w>
       <h>100</h>
@@ -372,7 +372,7 @@ published</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
+      <x>350</x>
       <y>130</y>
       <w>370</w>
       <h>130</h>
@@ -383,18 +383,19 @@ published</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>0</x>
+      <x>10</x>
       <y>0</y>
       <w>1100</w>
       <h>600</h>
     </coordinates>
-    <panel_attributes>information viewpoint objects</panel_attributes>
+    <panel_attributes>\&lt;&lt;IV Invariant Schema\&gt;&gt;
+information object types</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>690</x>
+      <x>700</x>
       <y>90</y>
       <w>110</w>
       <h>50</h>
@@ -408,7 +409,7 @@ data
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>790</x>
+      <x>800</x>
       <y>100</y>
       <w>100</w>
       <h>30</h>
@@ -419,7 +420,7 @@ data
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
+      <x>370</x>
       <y>230</y>
       <w>110</w>
       <h>60</h>
@@ -430,7 +431,7 @@ data
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
+      <x>580</x>
       <y>480</y>
       <w>290</w>
       <h>50</h>
@@ -444,7 +445,7 @@ map to &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
+      <x>580</x>
       <y>550</y>
       <w>270</w>
       <h>50</h>
@@ -458,7 +459,7 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
+      <x>330</x>
       <y>300</y>
       <w>200</w>
       <h>230</h>
@@ -469,7 +470,7 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
+      <x>540</x>
       <y>130</y>
       <w>240</w>
       <h>400</h>

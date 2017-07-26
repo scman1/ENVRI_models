@@ -4,12 +4,12 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>220</x>
-      <y>70</y>
+      <x>670</x>
+      <y>760</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 specify investigation design
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -17,12 +17,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>70</y>
+      <x>210</x>
+      <y>860</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 specify measurement
 or observation
 symbol=substate</panel_attributes>
@@ -31,12 +31,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>220</x>
-      <y>180</y>
+      <x>440</x>
+      <y>160</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 store data
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -44,13 +44,13 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>180</x>
+      <x>170</x>
       <y>0</y>
       <w>720</w>
-      <h>1050</h>
+      <h>970</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_InvariantSchemata&gt;&gt;
-Information Action Types
+    <panel_attributes>\&lt;&lt;IV Invariant Schema\&gt;&gt;
+information action types
 --
 </panel_attributes>
     <additional_attributes/>
@@ -58,12 +58,12 @@ Information Action Types
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>180</y>
+      <x>440</x>
+      <y>260</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 carry out backup
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -71,12 +71,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>680</x>
-      <y>70</y>
+      <x>440</x>
+      <y>460</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 perform measurement
 or observation
 symbol=substate</panel_attributes>
@@ -85,12 +85,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>680</x>
-      <y>180</y>
+      <x>670</x>
+      <y>360</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 finall review
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -98,12 +98,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>220</x>
-      <y>290</y>
+      <x>210</x>
+      <y>560</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 publish data
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -111,12 +111,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>680</x>
-      <y>290</y>
+      <x>210</x>
+      <y>160</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 annotate metadata
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -124,12 +124,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>290</y>
+      <x>210</x>
+      <y>60</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 add metadata
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -137,12 +137,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>400</y>
+      <x>440</x>
+      <y>560</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 publish metadata
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -150,12 +150,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>220</x>
-      <y>400</y>
+      <x>440</x>
+      <y>660</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 register metadata
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -163,12 +163,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>220</x>
-      <y>510</y>
+      <x>210</x>
+      <y>260</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 build conceptual models
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -176,12 +176,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>510</y>
+      <x>440</x>
+      <y>760</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 setup mapping rules
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -189,12 +189,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>680</x>
-      <y>510</y>
+      <x>670</x>
+      <y>60</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 annotate data
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -202,12 +202,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>220</x>
-      <y>620</y>
+      <x>210</x>
+      <y>760</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 semantic annotation
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -215,12 +215,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>680</x>
-      <y>620</y>
+      <x>210</x>
+      <y>460</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 perform mapping
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -228,12 +228,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>220</x>
-      <y>730</y>
+      <x>440</x>
+      <y>360</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 do data mining
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -241,12 +241,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>730</y>
+      <x>670</x>
+      <y>560</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 query data
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -254,12 +254,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>680</x>
-      <y>730</y>
+      <x>670</x>
+      <y>160</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 assign unique identifier
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -267,12 +267,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>220</x>
-      <y>840</y>
+      <x>670</x>
+      <y>260</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 check quality
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -280,12 +280,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>840</y>
+      <x>670</x>
+      <y>860</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 track provenance
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -293,12 +293,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>680</x>
-      <y>840</y>
+      <x>670</x>
+      <y>460</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 process data
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -306,12 +306,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>220</x>
-      <y>950</y>
+      <x>210</x>
+      <y>360</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 describe service
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -319,12 +319,12 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>620</y>
+      <x>670</x>
+      <y>660</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 resolve annotation
 symbol=substate</panel_attributes>
     <additional_attributes/>
@@ -332,13 +332,39 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>690</x>
-      <y>400</y>
+      <x>210</x>
+      <y>660</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;IV_Action&gt;&gt;
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
 query metadata
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>440</x>
+      <y>60</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
+annotate
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>440</x>
+      <y>860</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;IV Action\&gt;&gt;
+store data
 symbol=substate</panel_attributes>
     <additional_attributes/>
   </element>
