@@ -4,10 +4,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>210</x>
-      <y>10</y>
-      <w>150</w>
-      <h>110</h>
+      <x>220</x>
+      <y>20</y>
+      <w>140</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>symbol=component
 
@@ -18,7 +18,7 @@ service</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
+      <x>150</x>
       <y>50</y>
       <w>90</w>
       <h>30</h>
@@ -29,12 +29,12 @@ service</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>60</x>
+      <x>50</x>
       <y>40</y>
-      <w>90</w>
+      <w>110</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>query data
+    <panel_attributes>query catalogues
 lw=0
 halign=left
 </panel_attributes>
@@ -43,7 +43,7 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
+      <x>150</x>
       <y>90</y>
       <w>90</w>
       <h>30</h>
@@ -54,9 +54,9 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
+      <x>40</x>
       <y>80</y>
-      <w>140</w>
+      <w>120</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>update catalogues
@@ -92,7 +92,7 @@ halign=left
     <coordinates>
       <x>420</x>
       <y>40</y>
-      <w>120</w>
+      <w>110</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>export metadata
@@ -106,10 +106,10 @@ halign=right
     <coordinates>
       <x>410</x>
       <y>80</y>
-      <w>120</w>
+      <w>110</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>query resource
+    <panel_attributes>invoke resource
 lw=0
 halign=right
 </panel_attributes>
