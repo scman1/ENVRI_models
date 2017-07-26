@@ -4,7 +4,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>220</x>
+      <x>210</x>
       <y>20</y>
       <w>140</w>
       <h>100</h>
@@ -18,7 +18,7 @@ service</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
+      <x>140</x>
       <y>50</y>
       <w>90</w>
       <h>30</h>
@@ -29,7 +29,7 @@ service</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
+      <x>40</x>
       <y>40</y>
       <w>110</w>
       <h>30</h>
@@ -43,7 +43,7 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
+      <x>140</x>
       <y>90</y>
       <w>90</w>
       <h>30</h>
@@ -54,7 +54,7 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>40</x>
+      <x>30</x>
       <y>80</y>
       <w>120</w>
       <h>30</h>
@@ -68,7 +68,7 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
+      <x>340</x>
       <y>50</y>
       <w>90</w>
       <h>30</h>
@@ -79,7 +79,7 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
+      <x>340</x>
       <y>80</y>
       <w>90</w>
       <h>50</h>
@@ -90,7 +90,7 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>420</x>
+      <x>410</x>
       <y>40</y>
       <w>110</w>
       <h>30</h>
@@ -104,12 +104,12 @@ halign=right
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>410</x>
+      <x>400</x>
       <y>80</y>
       <w>110</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>/invoke resource/
+    <panel_attributes>query resource
 lw=0
 halign=right
 </panel_attributes>
