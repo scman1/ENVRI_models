@@ -10,8 +10,7 @@
       <h>110</h>
     </coordinates>
     <panel_attributes>symbol=component
-data 
-broker</panel_attributes>
+data broker</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -42,10 +41,10 @@ broker</panel_attributes>
     <coordinates>
       <x>380</x>
       <y>40</y>
-      <w>100</w>
+      <w>130</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>query data
+    <panel_attributes>query catalogues
 lw=0
 halign=right
 </panel_attributes>
