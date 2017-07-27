@@ -201,7 +201,7 @@ halign=left
       <w>600</w>
       <h>320</h>
     </coordinates>
-    <panel_attributes>/Asset Collector/
+    <panel_attributes>/catalogue asset collector service/
 --
 symbol=component
 
