@@ -29,7 +29,7 @@ fontsize=16
     <id>UMLGeneric</id>
     <coordinates>
       <x>80</x>
-      <y>460</y>
+      <y>470</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -42,7 +42,7 @@ importer</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>220</x>
-      <y>80</y>
+      <y>90</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -56,7 +56,7 @@ service
     <id>UMLGeneric</id>
     <coordinates>
       <x>240</x>
-      <y>460</y>
+      <y>470</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -70,7 +70,7 @@ collector
     <id>UMLGeneric</id>
     <coordinates>
       <x>400</x>
-      <y>460</y>
+      <y>470</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -84,7 +84,7 @@ layer=7</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>150</x>
-      <y>180</y>
+      <y>190</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -98,7 +98,7 @@ controller
     <id>UMLGeneric</id>
     <coordinates>
       <x>60</x>
-      <y>80</y>
+      <y>90</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -112,7 +112,7 @@ service
     <id>UMLGeneric</id>
     <coordinates>
       <x>240</x>
-      <y>360</y>
+      <y>370</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -126,7 +126,7 @@ service
     <id>UMLDeployment</id>
     <coordinates>
       <x>410</x>
-      <y>20</y>
+      <y>30</y>
       <w>190</w>
       <h>260</h>
     </coordinates>
@@ -138,7 +138,7 @@ processing system</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>430</x>
-      <y>180</y>
+      <y>190</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -152,7 +152,7 @@ controller
     <id>UMLGeneric</id>
     <coordinates>
       <x>430</x>
-      <y>80</y>
+      <y>90</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -166,19 +166,19 @@ service
     <id>UMLDeployment</id>
     <coordinates>
       <x>40</x>
-      <y>20</y>
+      <y>30</y>
       <w>350</w>
       <h>260</h>
     </coordinates>
     <panel_attributes>&lt;&lt;EV_Group&gt;&gt;
-cataloguing system</panel_attributes>
+catalogue system</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
       <x>60</x>
-      <y>300</y>
+      <y>310</y>
       <w>510</w>
       <h>260</h>
     </coordinates>
