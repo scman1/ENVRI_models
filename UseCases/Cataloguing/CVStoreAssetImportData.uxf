@@ -279,12 +279,12 @@ valign=top</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>120</x>
+      <x>150</x>
       <y>160</y>
-      <w>130</w>
+      <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>import raw data
+    <panel_attributes>import  data
 lw=0
 halign=left
 </panel_attributes>
