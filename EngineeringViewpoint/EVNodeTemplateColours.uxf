@@ -31,17 +31,37 @@ fontsize=16
       <x>40</x>
       <y>30</y>
       <w>550</w>
-      <h>570</h>
+      <h>590</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;Microservice\&gt;&gt;
 Service Name</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
+    <id>Text</id>
+    <coordinates>
+      <x>600</x>
+      <y>30</y>
+      <w>310</w>
+      <h>590</h>
+    </coordinates>
+    <panel_attributes>Basic template for microservices architecture
+The basic template consistes of four main types of components: Customer interface components (including those for management), Downstream integration components (including clients to other services), Service behaviour components, and service monitoring components (metrics and management)
+-
+- Customer Integration components: provided for the service clients
+- Downstream Integration components: provided to allow the service to call other services and back end components (including persistence layer components)
+- Service Management components: provided for management and monitoring of the service (start, stop, restart, troubleshoot, logging, provenance )
+- Service Behaviour components: provided to implement service behaviour.
+- Resource Gateway component: 
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>350</x>
-      <y>510</y>
+      <y>530</y>
       <w>180</w>
       <h>60</h>
     </coordinates>
@@ -53,22 +73,8 @@ API Client
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>320</x>
-      <y>150</y>
-      <w>210</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>symbol=component
-Web Service API
-(Customer)
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
       <x>90</x>
-      <y>510</y>
+      <y>530</y>
       <w>240</w>
       <h>60</h>
     </coordinates>
@@ -81,7 +87,7 @@ Resource Management
     <id>UMLGeneric</id>
     <coordinates>
       <x>90</x>
-      <y>290</y>
+      <y>310</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -96,69 +102,34 @@ valign=center
     <id>UMLDeployment</id>
     <coordinates>
       <x>70</x>
-      <y>450</y>
+      <y>470</y>
       <w>490</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
-Downstream integration</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLDeployment</id>
-    <coordinates>
-      <x>70</x>
-      <y>230</y>
-      <w>210</w>
-      <h>210</h>
-    </coordinates>
-    <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
-Monitoring</panel_attributes>
+Downstream integration
+bg=green
+transparency=0</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
       <x>300</x>
-      <y>230</y>
+      <y>250</y>
       <w>260</w>
       <h>210</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
-Service Behaviour</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLDeployment</id>
-    <coordinates>
-      <x>70</x>
-      <y>90</y>
-      <w>490</w>
-      <h>130</h>
-    </coordinates>
-    <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
-Customer Integration</panel_attributes>
+Service Behaviour
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>90</x>
-      <y>150</y>
-      <w>200</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>symbol=component
-Web Service API
-(Management)
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>90</x>
-      <y>360</y>
+      <y>380</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -173,7 +144,7 @@ valign=center
     <id>UMLGeneric</id>
     <coordinates>
       <x>320</x>
-      <y>290</y>
+      <y>310</y>
       <w>210</w>
       <h>130</h>
     </coordinates>
@@ -182,6 +153,62 @@ Domain functions
 style=wordwrap
 valign=center
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>90</x>
+      <y>150</y>
+      <w>190</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Web Service API
+(Management)
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>330</x>
+      <y>150</y>
+      <w>190</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Web Service API
+(Customer)
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>70</x>
+      <y>90</y>
+      <w>490</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
+Customer Integration
+bg=red
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>70</x>
+      <y>250</y>
+      <w>210</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
+Monitoring
+bg=magenta
+transparency=0</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
