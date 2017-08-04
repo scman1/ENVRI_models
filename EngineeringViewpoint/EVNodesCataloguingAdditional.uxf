@@ -116,7 +116,7 @@ service
       <w>190</w>
       <h>260</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV Group&gt;&gt;
+    <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
 processing system</panel_attributes>
     <additional_attributes/>
   </element>
@@ -156,7 +156,7 @@ service
       <w>350</w>
       <h>260</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV Group&gt;&gt;
+    <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
 catalogue system</panel_attributes>
     <additional_attributes/>
   </element>
@@ -168,7 +168,7 @@ catalogue system</panel_attributes>
       <w>510</w>
       <h>260</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV Group&gt;&gt;
+    <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
 data transfer system</panel_attributes>
     <additional_attributes/>
   </element>
@@ -233,7 +233,7 @@ PID Manager
       <w>200</w>
       <h>260</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;EV Group&gt;&gt;
+    <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
 provenance system</panel_attributes>
     <additional_attributes/>
   </element>
