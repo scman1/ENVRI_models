@@ -34,7 +34,7 @@ fontsize=16
       <h>570</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;Microservice\&gt;&gt;
-Service Name</panel_attributes>
+service name</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -46,8 +46,8 @@ Service Name</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>symbol=component
-API Client
-(Service Integration)</panel_attributes>
+api client
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -59,8 +59,7 @@ API Client
       <h>60</h>
     </coordinates>
     <panel_attributes>symbol=component
-Web Service API
-(Customer)
+customer api
 style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
@@ -72,9 +71,10 @@ style=wordwrap</panel_attributes>
       <w>240</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>symbol=component
-Resource Management
-(Backend integration)</panel_attributes>
+    <panel_attributes>resource management
+symbol=component
+valign=center
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -86,7 +86,7 @@ Resource Management
       <h>60</h>
     </coordinates>
     <panel_attributes>symbol=component
-Metrics
+metrics
 style=wordwrap
 valign=center
 </panel_attributes>
@@ -101,7 +101,7 @@ valign=center
       <h>130</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
-Downstream integration</panel_attributes>
+collaboration integration</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -113,7 +113,7 @@ Downstream integration</panel_attributes>
       <h>210</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
-Monitoring</panel_attributes>
+monitoring</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -125,7 +125,7 @@ Monitoring</panel_attributes>
       <h>210</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
-Service Behaviour</panel_attributes>
+service behaviour</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -137,7 +137,7 @@ Service Behaviour</panel_attributes>
       <h>130</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Group\&gt;&gt;
-Customer Integration</panel_attributes>
+customer integration</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -149,8 +149,7 @@ Customer Integration</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>symbol=component
-Web Service API
-(Management)
+management api
 style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
@@ -163,7 +162,7 @@ style=wordwrap</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>symbol=component
-Management
+management
 style=wordwrap
 valign=center
 </panel_attributes>
@@ -178,7 +177,7 @@ valign=center
       <h>130</h>
     </coordinates>
     <panel_attributes>symbol=component
-Domain functions
+domain functions
 style=wordwrap
 valign=center
 </panel_attributes>
