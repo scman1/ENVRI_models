@@ -221,7 +221,7 @@ style=wordwrap</panel_attributes>
       <h>80</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
-PID Manager
+pid manager
 </panel_attributes>
     <additional_attributes/>
   </element>
