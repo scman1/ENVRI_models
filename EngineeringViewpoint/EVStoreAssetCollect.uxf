@@ -102,7 +102,7 @@ service
       <w>490</w>
       <h>260</h>
     </coordinates>
-    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+    <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
 store asset service</panel_attributes>
     <additional_attributes/>
   </element>

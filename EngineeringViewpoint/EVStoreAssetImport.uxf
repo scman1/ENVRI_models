@@ -28,8 +28,8 @@ fontsize=16
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>480</x>
-      <y>90</y>
+      <x>380</x>
+      <y>110</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -41,8 +41,8 @@ importer</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>260</x>
-      <y>190</y>
+      <x>160</x>
+      <y>210</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -54,8 +54,8 @@ pid manager
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>330</x>
-      <y>90</y>
+      <x>230</x>
+      <y>110</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -68,8 +68,8 @@ service
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>410</x>
-      <y>190</y>
+      <x>310</x>
+      <y>210</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -82,8 +82,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>180</x>
-      <y>90</y>
+      <x>80</x>
+      <y>110</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -96,12 +96,12 @@ service
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>160</x>
-      <y>30</y>
+      <x>60</x>
+      <y>50</y>
       <w>490</w>
       <h>260</h>
     </coordinates>
-    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+    <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
 store asset service</panel_attributes>
     <additional_attributes/>
   </element>

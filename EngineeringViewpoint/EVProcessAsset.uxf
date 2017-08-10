@@ -28,8 +28,8 @@ fontsize=16
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>150</x>
-      <y>90</y>
+      <x>70</x>
+      <y>110</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -42,20 +42,20 @@ service
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>130</x>
-      <y>30</y>
+      <x>50</x>
+      <y>50</y>
       <w>340</w>
-      <h>260</h>
+      <h>250</h>
     </coordinates>
-    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+    <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
 process asset service</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>310</x>
-      <y>90</y>
+      <x>220</x>
+      <y>110</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -68,8 +68,8 @@ service
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>230</x>
-      <y>190</y>
+      <x>150</x>
+      <y>200</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
