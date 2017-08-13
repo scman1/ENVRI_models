@@ -103,7 +103,7 @@ service
       <h>260</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
-store asset service</panel_attributes>
+store asset collect</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

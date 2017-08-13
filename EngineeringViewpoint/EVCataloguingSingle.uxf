@@ -28,8 +28,8 @@ fontsize=16
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>400</x>
-      <y>450</y>
+      <x>390</x>
+      <y>410</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -41,22 +41,8 @@ importer</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>270</x>
-      <y>80</y>
-      <w>140</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>\&lt;&lt;EV_BEO\&gt;&gt;
-annotation
-service
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>560</x>
-      <y>450</y>
+      <x>240</x>
+      <y>410</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -69,8 +55,8 @@ collector
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>720</x>
-      <y>450</y>
+      <x>310</x>
+      <y>500</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -83,8 +69,8 @@ layer=7</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>120</x>
-      <y>350</y>
+      <x>320</x>
+      <y>730</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -97,9 +83,9 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>560</x>
-      <y>350</y>
-      <w>140</w>
+      <x>360</x>
+      <y>180</y>
+      <w>110</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
@@ -109,22 +95,10 @@ service
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLDeployment</id>
-    <coordinates>
-      <x>450</x>
-      <y>20</y>
-      <w>190</w>
-      <h>260</h>
-    </coordinates>
-    <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
-processing system</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>470</x>
-      <y>180</y>
+      <x>60</x>
+      <y>410</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -137,9 +111,9 @@ controller
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>470</x>
-      <y>80</y>
-      <w>140</w>
+      <x>480</x>
+      <y>180</y>
+      <w>110</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
@@ -151,36 +125,36 @@ service
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>90</x>
-      <y>20</y>
-      <w>350</w>
-      <h>260</h>
+      <x>40</x>
+      <y>60</y>
+      <w>710</w>
+      <h>220</h>
     </coordinates>
-    <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
-catalogue system</panel_attributes>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+web server</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>380</x>
+      <x>40</x>
       <y>290</y>
-      <w>510</w>
-      <h>260</h>
+      <w>710</w>
+      <h>310</h>
     </coordinates>
-    <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
-data transfer system</panel_attributes>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+application server</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>20</x>
-      <y>290</y>
-      <w>350</w>
-      <h>260</h>
+      <x>40</x>
+      <y>610</y>
+      <w>710</w>
+      <h>220</h>
     </coordinates>
-    <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
 storage system
 </panel_attributes>
     <additional_attributes/>
@@ -188,8 +162,8 @@ storage system
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>40</x>
-      <y>450</y>
+      <x>90</x>
+      <y>730</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -202,8 +176,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>200</x>
-      <y>450</y>
+      <x>560</x>
+      <y>730</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -215,34 +189,22 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>190</x>
-      <y>180</y>
+      <x>570</x>
+      <y>410</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
 pid manager
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLDeployment</id>
-    <coordinates>
-      <x>650</x>
-      <y>20</y>
-      <w>200</w>
-      <h>260</h>
-    </coordinates>
-    <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
-provenance system</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>110</x>
-      <y>80</y>
-      <w>140</w>
+      <x>240</x>
+      <y>180</y>
+      <w>110</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
@@ -252,15 +214,138 @@ service
     <additional_attributes/>
   </element>
   <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>30</x>
+      <y>0</y>
+      <w>740</w>
+      <h>840</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Node\&gt;&gt;
+cataloguing system</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>560</x>
+      <y>350</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+pid management</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>50</x>
+      <y>350</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+process management</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>230</x>
+      <y>120</y>
+      <w>500</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+web services</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>50</x>
+      <y>120</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+web interfaces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>670</x>
-      <y>80</y>
-      <w>150</w>
+      <x>60</x>
+      <y>180</y>
+      <w>140</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
-provenance service</panel_attributes>
+portal
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>80</x>
+      <y>670</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+file system</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>310</x>
+      <y>670</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+data access</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>550</x>
+      <y>670</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+databases</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>230</x>
+      <y>350</y>
+      <w>320</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+data transfer components</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>600</x>
+      <y>180</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+annotation
+service
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

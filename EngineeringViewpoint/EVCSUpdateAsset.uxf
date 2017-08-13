@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=16
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// update asset
+// requires:
+//  - metadata
+//    - asset pid
+//    - update parameters
+// provides:
+//  - metadata
+//    - asset description
+// options:
+//  - update metadata only
+//  - annotate asset
+//  - annotate metadata
+//  - update global pid
+// 
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>150</x>
+      <y>450</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+data store
+controller
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>120</x>
+      <y>10</y>
+      <w>380</w>
+      <h>630</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Node\&gt;&gt;
+catalogue service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>140</x>
+      <y>290</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+management component
+style=wordwrap
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>130</x>
+      <y>390</y>
+      <w>350</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+service collaboration</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>130</x>
+      <y>230</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+monitoring</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>310</x>
+      <y>230</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+service behaviour</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>130</x>
+      <y>70</y>
+      <w>350</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+service interface</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>210</x>
+      <y>130</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+update asset api
+style=wordwrap
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>320</x>
+      <y>290</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+catalogue
+system
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>320</x>
+      <y>450</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+pid manager
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>230</x>
+      <y>540</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+annotation
+service
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

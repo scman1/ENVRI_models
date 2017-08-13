@@ -48,7 +48,7 @@ service
       <h>250</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
-process asset service</panel_attributes>
+process asset</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

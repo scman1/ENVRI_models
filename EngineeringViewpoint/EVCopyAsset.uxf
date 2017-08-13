@@ -76,7 +76,7 @@ service
       <h>250</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Container\&gt;&gt;
-copy asset service</panel_attributes>
+copy asset</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
