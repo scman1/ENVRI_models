@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>320</x>
+      <y>120</y>
+      <w>450</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;CKAN&gt;&gt;
+APIs</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>330</x>
+      <y>180</y>
+      <w>420</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;API\&gt;&gt;
+Action API
+-
++action.get( ) /*API functions for searching for and getting data from CKAN.*/
++action.create( ) /*API functions for adding data to CKAN.*/
++action.update( ) /*API functions for updating existing data in CKAN.*/
++action.patch( ) /*API functions for partial updates of existing data in CKAN*/
++action.delete( ) /*API functions for deleting data from CKAN.*/</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
