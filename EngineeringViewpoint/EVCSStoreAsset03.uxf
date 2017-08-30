@@ -28,8 +28,8 @@ fontsize=16
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>880</x>
-      <y>820</y>
+      <x>290</x>
+      <y>520</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -42,8 +42,8 @@ style=wordwrap
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>500</x>
-      <y>820</y>
+      <x>110</x>
+      <y>520</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -55,10 +55,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>470</x>
-      <y>60</y>
-      <w>600</w>
-      <h>870</h>
+      <x>80</x>
+      <y>80</y>
+      <w>400</w>
+      <h>550</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
 catalogue service</panel_attributes>
@@ -67,8 +67,8 @@ catalogue service</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>500</x>
-      <y>450</y>
+      <x>110</x>
+      <y>360</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -81,10 +81,10 @@ valign=center</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>490</x>
-      <y>280</y>
+      <x>100</x>
+      <y>300</y>
       <w>170</w>
-      <h>470</h>
+      <h>150</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
 monitoring</panel_attributes>
@@ -93,9 +93,21 @@ monitoring</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>490</x>
-      <y>120</y>
-      <w>560</w>
+      <x>280</x>
+      <y>300</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
+service behaviour</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>100</x>
+      <y>140</y>
+      <w>350</w>
       <h>150</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
@@ -105,8 +117,8 @@ service interface</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>670</x>
-      <y>180</y>
+      <x>190</x>
+      <y>200</y>
       <w>170</w>
       <h>80</h>
     </coordinates>
@@ -117,11 +129,25 @@ valign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>290</x>
+      <y>360</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+catalogue
+system
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>490</x>
-      <y>760</y>
-      <w>560</w>
+      <x>100</x>
+      <y>460</y>
+      <w>350</w>
       <h>150</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;EV Cluster\&gt;&gt;
@@ -129,44 +155,10 @@ service collaboration</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLDeployment</id>
-    <coordinates>
-      <x>450</x>
-      <y>0</y>
-      <w>640</w>
-      <h>940</h>
-    </coordinates>
-    <panel_attributes>\&lt;&lt;EV Node\&gt;&gt;
-web server</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>0</x>
-      <y>160</y>
-      <w>440</w>
-      <h>430</h>
-    </coordinates>
-    <panel_attributes>store asset with asset metadata
-data store is in the same node, collocated with catalogue
-  1. contact the data catalogue service
-  2 Provide data asset (metadata) to store asset api (SAA)
-  3 To upload data asset
-    3.1 Call data transfer service (DTS)
-    3.2 Instatiate the appropriate Data Transporter (importer or raw data collector)
-      3.2.1 DT Acquire idendtifier, if needed global ask PID manager, else ask catalogue system.
-      3.2.2 Receive data and pass data to data store controller (DSC)
-      3.3.3 Take metadata and pass it to the DSC
-    
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>690</x>
-      <y>650</y>
+      <x>570</x>
+      <y>530</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -179,8 +171,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>870</x>
-      <y>650</y>
+      <x>750</x>
+      <y>530</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -192,8 +184,8 @@ pid manager
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>870</x>
-      <y>490</y>
+      <x>750</x>
+      <y>370</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -206,8 +198,8 @@ collector
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>690</x>
-      <y>490</y>
+      <x>570</x>
+      <y>370</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -219,8 +211,20 @@ importer</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>670</x>
-      <y>280</y>
+      <x>60</x>
+      <y>20</y>
+      <w>450</w>
+      <h>620</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Node\&gt;&gt;
+web server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>550</x>
+      <y>160</y>
       <w>380</w>
       <h>470</h>
     </coordinates>
@@ -231,8 +235,8 @@ catalogue system</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>680</x>
-      <y>340</y>
+      <x>560</x>
+      <y>220</y>
       <w>350</w>
       <h>240</h>
     </coordinates>
@@ -243,8 +247,8 @@ data transporters</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>680</x>
-      <y>590</y>
+      <x>560</x>
+      <y>470</y>
       <w>170</w>
       <h>150</h>
     </coordinates>
@@ -255,8 +259,8 @@ storage system</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>860</x>
-      <y>590</y>
+      <x>740</x>
+      <y>470</y>
       <w>170</w>
       <h>150</h>
     </coordinates>
@@ -267,8 +271,8 @@ service clients</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>780</x>
-      <y>400</y>
+      <x>660</x>
+      <y>280</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -277,5 +281,48 @@ data transfer service
 style=wordwrap
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>60</x>
+      <y>660</y>
+      <w>870</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Store asset with asset metadata
+  1. Contact the data catalogue service
+  2. Provide data asset (metadata) to store asset api (SAA)
+  3. To upload data asset
+    3.1 Call data transfer service (DTS)
+    3.2 Instatiate the appropriate Data Transporter (importer or raw data collector)
+      3.2.1 DT Acquire idendtifier, if needed global ask PID manager, else ask catalogue system.
+      3.2.2 Receive data and pass data to data store controller (DSC)
+      3.3.3 Take metadata and pass it to the DSC
+  4. Present results of asset creation
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>160</y>
+      <w>150</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;200.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>430</y>
+      <w>150</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;200.0</additional_attributes>
   </element>
 </diagram>
