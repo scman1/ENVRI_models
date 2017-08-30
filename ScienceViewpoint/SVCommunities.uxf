@@ -217,7 +217,7 @@ style=wordwrap</panel_attributes>
       <h>162</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;SV Objective\&gt;&gt;
-data publishing community objective
+data curation community objective
 --
 Curate the scientific data, maintain and archive them, and produce various data products with metadata
 style=wordwrap</panel_attributes>
@@ -232,7 +232,7 @@ style=wordwrap</panel_attributes>
       <h>162</h>
     </coordinates>
     <panel_attributes>\&lt;&lt;SV Objective\&gt;&gt;
-data publishing community objective
+data acquisition community objective
 --
 Collect raw data and bring (streams of) measurements into a system.
 style=wordwrap</panel_attributes>
