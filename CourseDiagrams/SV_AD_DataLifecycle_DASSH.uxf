@@ -68,7 +68,8 @@ valign=top</panel_attributes>
       <w>120</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>Curate Data</panel_attributes>
+    <panel_attributes>Curate Data
+fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -79,7 +80,8 @@ valign=top</panel_attributes>
       <w>120</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>Publish Data</panel_attributes>
+    <panel_attributes>Publish Data
+fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -101,7 +103,8 @@ valign=top</panel_attributes>
       <w>84</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;-
+fg=blue</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -112,7 +115,8 @@ valign=top</panel_attributes>
       <w>84</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;-
+fg=blue</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -123,7 +127,8 @@ valign=top</panel_attributes>
       <w>120</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>Use Data</panel_attributes>
+    <panel_attributes>Use Data
+fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -146,7 +151,8 @@ valign=top</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>Produces
-Curated Data</panel_attributes>
+Curated Data
+fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -159,7 +165,8 @@ Curated Data</panel_attributes>
     </coordinates>
     <panel_attributes>lt=.
 
-</panel_attributes>
+
+fg=blue</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;50.0</additional_attributes>
   </element>
   <element>
@@ -171,7 +178,8 @@ Curated Data</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>Produces
-Published Data</panel_attributes>
+Published Data
+fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -184,7 +192,8 @@ Published Data</panel_attributes>
     </coordinates>
     <panel_attributes>lt=.
 
-</panel_attributes>
+
+fg=blue</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;50.0</additional_attributes>
   </element>
   <element>
@@ -196,7 +205,8 @@ Published Data</panel_attributes>
       <h>60</h>
     </coordinates>
     <panel_attributes>Produces
-Used Data</panel_attributes>
+Used Data
+fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -209,7 +219,8 @@ Used Data</panel_attributes>
     </coordinates>
     <panel_attributes>lt=.
 
-</panel_attributes>
+
+fg=blue</panel_attributes>
     <additional_attributes>10.0;10.0;50.0;50.0</additional_attributes>
   </element>
 </diagram>
