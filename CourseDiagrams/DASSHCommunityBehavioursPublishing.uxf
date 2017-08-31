@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=16
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use +/- or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>40</x>
+      <y>50</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data publication
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>240</x>
+      <y>50</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+semantic harmonisation
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>440</x>
+      <y>50</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data discovery and access
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>20</x>
+      <y>10</y>
+      <w>630</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>data publication community behaviours
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>120</x>
+      <y>140</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+data citation
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>360</x>
+      <y>140</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;SV Behaviour\&gt;&gt;
+metadata harvesting
+symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
