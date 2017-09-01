@@ -29,7 +29,7 @@ fontsize=16
     <id>UMLState</id>
     <coordinates>
       <x>176</x>
-      <y>120</y>
+      <y>128</y>
       <w>128</w>
       <h>48</h>
     </coordinates>
@@ -41,7 +41,7 @@ data identification</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>72</x>
-      <y>80</y>
+      <y>88</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -53,7 +53,7 @@ Somethig</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>16</x>
-      <y>120</y>
+      <y>128</y>
       <w>128</w>
       <h>48</h>
     </coordinates>
@@ -65,7 +65,7 @@ data collection</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>136</x>
-      <y>136</y>
+      <y>144</y>
       <w>56</w>
       <h>24</h>
     </coordinates>
@@ -76,7 +76,7 @@ data collection</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>72</x>
-      <y>88</y>
+      <y>96</y>
       <w>24</w>
       <h>48</h>
     </coordinates>
@@ -87,7 +87,7 @@ data collection</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>296</x>
-      <y>136</y>
+      <y>144</y>
       <w>48</w>
       <h>24</h>
     </coordinates>
@@ -98,7 +98,7 @@ data collection</panel_attributes>
     <id>UMLObject</id>
     <coordinates>
       <x>8</x>
-      <y>8</y>
+      <y>16</y>
       <w>1032</w>
       <h>616</h>
     </coordinates>
@@ -110,7 +110,7 @@ valign=top</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>648</x>
-      <y>296</y>
+      <y>304</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -121,7 +121,7 @@ valign=top</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>368</x>
-      <y>384</y>
+      <y>392</y>
       <w>24</w>
       <h>48</h>
     </coordinates>
@@ -132,7 +132,7 @@ valign=top</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>464</x>
-      <y>120</y>
+      <y>128</y>
       <w>80</w>
       <h>48</h>
     </coordinates>
@@ -144,7 +144,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>328</x>
-      <y>120</y>
+      <y>128</y>
       <w>112</w>
       <h>48</h>
     </coordinates>
@@ -156,7 +156,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>432</x>
-      <y>136</y>
+      <y>144</y>
       <w>48</w>
       <h>24</h>
     </coordinates>
@@ -167,7 +167,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>536</x>
-      <y>136</y>
+      <y>144</y>
       <w>96</w>
       <h>24</h>
     </coordinates>
@@ -178,7 +178,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>616</x>
-      <y>120</y>
+      <y>128</y>
       <w>80</w>
       <h>48</h>
     </coordinates>
@@ -190,7 +190,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>648</x>
-      <y>160</y>
+      <y>168</y>
       <w>24</w>
       <h>56</h>
     </coordinates>
@@ -201,9 +201,9 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>568</x>
-      <y>232</y>
+      <y>240</y>
       <w>88</w>
-      <h>48</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>physical asset archive
 style=wordwrap</panel_attributes>
@@ -213,9 +213,9 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>664</x>
-      <y>232</y>
+      <y>240</y>
       <w>88</w>
-      <h>48</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>digital asset archive
 style=wordwrap</panel_attributes>
@@ -225,7 +225,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>600</x>
-      <y>192</y>
+      <y>200</y>
       <w>64</w>
       <h>56</h>
     </coordinates>
@@ -236,7 +236,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>656</x>
-      <y>192</y>
+      <y>200</y>
       <w>72</w>
       <h>56</h>
     </coordinates>
@@ -249,10 +249,10 @@ style=wordwrap</panel_attributes>
       <x>592</x>
       <y>272</y>
       <w>72</w>
-      <h>48</h>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>70.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>70.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -260,18 +260,18 @@ style=wordwrap</panel_attributes>
       <x>656</x>
       <y>272</y>
       <w>72</w>
-      <h>48</h>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;70.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;70.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>792</x>
-      <y>288</y>
+      <y>304</y>
       <w>88</w>
-      <h>56</h>
+      <h>48</h>
     </coordinates>
     <panel_attributes>transform to MEDIN
 style=wordwrap</panel_attributes>
@@ -281,7 +281,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>624</x>
-      <y>328</y>
+      <y>336</y>
       <w>80</w>
       <h>48</h>
     </coordinates>
@@ -292,19 +292,19 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>784</x>
-      <y>336</y>
-      <w>64</w>
+      <x>776</x>
+      <y>344</y>
+      <w>72</w>
       <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;60.0;40.0;60.0;10.0</additional_attributes>
+    <additional_attributes>10.0;40.0;70.0;40.0;70.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>336</x>
-      <y>344</y>
+      <y>352</y>
       <w>88</w>
       <h>48</h>
     </coordinates>
@@ -316,7 +316,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>416</x>
-      <y>360</y>
+      <y>368</y>
       <w>192</w>
       <h>24</h>
     </coordinates>
@@ -327,7 +327,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>336</x>
-      <y>416</y>
+      <y>424</y>
       <w>80</w>
       <h>48</h>
     </coordinates>
@@ -339,7 +339,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>696</x>
-      <y>344</y>
+      <y>352</y>
       <w>104</w>
       <h>24</h>
     </coordinates>
@@ -350,7 +350,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>584</x>
-      <y>344</y>
+      <y>352</y>
       <w>56</w>
       <h>24</h>
     </coordinates>
@@ -361,7 +361,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>624</x>
-      <y>416</y>
+      <y>424</y>
       <w>88</w>
       <h>48</h>
     </coordinates>
@@ -373,7 +373,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>408</x>
-      <y>432</y>
+      <y>440</y>
       <w>232</w>
       <h>24</h>
     </coordinates>
@@ -384,7 +384,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>920</x>
-      <y>416</y>
+      <y>424</y>
       <w>96</w>
       <h>48</h>
     </coordinates>
@@ -396,7 +396,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>704</x>
-      <y>432</y>
+      <y>440</y>
       <w>232</w>
       <h>24</h>
     </coordinates>
@@ -407,7 +407,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>416</x>
-      <y>456</y>
+      <y>464</y>
       <w>568</w>
       <h>56</h>
     </coordinates>
@@ -418,7 +418,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>336</x>
-      <y>472</y>
+      <y>480</y>
       <w>88</w>
       <h>48</h>
     </coordinates>
@@ -430,7 +430,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>368</x>
-      <y>512</y>
+      <y>520</y>
       <w>560</w>
       <h>48</h>
     </coordinates>
@@ -441,7 +441,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>912</x>
-      <y>520</y>
+      <y>528</y>
       <w>112</w>
       <h>48</h>
     </coordinates>
@@ -453,7 +453,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>960</x>
-      <y>560</y>
+      <y>568</y>
       <w>24</w>
       <h>48</h>
     </coordinates>
@@ -464,7 +464,7 @@ style=wordwrap</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>960</x>
-      <y>592</y>
+      <y>600</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -475,7 +475,7 @@ style=wordwrap</panel_attributes>
     <id>UMLObject</id>
     <coordinates>
       <x>8</x>
-      <y>32</y>
+      <y>40</y>
       <w>152</w>
       <h>592</h>
     </coordinates>
@@ -489,12 +489,11 @@ style=wordwrap</panel_attributes>
     <id>UMLObject</id>
     <coordinates>
       <x>160</x>
-      <y>32</y>
+      <y>40</y>
       <w>608</w>
       <h>592</h>
     </coordinates>
     <panel_attributes>data curation subsystem
--
 valign=top
 style=wordwrap</panel_attributes>
     <additional_attributes/>
@@ -503,7 +502,7 @@ style=wordwrap</panel_attributes>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
       <x>624</x>
-      <y>192</y>
+      <y>200</y>
       <w>64</w>
       <h>16</h>
     </coordinates>
@@ -515,7 +514,7 @@ style=wordwrap</panel_attributes>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
       <x>624</x>
-      <y>296</y>
+      <y>304</y>
       <w>64</w>
       <h>16</h>
     </coordinates>
@@ -527,12 +526,12 @@ style=wordwrap</panel_attributes>
     <id>UMLObject</id>
     <coordinates>
       <x>768</x>
-      <y>32</y>
+      <y>40</y>
       <w>128</w>
       <h>592</h>
     </coordinates>
     <panel_attributes>data processing subsystem
--
+
 valign=top
 style=wordwrap</panel_attributes>
     <additional_attributes/>
@@ -541,7 +540,7 @@ style=wordwrap</panel_attributes>
     <id>UMLSyncBarVertical</id>
     <coordinates>
       <x>776</x>
-      <y>344</y>
+      <y>352</y>
       <w>16</w>
       <h>56</h>
     </coordinates>
@@ -554,7 +553,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>584</x>
-      <y>384</y>
+      <y>392</y>
       <w>216</w>
       <h>24</h>
     </coordinates>
@@ -565,7 +564,7 @@ bg=red</panel_attributes>
     <id>UMLSyncBarVertical</id>
     <coordinates>
       <x>584</x>
-      <y>344</y>
+      <y>352</y>
       <w>16</w>
       <h>56</h>
     </coordinates>
@@ -578,12 +577,96 @@ bg=red</panel_attributes>
     <id>UMLObject</id>
     <coordinates>
       <x>896</x>
-      <y>32</y>
+      <y>40</y>
       <w>144</w>
       <h>592</h>
     </coordinates>
     <panel_attributes>data publishing subsystem
+
+valign=top
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>160</x>
+      <y>64</y>
+      <w>152</w>
+      <h>568</h>
+    </coordinates>
+    <panel_attributes>PID Manager
 --
+valign=top
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>312</x>
+      <y>64</y>
+      <w>136</w>
+      <h>568</h>
+    </coordinates>
+    <panel_attributes>Catalogue System
+--
+valign=top
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>448</x>
+      <y>64</y>
+      <w>112</w>
+      <h>568</h>
+    </coordinates>
+    <panel_attributes>Logging System
+--
+valign=top
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>560</x>
+      <y>64</y>
+      <w>208</w>
+      <h>568</h>
+    </coordinates>
+    <panel_attributes>Storage System
+--
+valign=top
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>768</x>
+      <y>80</y>
+      <w>128</w>
+      <h>552</h>
+    </coordinates>
+    <panel_attributes>Transformation Service
+-
+valign=top
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>896</x>
+      <y>80</y>
+      <w>144</w>
+      <h>552</h>
+    </coordinates>
+    <panel_attributes>Publishing Service
+-
 valign=top
 style=wordwrap</panel_attributes>
     <additional_attributes/>
