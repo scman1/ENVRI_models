@@ -42,7 +42,7 @@ fontsize=16
       <x>290</x>
       <y>80</y>
       <w>130</w>
-      <h>130</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Enumeration&gt;&gt;
 Object States
@@ -109,8 +109,8 @@ Object Name 2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>30</x>
-      <y>240</y>
+      <x>450</x>
+      <y>90</y>
       <w>250</w>
       <h>40</h>
     </coordinates>
@@ -121,8 +121,8 @@ generalisation relationship</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>30</x>
-      <y>270</y>
+      <x>450</x>
+      <y>150</y>
       <w>250</w>
       <h>40</h>
     </coordinates>
