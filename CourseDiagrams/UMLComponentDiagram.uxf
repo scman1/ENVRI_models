@@ -47,7 +47,7 @@ fontsize=16
       <h>60</h>
     </coordinates>
     <panel_attributes>symbol=component
-\&lt;&lt;CV object\&gt;&gt;
+\&lt;&lt;CV Object\&gt;&gt;
 object name
 valign=center
 halign=center</panel_attributes>
