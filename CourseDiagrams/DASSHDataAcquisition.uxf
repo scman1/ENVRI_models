@@ -28,13 +28,13 @@ fontsize=14
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>30</x>
-      <y>80</y>
-      <w>130</w>
-      <h>90</h>
+      <x>90</x>
+      <y>90</y>
+      <w>160</w>
+      <h>80</h>
     </coordinates>
-    <panel_attributes>
-experiment
+    <panel_attributes>\&lt;&lt;CV Object\&gt;&gt;
+virtual
 laboratory
 symbol=component
 </panel_attributes>
@@ -43,63 +43,62 @@ symbol=component
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
+      <x>320</x>
       <y>130</y>
-      <w>90</w>
-      <h>50</h>
+      <w>70</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=)-[]
+    <panel_attributes>lt=()-[]
 </panel_attributes>
-    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>330</y>
-      <w>210</w>
-      <h>40</h>
+      <x>470</x>
+      <y>290</y>
+      <w>220</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=[&gt;]-[&gt;]
-deliver data
-fg=blue
-lw=1.5</panel_attributes>
-    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+
+m1=export data
+m2=import data</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>320</x>
-      <y>70</y>
-      <w>130</w>
-      <h>100</h>
+      <x>310</x>
+      <y>260</y>
+      <w>170</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>
-coordination
-service
+    <panel_attributes>\&lt;&lt;CV Object\&gt;&gt;
+/data exporter/
 symbol=component</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>140</y>
-      <w>120</w>
-      <h>30</h>
+      <x>240</x>
+      <y>130</y>
+      <w>100</w>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>lt=()-[]</panel_attributes>
-    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+    <panel_attributes>lt=)-[]</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>120</y>
-      <w>120</w>
-      <h>30</h>
+      <x>270</x>
+      <y>110</y>
+      <w>90</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>process request
+    <panel_attributes>data request
 lw=0
 halign=right
 </panel_attributes>
@@ -108,21 +107,21 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>120</y>
-      <w>120</w>
-      <h>50</h>
+      <x>600</x>
+      <y>130</y>
+      <w>100</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=)-[]
+    <panel_attributes>lt=()-[]
 </panel_attributes>
-    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
-      <y>100</y>
-      <w>160</w>
+      <x>530</x>
+      <y>110</y>
+      <w>140</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>prepare data transfer
@@ -133,90 +132,92 @@ halign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>120</y>
-      <w>120</w>
-      <h>40</h>
+      <x>520</x>
+      <y>130</y>
+      <w>100</w>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>lt=()-[]
+    <panel_attributes>lt=)-[]
 </panel_attributes>
-    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>10</x>
-      <y>10</y>
-      <w>1040</w>
-      <h>560</h>
+      <x>30</x>
+      <y>30</y>
+      <w>1050</w>
+      <h>500</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;CV Object Configuration&gt;&gt;
-DASSH Data Processing - data persistence</panel_attributes>
+    <panel_attributes>\&lt;&lt;CV Object Configuration\&gt;&gt;
+DASSH Data Logging</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>90</x>
-      <y>190</y>
+      <x>40</x>
+      <y>210</y>
       <w>130</w>
-      <h>40</h>
+      <h>30</h>
     </coordinates>
     <panel_attributes>authorise action
 lw=0
-halign=right
+halign=left
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
+      <x>150</x>
       <y>160</y>
       <w>50</w>
-      <h>60</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=)-[]
 
 </panel_attributes>
-    <additional_attributes>20.0;30.0;20.0;10.0</additional_attributes>
+    <additional_attributes>20.0;50.0;20.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>150</y>
+      <x>750</x>
+      <y>160</y>
       <w>130</w>
-      <h>140</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 new transporter
 </panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>640</x>
-      <y>80</y>
-      <w>140</w>
-      <h>80</h>
+      <x>680</x>
+      <y>100</y>
+      <w>170</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>symbol=component
-
-/data transfer/
-/service/</panel_attributes>
+    <panel_attributes>\&lt;&lt;CV Object\&gt;&gt;
+symbol=component
+data transfer
+service
+bg=white
+layer=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>30</x>
-      <y>260</y>
-      <w>130</w>
-      <h>70</h>
+      <x>90</x>
+      <y>270</y>
+      <w>160</w>
+      <h>80</h>
     </coordinates>
-    <panel_attributes>
+    <panel_attributes>\&lt;&lt;CV Object\&gt;&gt;
 AAAI service
 symbol=component</panel_attributes>
     <additional_attributes/>
@@ -224,85 +225,70 @@ symbol=component</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>80</x>
-      <y>200</y>
+      <x>160</x>
+      <y>220</y>
       <w>30</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=()-[]</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>350</x>
-      <y>160</y>
-      <w>50</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>lt=)-[]
-</panel_attributes>
-    <additional_attributes>20.0;40.0;20.0;10.0</additional_attributes>
+    <panel_attributes>lt=()-[]</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>290</x>
+      <y>220</y>
+      <w>210</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>External resources
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>50</x>
+      <y>370</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>The external resource could be another RI, user provided data, or a public data store.
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>160</y>
+      <w>360</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+new transporter</panel_attributes>
+    <additional_attributes>10.0;100.0;70.0;40.0;300.0;40.0;340.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
     <coordinates>
       <x>370</x>
-      <y>200</y>
+      <y>100</y>
       <w>160</w>
-      <h>40</h>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>coordinate process
-lw=0
-halign=right</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>500</x>
-      <y>280</y>
-      <w>110</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>retrieve data
-lw=0
-halign=right
-</panel_attributes>
+    <panel_attributes>\&lt;&lt;CV Object\&gt;&gt;
+data broker
+symbol=component
+bg=white
+layer=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>310</y>
-      <w>130</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=()-[]
-fg=blue
-lw=1.5</panel_attributes>
-    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>550</x>
+      <x>800</x>
       <y>300</y>
-      <w>100</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=[]-(
-
-lw=1.5
-fg=blue</panel_attributes>
-    <additional_attributes>80.0;20.0;20.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>760</x>
-      <y>340</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -315,8 +301,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>760</x>
-      <y>420</y>
+      <x>800</x>
+      <y>380</y>
       <w>130</w>
       <h>40</h>
     </coordinates>
@@ -329,8 +315,8 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>790</x>
-      <y>450</y>
+      <x>830</x>
+      <y>410</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -342,8 +328,8 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>370</y>
+      <x>760</x>
+      <y>330</y>
       <w>90</w>
       <h>120</h>
     </coordinates>
@@ -355,8 +341,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>920</x>
-      <y>290</y>
+      <x>960</x>
+      <y>250</y>
       <w>110</w>
       <h>90</h>
     </coordinates>
@@ -371,8 +357,8 @@ lw=1.5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>370</y>
+      <x>700</x>
+      <y>330</y>
       <w>50</w>
       <h>100</h>
     </coordinates>
@@ -385,20 +371,20 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>490</y>
-      <w>120</w>
+      <x>460</x>
+      <y>450</y>
+      <w>140</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=()-[]
 </panel_attributes>
-    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>540</x>
-      <y>430</y>
+      <x>580</x>
+      <y>390</y>
       <w>130</w>
       <h>40</h>
     </coordinates>
@@ -411,8 +397,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>290</x>
-      <y>460</y>
+      <x>310</x>
+      <y>420</y>
       <w>160</w>
       <h>70</h>
     </coordinates>
@@ -424,8 +410,8 @@ symbol=component</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>760</x>
-      <y>300</y>
+      <x>800</x>
+      <y>260</y>
       <w>100</w>
       <h>50</h>
     </coordinates>
@@ -438,8 +424,8 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>310</y>
+      <x>880</x>
+      <y>270</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -451,8 +437,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>790</x>
-      <y>280</y>
+      <x>830</x>
+      <y>240</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -465,8 +451,19 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>490</y>
+      <x>240</x>
+      <y>380</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>450</y>
       <w>90</w>
       <h>50</h>
     </coordinates>
@@ -478,8 +475,8 @@ lw=1.5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>670</x>
-      <y>450</y>
+      <x>710</x>
+      <y>410</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -491,8 +488,8 @@ lw=1.5</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>470</y>
+      <x>520</x>
+      <y>430</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -505,8 +502,8 @@ halign=right
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>630</x>
-      <y>270</y>
+      <x>670</x>
+      <y>230</y>
       <w>140</w>
       <h>110</h>
     </coordinates>
@@ -521,8 +518,8 @@ lw=1.5</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>610</x>
-      <y>490</y>
+      <x>650</x>
+      <y>450</y>
       <w>140</w>
       <h>70</h>
     </coordinates>
@@ -537,8 +534,8 @@ lw=1.5</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>890</x>
-      <y>440</y>
+      <x>930</x>
+      <y>400</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -549,69 +546,5 @@ valign=center
 fg=blue
 lw=1.5</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>280</x>
-      <y>270</y>
-      <w>170</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>symbol=component
-DASSH
-MEDIN Converter
-lw=1.5
-fg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>360</x>
-      <y>210</y>
-      <w>30</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=()-[]
-
-fg=blue
-lw=1.5</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLPackage</id>
-    <coordinates>
-      <x>270</x>
-      <y>410</y>
-      <w>210</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>External resource
-lt=.</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>40</x>
-      <y>470</y>
-      <w>180</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>The external resource could be another RI, or a shared e-Infrastructure.
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>210</x>
-      <y>480</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=..</panel_attributes>
-    <additional_attributes>60.0;10.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
