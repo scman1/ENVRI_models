@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
   <help_text>// Uncomment the following line to change the fontsize and font:
-fontsize=14
+fontsize=16
 // fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
 
 
@@ -28,9 +28,9 @@ fontsize=14
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>120</x>
-      <y>300</y>
-      <w>75</w>
+      <x>125</x>
+      <y>275</y>
+      <w>80</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>prepare data transfer
@@ -43,12 +43,11 @@ halign=left
     <id>UMLGeneric</id>
     <coordinates>
       <x>310</x>
-      <y>170</y>
+      <y>200</y>
       <w>70</w>
-      <h>55</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>symbol=component
-
 /raw data/
 /collector/</panel_attributes>
     <additional_attributes/>
@@ -57,7 +56,7 @@ halign=left
     <id>Relation</id>
     <coordinates>
       <x>255</x>
-      <y>305</y>
+      <y>280</y>
       <w>40</w>
       <h>20</h>
     </coordinates>
@@ -69,12 +68,11 @@ halign=left
     <id>UMLGeneric</id>
     <coordinates>
       <x>285</x>
-      <y>290</y>
+      <y>275</y>
       <w>70</w>
-      <h>45</h>
+      <h>35</h>
     </coordinates>
     <panel_attributes>symbol=component
-
 /data transfer/
 /service/</panel_attributes>
     <additional_attributes/>
@@ -83,34 +81,34 @@ halign=left
     <id>Relation</id>
     <coordinates>
       <x>310</x>
-      <y>220</y>
-      <w>65</w>
-      <h>80</h>
+      <y>245</y>
+      <w>70</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 new transporter
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>375</x>
-      <y>205</y>
-      <w>85</w>
+      <y>230</y>
+      <w>90</w>
       <h>25</h>
     </coordinates>
     <panel_attributes>lt=[&gt;]-[&gt;]
-import data
+delive raw data
 </panel_attributes>
-    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>135</x>
-      <y>180</y>
-      <w>65</w>
+      <y>205</y>
+      <w>75</w>
       <h>15</h>
     </coordinates>
     <panel_attributes>acquire identifier
@@ -123,8 +121,8 @@ halign=left
     <id>UMLClass</id>
     <coordinates>
       <x>390</x>
-      <y>175</y>
-      <w>50</w>
+      <y>200</y>
+      <w>55</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>update records
@@ -137,21 +135,21 @@ halign=right
     <id>Relation</id>
     <coordinates>
       <x>375</x>
-      <y>185</y>
-      <w>45</w>
+      <y>210</y>
+      <w>50</w>
       <h>25</h>
     </coordinates>
     <panel_attributes>lt=)-[]
 </panel_attributes>
-    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
       <x>110</x>
-      <y>105</y>
+      <y>145</y>
       <w>875</w>
-      <h>260</h>
+      <h>230</h>
     </coordinates>
     <panel_attributes>&lt;&lt;CV Object Configuration&gt;&gt;
 store asset</panel_attributes>
@@ -160,8 +158,8 @@ store asset</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>450</x>
-      <y>175</y>
+      <x>455</x>
+      <y>200</y>
       <w>75</w>
       <h>50</h>
     </coordinates>
@@ -174,8 +172,8 @@ controller</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>410</x>
-      <y>185</y>
+      <x>415</x>
+      <y>210</y>
       <w>50</w>
       <h>20</h>
     </coordinates>
@@ -186,13 +184,12 @@ controller</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>445</x>
+      <x>450</x>
       <y>260</y>
       <w>80</w>
-      <h>55</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>symbol=component
-
 catalogue
 service</panel_attributes>
     <additional_attributes/>
@@ -201,35 +198,35 @@ service</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>360</x>
-      <y>220</y>
+      <y>245</y>
       <w>55</w>
-      <h>95</h>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=)-[]
 </panel_attributes>
-    <additional_attributes>80.0;160.0;10.0;160.0;10.0;10.0</additional_attributes>
+    <additional_attributes>80.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>405</x>
-      <y>290</y>
-      <w>50</w>
+      <y>275</y>
+      <w>55</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>lt=()-[]
 </panel_attributes>
-    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>375</x>
-      <y>280</y>
-      <w>60</w>
+      <x>370</x>
+      <y>265</y>
+      <w>65</w>
       <h>20</h>
     </coordinates>
-    <panel_attributes>update catalogue
+    <panel_attributes>update catalogues
 lw=0
 halign=right
 </panel_attributes>
@@ -238,24 +235,24 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>205</y>
-      <w>100</w>
+      <x>230</x>
+      <y>230</y>
+      <w>90</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>lt=[&gt;]-[&gt;]
 </panel_attributes>
-    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>150</x>
-      <y>205</y>
-      <w>45</w>
+      <x>130</x>
+      <y>230</y>
+      <w>75</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>deliver data
+    <panel_attributes>import raw data
 lw=0
 halign=left
 </panel_attributes>
@@ -264,10 +261,10 @@ halign=left
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>225</x>
-      <y>140</y>
-      <w>310</w>
-      <h>205</h>
+      <x>235</x>
+      <y>175</y>
+      <w>305</w>
+      <h>185</h>
     </coordinates>
     <panel_attributes>/Raw Data Importer/
 --
@@ -279,8 +276,8 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
-      <y>210</y>
+      <x>200</x>
+      <y>235</y>
       <w>40</w>
       <h>15</h>
     </coordinates>
@@ -290,19 +287,19 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>225</x>
-      <y>310</y>
-      <w>35</w>
+      <x>235</x>
+      <y>285</y>
+      <w>30</w>
       <h>15</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
-      <y>305</y>
+      <x>200</x>
+      <y>280</y>
       <w>45</w>
       <h>20</h>
     </coordinates>
@@ -313,9 +310,9 @@ valign=top</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>555</x>
-      <y>300</y>
-      <w>75</w>
+      <x>550</x>
+      <y>280</y>
+      <w>85</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>prepare data transfer
@@ -327,10 +324,10 @@ halign=left
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>745</x>
-      <y>170</y>
+      <x>740</x>
+      <y>200</y>
       <w>70</w>
-      <h>55</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>symbol=component
 
@@ -341,25 +338,24 @@ halign=left
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
-      <y>305</y>
-      <w>40</w>
+      <x>685</x>
+      <y>285</y>
+      <w>45</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>lt=()-[]
 </panel_attributes>
-    <additional_attributes>10.0;20.0;60.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>720</x>
-      <y>290</y>
+      <y>275</y>
       <w>70</w>
-      <h>45</h>
+      <h>35</h>
     </coordinates>
     <panel_attributes>symbol=component
-
 /data transfer/
 /service/</panel_attributes>
     <additional_attributes/>
@@ -368,34 +364,34 @@ halign=left
     <id>Relation</id>
     <coordinates>
       <x>745</x>
-      <y>220</y>
-      <w>65</w>
-      <h>80</h>
+      <y>245</y>
+      <w>70</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 new transporter
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>810</x>
-      <y>205</y>
-      <w>85</w>
+      <x>805</x>
+      <y>230</y>
+      <w>90</w>
       <h>25</h>
     </coordinates>
     <panel_attributes>lt=[&gt;]-[&gt;]
-import data
+deliver data
 </panel_attributes>
-    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
-      <y>180</y>
-      <w>65</w>
+      <x>560</x>
+      <y>205</y>
+      <w>80</w>
       <h>15</h>
     </coordinates>
     <panel_attributes>acquire identifier
@@ -407,9 +403,9 @@ halign=left
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>825</x>
-      <y>175</y>
-      <w>50</w>
+      <x>820</x>
+      <y>200</y>
+      <w>55</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>update records
@@ -421,20 +417,20 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>810</x>
-      <y>185</y>
-      <w>45</w>
+      <x>805</x>
+      <y>210</y>
+      <w>50</w>
       <h>25</h>
     </coordinates>
     <panel_attributes>lt=)-[]
 </panel_attributes>
-    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>885</x>
-      <y>175</y>
+      <y>200</y>
       <w>75</w>
       <h>50</h>
     </coordinates>
@@ -448,7 +444,7 @@ controller</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>845</x>
-      <y>185</y>
+      <y>210</y>
       <w>50</w>
       <h>20</h>
     </coordinates>
@@ -462,10 +458,9 @@ controller</panel_attributes>
       <x>880</x>
       <y>260</y>
       <w>80</w>
-      <h>55</h>
+      <h>40</h>
     </coordinates>
     <panel_attributes>symbol=component
-
 catalogue
 service</panel_attributes>
     <additional_attributes/>
@@ -473,36 +468,36 @@ service</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>795</x>
-      <y>220</y>
+      <x>790</x>
+      <y>245</y>
       <w>55</w>
-      <h>95</h>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=)-[]
 </panel_attributes>
-    <additional_attributes>80.0;160.0;10.0;160.0;10.0;10.0</additional_attributes>
+    <additional_attributes>80.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
-      <y>290</y>
-      <w>50</w>
+      <x>835</x>
+      <y>275</y>
+      <w>55</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>lt=()-[]
 </panel_attributes>
-    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>810</x>
-      <y>280</y>
-      <w>60</w>
+      <x>800</x>
+      <y>265</y>
+      <w>65</w>
       <h>20</h>
     </coordinates>
-    <panel_attributes>update catalogue
+    <panel_attributes>update catalogues
 lw=0
 halign=right
 </panel_attributes>
@@ -511,24 +506,24 @@ halign=right
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>655</x>
-      <y>205</y>
-      <w>100</w>
+      <x>660</x>
+      <y>230</y>
+      <w>90</w>
       <h>20</h>
     </coordinates>
     <panel_attributes>lt=[&gt;]-[&gt;]
 </panel_attributes>
-    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>580</x>
-      <y>205</y>
+      <x>595</x>
+      <y>230</y>
       <w>45</w>
       <h>15</h>
     </coordinates>
-    <panel_attributes>deliver data
+    <panel_attributes>import data
 lw=0
 halign=left
 </panel_attributes>
@@ -537,12 +532,12 @@ halign=left
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>660</x>
-      <y>145</y>
-      <w>310</w>
-      <h>200</h>
+      <x>665</x>
+      <y>175</y>
+      <w>305</w>
+      <h>185</h>
     </coordinates>
-    <panel_attributes>/Raw Data Importer/
+    <panel_attributes>/Data Importer/
 --
 symbol=component
 
@@ -552,19 +547,8 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>210</y>
-      <w>45</w>
-      <h>15</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>660</x>
-      <y>310</y>
+      <x>635</x>
+      <y>235</y>
       <w>35</w>
       <h>15</h>
     </coordinates>
@@ -574,8 +558,19 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>625</x>
-      <y>305</y>
+      <x>665</x>
+      <y>290</y>
+      <w>30</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>285</y>
       <w>45</w>
       <h>20</h>
     </coordinates>
@@ -586,31 +581,31 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
-      <y>185</y>
-      <w>65</w>
+      <x>705</x>
+      <y>210</y>
+      <w>45</w>
       <h>25</h>
     </coordinates>
     <panel_attributes>lt=)-[]
 </panel_attributes>
-    <additional_attributes>20.0;20.0;110.0;20.0</additional_attributes>
+    <additional_attributes>20.0;20.0;70.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>190</y>
-      <w>45</w>
+      <x>665</x>
+      <y>215</y>
+      <w>50</w>
       <h>15</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>625</x>
-      <y>185</y>
+      <x>630</x>
+      <y>210</y>
       <w>45</w>
       <h>25</h>
     </coordinates>
@@ -622,7 +617,7 @@ valign=top</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>255</x>
-      <y>185</y>
+      <y>210</y>
       <w>65</w>
       <h>25</h>
     </coordinates>
@@ -633,8 +628,8 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
-      <y>185</y>
+      <x>200</x>
+      <y>210</y>
       <w>45</w>
       <h>25</h>
     </coordinates>
@@ -645,12 +640,12 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>225</x>
-      <y>190</y>
-      <w>45</w>
+      <x>205</x>
+      <y>215</y>
+      <w>65</w>
       <h>15</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
   </element>
 </diagram>

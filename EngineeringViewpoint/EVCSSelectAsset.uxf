@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=16
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+//select asset
+//requires:
+// - asset pid (precondition: discovery)
+// - metadata
+//   - filtering parameters (optional)
+//provides:
+// - asset [view]
+// - metadata
+//   - asset pid
+//   - asset reference (publishable)
+//  - asset description
+//   - asset view details
+//options:
+// - select
+// - project
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>110</x>
+      <y>460</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+data store
+controller
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>80</x>
+      <y>20</y>
+      <w>390</w>
+      <h>640</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Node\&gt;&gt;
+catalogue service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>100</x>
+      <y>300</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+management component
+style=wordwrap
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>90</x>
+      <y>400</y>
+      <w>350</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+service collaboration</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>90</x>
+      <y>240</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+monitoring</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>270</x>
+      <y>240</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+service behaviour</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>90</x>
+      <y>80</y>
+      <w>350</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Capsule\&gt;&gt;
+service interface</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>240</x>
+      <y>140</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+select asset api
+style=wordwrap
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>280</x>
+      <y>300</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+catalogue
+system
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>110</x>
+      <y>550</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+pid manager
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>270</x>
+      <y>550</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+process
+controller
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>270</x>
+      <y>460</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+coordination
+service
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
