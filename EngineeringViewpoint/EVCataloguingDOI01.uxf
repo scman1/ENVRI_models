@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=16
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use +/- or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>460</x>
+      <y>190</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+data
+importer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>385</x>
+      <y>190</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+raw data
+collector
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>420</x>
+      <y>225</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+data
+exporter
+layer=7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>425</x>
+      <y>310</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+data store
+controller
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>445</x>
+      <y>105</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+data transfer
+services
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>295</x>
+      <y>190</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+process
+controller
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>505</x>
+      <y>105</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+coordination
+services
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>285</x>
+      <y>65</y>
+      <w>355</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>web server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>285</x>
+      <y>270</y>
+      <w>355</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>storage system
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>310</x>
+      <y>310</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+file management system
+
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>545</x>
+      <y>310</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+database system
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>550</x>
+      <y>190</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+DOI API client
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>385</x>
+      <y>105</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+catalogue
+services
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>280</x>
+      <y>45</y>
+      <w>370</w>
+      <h>315</h>
+    </coordinates>
+    <panel_attributes>cataloguing system</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>545</x>
+      <y>170</y>
+      <w>85</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>pid manager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>290</x>
+      <y>170</y>
+      <w>85</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>process management</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>380</x>
+      <y>85</y>
+      <w>250</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>web services</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>290</x>
+      <y>85</y>
+      <w>85</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>web interfaces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>295</x>
+      <y>105</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+Science Gateway
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>305</x>
+      <y>290</y>
+      <w>85</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>file system</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>420</x>
+      <y>290</y>
+      <w>85</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>data access</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>540</x>
+      <y>290</y>
+      <w>85</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>databases</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>565</x>
+      <y>105</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV BEO\&gt;&gt;
+annotation
+services
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>285</x>
+      <y>150</y>
+      <w>355</w>
+      <h>115</h>
+    </coordinates>
+    <panel_attributes>application server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>380</x>
+      <y>170</y>
+      <w>160</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>data transfer components</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>830</x>
+      <y>290</y>
+      <w>70</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>CRUD Operations on DOI Metadata
+--
+Create, Retrieve, Update, Delete
+DOI Metadata
+style=wordwrap
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>725</x>
+      <y>220</y>
+      <w>115</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>210.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>810</x>
+      <y>120</y>
+      <w>125</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>DOI Service
+bg=white
+transparency=0
+layer=1
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>825</x>
+      <y>155</y>
+      <w>90</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>DOI API
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>825</x>
+      <y>225</y>
+      <w>90</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>DOI Media API
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>800</x>
+      <y>95</y>
+      <w>150</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>DOI Registry
+layer=6</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>825</x>
+      <y>190</y>
+      <w>90</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>DOI Metadata API
+bg=white
+layer=2
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>705</x>
+      <y>145</y>
+      <w>66</w>
+      <h>41</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+&lt;&lt;EV_Channel&gt;&gt;
+DOI API
+
+</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+	
+//Box 1
+//Verticals
+//drawLine(int x1, int y1, int x2, int y2);
+drawLine(width/2-5, 5, width/2-5, 25);//back right edge
+drawLine(width/2-30, 10, width/2-30, 30);//left edge
+drawLine(width/2-10, 10, width/2-10, 30);//right edge
+
+//Horizontals
+drawLine(width/2-25, 5, width/2-5, 5);//back top edge
+drawLine(width/2-30, 10, width/2-10, 10);//top edge
+drawLine(width/2-30, 30, width/2-10, 30);//bottom edge
+
+//Diagonals
+drawLine(width/2-10, 30, width/2-5, 25);//bottom right edge
+drawLine(width/2-10, 10, width/2-5, 5);  //top right edge
+drawLine(width/2-30, 10, width/2-25, 5);  //top left edge
+
+//Middles
+drawLine(width/2-30, 20, width/2-10, 20);//middle hor
+drawLine(width/2-20, 10, width/2-20, 30);//middle ver
+
+//Box2
+//Verticals
+drawLine(width/2+35, 0, width/2+35, 20);//back right edge
+drawLine(width/2+10, 5, width/2+10, 25);//left edge
+drawLine(width/2+30, 5, width/2+30, 25);//right edge
+
+//Horizontals
+drawLine(width/2+15, 0, width/2+35, 0);//back top edge
+drawLine(width/2+10, 5, width/2+30, 5);//top edge
+drawLine(width/2+10, 25, width/2+30, 25);//top edge
+
+//Diagonals
+drawLine(width/2+30, 25, width/2+35, 20);//low right edge
+drawLine(width/2+30, 5, width/2+35, 0);  //top right edge
+drawLine(width/2+10, 5, width/2+15, 0);  //top left edge
+//Middles
+drawLine(width/2+10, 15, width/2+30, 15);//middle hor
+drawLine(width/2+20, 5, width/2+20, 25);//middle ver
+
+//Join
+drawLine(width/2-5, 15, width/2+10, 11);//back right edge
+drawLine(width/2-5, 16, width/2+10, 12);//back right edge
+drawLine(width/2-5, 17, width/2+10, 13);//back right edge
+
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>150</y>
+      <w>85</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;
+layer=5</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>615</x>
+      <y>165</y>
+      <w>100</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;
+layer=5</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>700</x>
+      <y>200</y>
+      <w>71</w>
+      <h>31</h>
+    </coordinates>
+    <panel_attributes>// Modify the text below and
+// observe the element preview.
+
+DOI Metadata API
+
+layer=5
+</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+	
+//Box 1
+//Verticals
+//drawLine(int x1, int y1, int x2, int y2);
+drawLine(width/2-5, 5, width/2-5, 25);//back right edge
+drawLine(width/2-30, 10, width/2-30, 30);//left edge
+drawLine(width/2-10, 10, width/2-10, 30);//right edge
+
+//Horizontals
+drawLine(width/2-25, 5, width/2-5, 5);//back top edge
+drawLine(width/2-30, 10, width/2-10, 10);//top edge
+drawLine(width/2-30, 30, width/2-10, 30);//bottom edge
+
+//Diagonals
+drawLine(width/2-10, 30, width/2-5, 25);//bottom right edge
+drawLine(width/2-10, 10, width/2-5, 5);  //top right edge
+drawLine(width/2-30, 10, width/2-25, 5);  //top left edge
+
+//Middles
+drawLine(width/2-30, 20, width/2-10, 20);//middle hor
+drawLine(width/2-20, 10, width/2-20, 30);//middle ver
+
+//Box2
+//Verticals
+drawLine(width/2+35, 0, width/2+35, 20);//back right edge
+drawLine(width/2+10, 5, width/2+10, 25);//left edge
+drawLine(width/2+30, 5, width/2+30, 25);//right edge
+
+//Horizontals
+drawLine(width/2+15, 0, width/2+35, 0);//back top edge
+drawLine(width/2+10, 5, width/2+30, 5);//top edge
+drawLine(width/2+10, 25, width/2+30, 25);//top edge
+
+//Diagonals
+drawLine(width/2+30, 25, width/2+35, 20);//low right edge
+drawLine(width/2+30, 5, width/2+35, 0);  //top right edge
+drawLine(width/2+10, 5, width/2+15, 0);  //top left edge
+//Middles
+drawLine(width/2+10, 15, width/2+30, 15);//middle hor
+drawLine(width/2+20, 5, width/2+20, 25);//middle ver
+
+//Join
+drawLine(width/2-5, 15, width/2+10, 11);//back right edge
+drawLine(width/2-5, 16, width/2+10, 12);//back right edge
+drawLine(width/2-5, 17, width/2+10, 13);//back right edge
+
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>745</x>
+      <y>195</y>
+      <w>90</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;
+layer=5</panel_attributes>
+    <additional_attributes>10.0;30.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>615</x>
+      <y>205</y>
+      <w>95</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;
+layer=5</panel_attributes>
+    <additional_attributes>170.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>715</x>
+      <y>245</y>
+      <w>56</w>
+      <h>31</h>
+    </coordinates>
+    <panel_attributes>DOI Media API
+</panel_attributes>
+    <additional_attributes/>
+    <custom_code>//Modify the code below to define the element's behavior.
+//
+//Example:  Change the line
+//  y += printCenter(textline,y);
+//to
+//  y += 2*printCenter(textline,y);
+//and observe the element preview.
+
+// allowResize=false; field not visible
+
+//int y=textHeight();
+height = 40;
+width = 70;
+//setElementCentered();
+for(String textline: textlines){
+	height = height + textHeight();
+	width = max(textWidth(textline)+10, width);
+	}
+	
+//Box 1
+//Verticals
+//drawLine(int x1, int y1, int x2, int y2);
+drawLine(width/2-5, 5, width/2-5, 25);//back right edge
+drawLine(width/2-30, 10, width/2-30, 30);//left edge
+drawLine(width/2-10, 10, width/2-10, 30);//right edge
+
+//Horizontals
+drawLine(width/2-25, 5, width/2-5, 5);//back top edge
+drawLine(width/2-30, 10, width/2-10, 10);//top edge
+drawLine(width/2-30, 30, width/2-10, 30);//bottom edge
+
+//Diagonals
+drawLine(width/2-10, 30, width/2-5, 25);//bottom right edge
+drawLine(width/2-10, 10, width/2-5, 5);  //top right edge
+drawLine(width/2-30, 10, width/2-25, 5);  //top left edge
+
+//Middles
+drawLine(width/2-30, 20, width/2-10, 20);//middle hor
+drawLine(width/2-20, 10, width/2-20, 30);//middle ver
+
+//Box2
+//Verticals
+drawLine(width/2+35, 0, width/2+35, 20);//back right edge
+drawLine(width/2+10, 5, width/2+10, 25);//left edge
+drawLine(width/2+30, 5, width/2+30, 25);//right edge
+
+//Horizontals
+drawLine(width/2+15, 0, width/2+35, 0);//back top edge
+drawLine(width/2+10, 5, width/2+30, 5);//top edge
+drawLine(width/2+10, 25, width/2+30, 25);//top edge
+
+//Diagonals
+drawLine(width/2+30, 25, width/2+35, 20);//low right edge
+drawLine(width/2+30, 5, width/2+35, 0);  //top right edge
+drawLine(width/2+10, 5, width/2+15, 0);  //top left edge
+//Middles
+drawLine(width/2+10, 15, width/2+30, 15);//middle hor
+drawLine(width/2+20, 5, width/2+20, 25);//middle ver
+
+//Join
+drawLine(width/2-5, 15, width/2+10, 11);//back right edge
+drawLine(width/2-5, 16, width/2+10, 12);//back right edge
+drawLine(width/2-5, 17, width/2+10, 13);//back right edge
+
+// setElementCentered(); method not defined for custom element 
+int y=30;
+for(String textline : textlines) {
+	if(textline.equals("--")){
+		y+=10;
+		drawLineHorizontal(y-2);
+		}
+	else{
+	  y += textHeight(); 
+	  printCenter(textline,y);
+	}
+}</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>755</x>
+      <y>235</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;
+layer=5</panel_attributes>
+    <additional_attributes>10.0;40.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>615</x>
+      <y>205</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;
+layer=5</panel_attributes>
+    <additional_attributes>200.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>730</x>
+      <y>305</y>
+      <w>70</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>CRUD Operations on DOI Media
+--
+Create, Retrieve, Update, Delete
+DOI Media
+
+
+style=wordwrap
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>265</y>
+      <w>45</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>70.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>710</x>
+      <y>70</y>
+      <w>70</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Operations on DOI
+--
+Create (register)and retrieve (resolve) DOIs
+style=wordwrap
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>115</y>
+      <w>25</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>10.0;60.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>550</x>
+      <y>225</y>
+      <w>70</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>\&lt;&lt;EV Object\&gt;&gt;
+PID Generator
+bg=white
+layer=5
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
