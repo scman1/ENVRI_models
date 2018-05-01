@@ -4,7 +4,6 @@
 fontsize=16
 // fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
 
-
 //////////////////////////////////////////////////////////////////////////////////////////////
 // Welcome to UMLet!
 //
@@ -24,14 +23,14 @@ fontsize=16
 
 
 // This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>7</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>35</x>
-      <y>189</y>
-      <w>14</w>
-      <h>14</h>
+      <x>30</x>
+      <y>210</y>
+      <w>20</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>type=initial
 lw=2.0
@@ -39,24 +38,12 @@ lw=2.0
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>840</x>
-      <y>147</y>
-      <w>14</w>
-      <h>14</h>
-    </coordinates>
-    <panel_attributes>type=final
-lw=2.0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>42</x>
-      <y>189</y>
-      <w>49</w>
-      <h>21</h>
+      <x>40</x>
+      <y>210</y>
+      <w>70</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 lw=2.0</panel_attributes>
@@ -65,23 +52,25 @@ lw=2.0</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>126</x>
-      <y>175</y>
-      <w>91</w>
-      <h>42</h>
+      <x>180</x>
+      <y>190</y>
+      <w>130</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Data Acquisition
 lw=2.0
+style=wordwrap
+valign=center
 fg=gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>14</x>
-      <y>14</y>
-      <w>854</w>
-      <h>273</h>
+      <x>0</x>
+      <y>20</y>
+      <w>1090</w>
+      <h>410</h>
     </coordinates>
     <panel_attributes>Data Lifecycle
 --
@@ -92,36 +81,40 @@ lw=2.0</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>252</x>
-      <y>175</y>
-      <w>77</w>
-      <h>42</h>
+      <x>360</x>
+      <y>190</y>
+      <w>110</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Data Curation
 lw=2.0
+style=wordwrap
+valign=center
 fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>350</x>
-      <y>175</y>
-      <w>84</w>
-      <h>42</h>
+      <x>520</x>
+      <y>190</y>
+      <w>120</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Data Publishing
 lw=2.0
+style=wordwrap
+valign=center
 fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>469</x>
-      <y>182</y>
-      <w>28</w>
-      <h>28</h>
+      <x>690</x>
+      <y>200</y>
+      <w>40</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>type=decision
 lw=2.0</panel_attributes>
@@ -130,10 +123,10 @@ lw=2.0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>189</y>
-      <w>56</w>
-      <h>21</h>
+      <x>300</x>
+      <y>210</y>
+      <w>80</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 lw=2.0</panel_attributes>
@@ -142,22 +135,10 @@ lw=2.0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>322</x>
-      <y>189</y>
-      <w>42</w>
-      <h>21</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-lw=2.0</panel_attributes>
-    <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>427</x>
-      <y>189</y>
-      <w>56</w>
-      <h>21</h>
+      <x>460</x>
+      <y>210</y>
+      <w>80</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 lw=2.0</panel_attributes>
@@ -166,62 +147,78 @@ lw=2.0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>476</x>
-      <y>140</y>
-      <w>91</w>
-      <h>56</h>
+      <x>630</x>
+      <y>210</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lw=2.0</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>120</y>
+      <w>130</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [process]
 lw=2.0</panel_attributes>
-    <additional_attributes>110.0;20.0;10.0;20.0;10.0;60.0</additional_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>553</x>
-      <y>133</y>
-      <w>91</w>
-      <h>42</h>
+      <x>810</x>
+      <y>110</y>
+      <w>130</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Data Processing
 lw=2.0
+style=wordwrap
+valign=center
 fg=gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>679</x>
-      <y>224</y>
-      <w>70</w>
-      <h>42</h>
+      <x>830</x>
+      <y>270</y>
+      <w>100</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Data Use
 lw=2.0
+style=wordwrap
+valign=center
 fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>476</x>
-      <y>203</y>
-      <w>217</w>
-      <h>56</h>
+      <x>700</x>
+      <y>230</y>
+      <w>150</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 lw=2.0
 [use]</panel_attributes>
-    <additional_attributes>290.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>130.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>77</x>
-      <y>182</y>
-      <w>28</w>
-      <h>28</h>
+      <x>90</x>
+      <y>200</y>
+      <w>40</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>type=decision
 lw=2.0</panel_attributes>
@@ -230,10 +227,10 @@ lw=2.0</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>749</x>
-      <y>140</y>
-      <w>28</w>
-      <h>28</h>
+      <x>990</x>
+      <y>190</y>
+      <w>40</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>type=decision
 lw=2.0</panel_attributes>
@@ -242,63 +239,176 @@ lw=2.0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>742</x>
-      <y>161</y>
-      <w>35</w>
-      <h>98</h>
+      <x>920</x>
+      <y>220</y>
+      <w>110</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 lw=2.0</panel_attributes>
-    <additional_attributes>30.0;10.0;30.0;120.0;10.0;120.0</additional_attributes>
+    <additional_attributes>90.0;10.0;90.0;80.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>637</x>
-      <y>147</y>
-      <w>126</w>
-      <h>21</h>
+      <x>930</x>
+      <y>130</y>
+      <w>100</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 lw=2.0</panel_attributes>
-    <additional_attributes>160.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>80.0;60.0;80.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>84</x>
-      <y>84</y>
-      <w>693</w>
-      <h>112</h>
+      <x>100</x>
+      <y>60</y>
+      <w>980</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 lw=2.0
-[save]</panel_attributes>
-    <additional_attributes>10.0;140.0;10.0;20.0;970.0;20.0;970.0;80.0</additional_attributes>
+[continue]</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;20.0;960.0;20.0;960.0;150.0;930.0;150.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
-      <y>140</y>
-      <w>84</w>
-      <h>28</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-lw=2.0
-[end]</panel_attributes>
-    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>98</x>
-      <y>189</y>
-      <w>42</w>
-      <h>21</h>
+      <x>120</x>
+      <y>210</y>
+      <w>80</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 lw=2.0</panel_attributes>
-    <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>220</x>
+      <y>290</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Produces
+Raw Data
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>240</y>
+      <w>50</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>390</x>
+      <y>290</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Produces
+Curated Data
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>240</y>
+      <w>50</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.
+lw=2.0</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>550</x>
+      <y>290</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Produces
+Published Data
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>240</y>
+      <w>50</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.
+lw=2.0</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>840</x>
+      <y>200</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Produces
+Processed Data
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>860</x>
+      <y>160</y>
+      <w>60</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.
+lw=2.0</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>880</x>
+      <y>360</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Produces
+Use Data
+lw=2.0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>870</x>
+      <y>320</y>
+      <w>60</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.
+lw=2.0</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;40.0</additional_attributes>
   </element>
 </diagram>
